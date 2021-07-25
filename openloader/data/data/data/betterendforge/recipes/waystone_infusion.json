@@ -1,0 +1,43 @@
+{
+  "type": "betterendforge:infusion",
+  "input": 
+  {
+     "item": "minecraft:nether_star"
+  },
+  "output": "waystones:warp_stone",
+  "time": 150,
+  "catalysts": [
+    {
+      "item": "betterendforge:eternal_crystal",
+      "index": 0
+    },
+	{
+      "item": "minecraft:ender_pearl",
+      "index": 1
+    },
+    {
+      "item": "betterendforge:eternal_crystal",
+      "index": 2
+    },
+	{
+      "item": "minecraft:ender_pearl",
+      "index": 3
+    },
+    {
+      "item": "betterendforge:eternal_crystal",
+      "index": 4
+    },
+	{
+      "item": "minecraft:ender_pearl",
+      "index": 5
+    },
+    {
+      "item": "betterendforge:eternal_crystal",
+      "index": 6
+    },
+	{
+      "item": "minecraft:ender_pearl",
+      "index": 7
+    }
+  ]
+}

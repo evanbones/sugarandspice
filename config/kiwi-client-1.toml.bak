@@ -1,0 +1,8 @@
+contributorEffect = ""
+#Show customized tooltips from any item. Mainly for pack devs
+globalTooltip = false
+#Max line width shown in description of tooltips
+#Range: > 50
+tooltipWrapWidth1 = 200
+debug = {}
+

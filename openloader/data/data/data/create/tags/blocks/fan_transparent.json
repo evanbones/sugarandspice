@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "create:blaze_burner",
+    "create:lit_blaze_burner",
+    "create:sail_frame",
+    "#minecraft:fences",
+    "#minecraft:leaves",
+    "minecraft:scaffolding",
+    "minecraft:iron_bars",
+    "#quark:ladders",
+    "quark:gold_bars",
+    "quark:grate"
+  ]
+}

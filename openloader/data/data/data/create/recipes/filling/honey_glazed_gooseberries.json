@@ -1,0 +1,18 @@
+{
+    "type": "create:filling",
+    "ingredients": [
+      {
+        "item": "bayou_blues:gooseberries"
+      },
+      {
+        "fluid": "create:honey",
+        "amount": 250
+      }
+    ],
+    "results": [
+      {
+        "item": "bayou_blues:honey_glazed_gooseberries"
+      }
+    ]
+  }
+  

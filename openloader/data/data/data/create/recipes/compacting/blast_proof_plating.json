@@ -1,0 +1,25 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "savageandravage:creeper_spores"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "savageandravage:creeper_spores"
+    },
+    {
+      "item": "savageandravage:creeper_spores"
+    }
+  ],
+  "results": [
+    {
+      "item": "savageandravage:blast_proof_plating"
+    }
+  ]
+}

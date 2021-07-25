@@ -1,0 +1,43 @@
+{
+  "type": "betterendforge:infusion",
+  "input": 
+  {
+     "item": "minecraft:diamond"
+  },
+  "output": "quark:diamond_heart",
+  "time": 150,
+  "catalysts": [
+    {
+      "item": "betterendforge:ender_shard",
+      "index": 0
+    },
+	{
+      "item": "create:andesite_alloy",
+      "index": 1
+    },
+    {
+      "item": "betterendforge:ender_shard",
+      "index": 2
+    },
+	{
+      "item": "create:andesite_alloy",
+      "index": 3
+    },
+    {
+      "item": "betterendforge:ender_shard",
+      "index": 4
+    },
+	{
+      "item": "create:andesite_alloy",
+      "index": 5
+    },
+    {
+      "item": "betterendforge:ender_shard",
+      "index": 6
+    },
+	{
+      "item": "create:andesite_alloy",
+      "index": 7
+    }
+  ]
+}

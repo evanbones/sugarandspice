@@ -1,0 +1,30 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "neapolitan:mint_ice_cream"
+      },
+      {
+          "item": "minecraft:glass_bottle"
+      },
+      {
+          "item": "minecraft:glass_bottle"
+      },
+      {
+          "item": "minecraft:glass_bottle"
+      },
+      {
+          "item": "minecraft:glass_bottle"
+      },
+      {
+        "fluidTag": "forge:milk",
+        "amount": 500
+      }
+    ],
+    "results": [
+      {
+        "item": "neapolitan:mint_milkshake",
+        "count": 4
+      }
+    ]
+}
