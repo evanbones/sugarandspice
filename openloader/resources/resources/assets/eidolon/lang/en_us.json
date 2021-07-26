@@ -1,0 +1,11 @@
+{
+	"block.eidolon.brazier": "Ritual Brazier",
+	"jei.eidolon.ritual": "Ritual Brazier",
+	"eidolon.codex.chapter.brazier": "Ritual Brazier",
+    "eidolon.codex.page.brazier.0.title": "Ritual Brazier",
+    "eidolon.codex.page.brazier.0": "A Ritual Brazier is used to initiate magic rituals. All rituals are initiated by placing an item atop the Ritual Brazier, and then lighting it with a flint and steel. The Ritual Brazier can be extinguished once lit with an empty hand, allowing the dispelling of active ritual effects.",
+    "eidolon.codex.page.brazier.1": "Rituals usually require additional components. Items can be provided to the ritual by placing them in receptacles around the brazier. Some rituals demand additional special requirements, which are to be specified in this codex on a case-by-case basis.",
+    "eidolon.codex.page.item_providers.0": "Stone hands are the simplest item receptacles. Place one near a Ritual Brazier, put an item in its palm, and it will become available as an ingredient to any rituals cast nearby.",
+    "eidolon.codex.page.summon_ritual.0": "The lesser summoning ritual summons an undead mob atop the Ritual Brazier. Variants of this ritual exist for most weak undead creatures.",
+    "eidolon.codex.page.purify_ritual": "The purification ritual cures those afflicted with the curse of undeath. Upon activation, the ritual will cure any zombified villagers near the Ritual Brazier. Additionally, zombified piglins and hoglins will be restored to their uncorrupted forms."
+}

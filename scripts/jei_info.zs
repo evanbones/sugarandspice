@@ -650,13 +650,13 @@ i(<item:quark:music_disc_chatter>, s);
 i(<item:quark:ancient_tome>, "Rare item found in loot chests. When combined in anvil with an item that already has the respective enchantment, it increases the level by one. Can also increase the enchantment level up to one past the maximum.");
 i(<item:quark:bottled_cloud>, "Right click an empty bottle at cloud level to get this. Can place a block in midair.");
 
-i(<item:quark:diamond_heart>, "Drops from stonelings sometimes, find them rarely underground and sneak with a diamond in hand to not scare them. Can also be crafted via Infusion"); 
-i(<item:quark:dragon_scale>, "Drops from enderdragons summoned by a player. Can be used to duplicate Elytras.");
-i(<item:quark:soul_bead>, "Drops from wraiths, in the Soul Sand Valley. When right clicked, will fly towards the nearest Nether Fortress.");
+i(<item:quark:diamond_heart>, "Drops from Stonelings sometimes, find them rarely underground and sneak with a diamond in hand to not scare them. Can also be crafted via Infusion"); 
+i(<item:quark:dragon_scale>, "Drops from Ender Dragons summoned by a player. Can be used to duplicate Elytras.");
+i(<item:quark:soul_bead>, "Drops from Spectres, in the Soul Sand Valley. When right clicked, will fly towards the nearest Nether Fortress.");
 i(<item:quark:forgotten_hat>, "Drops from Forgotten skeletons, deep underground.");
 i(<item:quark:frog_leg>, "Drops from Frogs, which spawn in swamps. Breed them with Spider Eyes, or any type of Fish.");
 
-i(<item:quark:slime_in_a_bucket>, "Right click a tiny slime to capture it. It gets excited when you're in a slime chunk!");
+i(<item:quark:slime_in_a_bucket>, "Right click a tiny Slime to capture it. It gets excited when you're in a slime chunk!");
 
 // Milkshakes
 s = "When drank or fed to a creature or mob, it ";

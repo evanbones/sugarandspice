@@ -39,6 +39,7 @@ var koi = <item:environmental:koi>;
 var koi_barrel = <item:fish_in_planks:koi_barrel>;
 var lantern = <item:minecraft:lantern>;
 var leather = <item:minecraft:leather>;
+var lumecorn = <item:betterendforge:lumecorn_rod>;
 var nether_star = <item:minecraft:nether_star>;
 var nether_wart = <item:minecraft:nether_wart>;
 var ochre_kelp = <item:upgrade_aquatic:ochre_kelp>;
@@ -69,15 +70,15 @@ var planks = <tag:items:minecraft:planks>;
 
 // Recipe Removal
 craftingTable.removeRecipe(<item:supplementaries:rope>);
+craftingTable.removeRecipe(<item:eidolon:candle>);
 blastFurnace.removeRecipe(<item:eidolon:tallow>);
-craftingTable.removeRecipe(<item:eidolon:candle);
 craftingTable.removeRecipe(<item:mowziesmobs:thatch_block>);
-craftingTable.removeRecipe(<item:relics:coal_parchment>);
 craftingTable.removeRecipe(<item:relics:bloody_feather>);
 craftingTable.removeRecipe(<item:relics:runic_hammer>);
 craftingTable.removeRecipe(<item:relics:runic_altar>);
 craftingTable.removeRecipe(<item:relics:runic_anvil>);
 craftingTable.removeRecipe(<item:relics:pedestal>);
+craftingTable.removeRecipe(<item:relics:coal_parchment>);
 craftingTable.removeRecipe(<item:relics:bloody_lectern>);
 craftingTable.removeRecipe(<item:valhelsia_structures:metal_framed_glass>);
 craftingTable.removeRecipe(<item:valhelsia_structures:paper_wall>);

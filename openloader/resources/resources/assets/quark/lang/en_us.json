@@ -16,5 +16,8 @@
 	"block.quark.dirt_bricks_vertical_slab": "Crude Dirt Brick Vertical Slab",
 	"block.quark.dirt_bricks_wall": "Crude Dirt Brick Wall",
 	
+	"item.quark.wraith_spawn_egg": "Spectre Spawn Egg",
+	"entity.quark.wraith": "Spectre",
+	
 	"item.quark.biotite": "Biotite"
 }

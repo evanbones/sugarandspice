@@ -11,5 +11,5 @@
 	#
 	#Enable/disable biome fog density, set this to false if you don't want thick fog in certain biomes.
 	#Default value: true
-	fogDensityEnabled = true
+	fogDensityEnabled = false
 

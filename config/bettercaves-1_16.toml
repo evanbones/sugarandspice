@@ -129,7 +129,7 @@
 				# The maximum y-coordinate at which type 1 caves can generate.
 				# Default: 80
 				#Range: 0 ~ 255
-				"Type 1 Cave Maximum Altitude" = 80
+				"Type 1 Cave Maximum Altitude" = 50
 				# Stretches caves horizontally. Lower value = wider caves.
 				# Default: 1.6 (recommended)
 				#Range: 0.0 ~ 100.0
@@ -164,7 +164,7 @@
 				# The maximum y-coordinate at which type 2 caves can generate.
 				# Default: 80
 				#Range: 0 ~ 255
-				"Type 2 Cave Maximum Altitude" = 80
+				"Type 2 Cave Maximum Altitude" = 50
 				# Stretches caves horizontally. Lower value = wider caves.
 				# Default: 0.9 (recommended)
 				#Range: 0.0 ~ 100.0

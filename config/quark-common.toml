@@ -501,7 +501,7 @@
 	"Slime Underground Biome" = true
 	"Fairy Rings" = true
 	"Chorus Vegetation" = true
-	Crevices = false
+	Crevices = true
 	"Nether Obsidian Spikes" = true
 	"Mega Caves" = true
 	"Realistic World Gen" = true
@@ -690,7 +690,7 @@
 			#Allowed values: [0,255]
 			"Min Y Level" = 15
 			#Allowed values: [0,255]
-			"Max Y Level" = 50
+			"Max Y Level" = 30
 			#Allowed values: [0,)
 			"Vertical Size" = 4
 			#Allowed values: [0,)

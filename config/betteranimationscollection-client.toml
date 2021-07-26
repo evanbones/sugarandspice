@@ -4,7 +4,7 @@
 	"Animated Snow Man Stick" = true
 	#Divides ghast tentacles into parts and makes them wiggle realistically, like those tentacle monsters you always see at the movies.
 	#Makes them a little more scary, but ultimately nicer to look at.
-	"Wiggly Ghast Tentacles" = true
+	"Wiggly Ghast Tentacles" = false
 	#This one is pretty kneat. It makes sheep actually bend down to eat grass.
 	#It's no longer just their head lowering, their whole body lowers down to get a sweet sample of that succulent cellulose.
 	#Did you notice their KNEES bend too when they kneel?
@@ -23,7 +23,7 @@
 	"Flowy Ocelot Tail" = true
 	#Gives a jellyfish-like effect to the swimming animation of squids.
 	#Also makes their tentacles flow more while moving.
-	"Squiggly Squid Tentacles" = true
+	"Squiggly Squid Tentacles" = false
 	#A truly stunning visual addition. Spiders now finally have the knees they've always dreamed of.
 	"Spider Knees" = true
 	#A subtle change; this makes iron golems wiggle their big noses whenever they're hurt.

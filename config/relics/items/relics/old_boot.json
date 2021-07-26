@@ -6,7 +6,7 @@
     "lootChests": [
       "minecraft:gameplay/fishing"
     ],
-    "chance": 0.15
+    "chance": 0.0
   },
   "level": {
     "maxLevel": 10,
