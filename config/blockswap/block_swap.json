@@ -44,8 +44,6 @@
 	"valhelsia_structures:brazier": "decorative_blocks:brazier",
 	"valhelsia_structures:soul_brazier": "decorative_blocks:soul_brazier",
 	"quark:biotite_ore": "minecraft:end_stone",
-	"oreganized:silver_ore": "minecraft:stone",
-	"oreganized:lead_ore": "minecraft:stone",
 	"mowziesmobs:thatch_block": "environmental:grass_thatch"
   }
 }

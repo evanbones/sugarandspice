@@ -25,6 +25,8 @@ i(<item:minecraft:redstone_ore>, s);
 i(<item:minecraft:coal_ore>, s);
 i(<item:minecraft:lapis_ore>, s);
 
+i(<item:alexsmobs:fedora>, "Give a named Platypus a redstone block, and it has a chance of digging up a cool hat!");
+
 #snip modnotloaded caverns_and_chasms
 // Caverns and Chasms JEI Info
 i(<item:caverns_and_chasms:music_disc_epilogue>, "Can be acquired by killing a Mime while holding Music Disc 11.");
@@ -325,8 +327,8 @@ i(<item:atmospheric:barrel_cactus>, s);
 i(<item:atmospheric:aloe_kernels>, s);
 i(<item:atmospheric:aloe_leaves>, s);
 
-i(<item:atmospheric:arid_sand>, "This spawns in Dunes. Can also be acquired by making an upwards bubble column with Arid Sandstone directly above."); 
-i(<item:atmospheric:red_arid_sand>, "This spawns in Dunes. Can also be acquired by making an upwards bubble column with Red Arid Sandstone directly above.");
+i(<item:atmospheric:arid_sand>, "This spawns in Dunes."); 
+i(<item:atmospheric:red_arid_sand>, "This spawns in Dunes.");
 
 // Rainforest Features
 s = "This spawns in Rainforests.";
@@ -586,10 +588,6 @@ i(<item:upgrade_aquatic:ochre_kelp>, s);
 i(<item:upgrade_aquatic:polar_kelp>, s);
 i(<item:upgrade_aquatic:thorny_kelp>, s);
 i(<item:upgrade_aquatic:tongue_kelp>, s);
-
-i(<item:minecraft:sand>, "Can be acquired by making an upwards bubble column with Sandstone directly above.");
-i(<item:minecraft:red_sand>, "Can be acquired by making an upwards bubble column with Red Sandstone directly above.");
-i(<item:minecraft:gravel>, "Can be acquired by making an upwards bubble column with Cobblestone directly above.");
 
 // Farmers Delight Materials
 i(<item:farmersdelight:ham>, "Dropped when hitting a Pig or Hoglin with a knife.");

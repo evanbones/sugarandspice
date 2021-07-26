@@ -68,6 +68,9 @@ var dirt = <item:minecraft:dirt>;
 var planks = <tag:items:minecraft:planks>;
 
 // Recipe Removal
+craftingTable.removeRecipe(<item:supplementaries:rope>);
+blastFurnace.removeRecipe(<item:eidolon:tallow>);
+craftingTable.removeRecipe(<item:eidolon:candle);
 craftingTable.removeRecipe(<item:mowziesmobs:thatch_block>);
 craftingTable.removeRecipe(<item:relics:coal_parchment>);
 craftingTable.removeRecipe(<item:relics:bloody_feather>);
@@ -331,7 +334,7 @@ craftingTable.removeRecipe(<item:alexsmobs:falconry_hood>);
 craftingTable.removeRecipe(<item:alexsmobs:mysterious_worm>);
 craftingTable.removeRecipe(<item:alexsmobs:shield_of_the_deep>);
 craftingTable.removeRecipe(<item:alexsmobs:shrimp_fried_rice>);
-
+craftingTable.removeRecipe(<item:alexsmobs:mosquito_larva>);
 craftingTable.removeRecipe(<item:fish_in_planks:blobfish_barrel>);
 
 // Sapling Tags
