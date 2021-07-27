@@ -44,6 +44,17 @@
 	"valhelsia_structures:brazier": "decorative_blocks:brazier",
 	"valhelsia_structures:soul_brazier": "decorative_blocks:soul_brazier",
 	"quark:biotite_ore": "minecraft:end_stone",
-	"mowziesmobs:thatch_block": "environmental:grass_thatch"
+	"biomesoplenty:mud": "environmental:mud",
+	"biomesoplenty:glowshroom": "quark:glowshroom",
+	"biomesoplenty:yellow_autumn_leaves": "autumnity:yellow_maple_leaves",
+	"biomesoplenty:orange_autumn_leaves": "autumnity:yellow_maple_leaves",
+	"biomesoplenty:maple_leaves": "autumnity:red_maple_leaves",
+	"mowziesmobs:thatch": "environmental:grass_thatch",
+	"biomesoplenty:sprout": "minecraft:air",
+	"biomesoplenty:flowering_oak_leaves": "minecraft:oak_leaves",
+	"biomesoplenty:hellbark_log": "minecraft:oak_log",
+	"biomesoplenty:hellbark_leaves": "minecraft:oak_leaves",
+	"biomesoplenty:violet": "environmental:violet",
+	"minecraft:mushroom_stem": "enhanced_mushrooms:red_mushroom_stem"
   }
 }

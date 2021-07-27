@@ -5,6 +5,8 @@ function i(m as IItemStack, s as string) as void {
 	JEI.addInfo(m, [s]);	
 }
 
+i(<item:savageandravage:cleaver_of_beheading>, "Can be used to behead players.");
+
 // Quark Stuff
 i(<item:minecraft:chest>, "If needed, can be acquired by the standard recipe, mixing two or more types of wood.");
 i(<item:minecraft:minecart>, "Minecarts are one of the few ways to properly move Toretoises. They get comfy in there!");

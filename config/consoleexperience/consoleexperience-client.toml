@@ -19,13 +19,13 @@
 	#Show a small player model while the player is performing certain actions such as sprinting, swimming, crouching, flying and gliding.
 	"Paper Doll" = false
 	#Add remaining duration to potion icons shown in-game.
-	"Potion Time" = true
+	"Potion Time" = false
 	#Show an animated icon on the screen whenever the world is being saved (every 45 seconds by default). This only works in singleplayer.
 	"Save Icon" = false
 	#Tilt camera according to elytra flight angle.
 	"Elytra Camera Tilt" = false
 	#Hide all hud elements when inside of a container.
-	"Hide Hud" = true
+	"Hide Hud" = false
 
 [coordinate_display]
 	#Amount of decimal places for the three coordinates.

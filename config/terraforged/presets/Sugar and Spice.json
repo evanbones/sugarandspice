@@ -422,7 +422,7 @@
       "continentType": "MULTI",
       "continentShape": "EUCLIDEAN",
       "continentScale": 2000,
-      "continentJitter": 0.764
+      "continentJitter": 0.763
     },
     "controlPoints": {
       "deepOcean": 0.1,

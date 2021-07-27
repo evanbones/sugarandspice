@@ -9,7 +9,7 @@
 
 	[tools_and_abilities.wrought_helm]
 		#Set to true for the Wrought Helm to have limited durability.
-		breakable = false
+		breakable = true
 
 		[tools_and_abilities.wrought_helm.armor_config]
 			#See official Minecraft Wiki for an explanation of how armor damage reduction works.
@@ -90,7 +90,7 @@
 
 	[tools_and_abilities.axe_of_a_thousand_metals]
 		#Set to true for the Axe of a Thousand Metals to have limited durability.
-		breakable = false
+		breakable = true
 
 		[tools_and_abilities.axe_of_a_thousand_metals.tool_config]
 			#Tool attack damage
@@ -364,7 +364,7 @@
 			needs_see_sky = false
 			#Smaller number causes less spawning, 0 to disable spawning
 			#Range: > 0
-			spawn_rate = 2
+			spawn_rate = 0
 			#Set to true to only allow this mob to spawn in the dark, like zombies and skeletons.
 			needs_darkness = true
 			#Names of structures this mob will avoid spawning near.
@@ -417,7 +417,7 @@
 			needs_see_sky = false
 			#Smaller number causes less spawning, 0 to disable spawning
 			#Range: > 0
-			spawn_rate = 5
+			spawn_rate = 0
 			#Set to true to only allow this mob to spawn in the dark, like zombies and skeletons.
 			needs_darkness = true
 			#Names of structures this mob will avoid spawning near.
@@ -475,7 +475,7 @@
 			needs_see_sky = true
 			#Smaller number causes less spawning, 0 to disable spawning
 			#Range: > 0
-			spawn_rate = 15
+			spawn_rate = 0
 			#Set to true to only allow this mob to spawn in the dark, like zombies and skeletons.
 			needs_darkness = false
 			#Names of structures this mob will avoid spawning near.

@@ -218,7 +218,7 @@
 	keepExhaustion = true
 	#Lowest amount of food level on respawn
 	#Range: 0 ~ 20
-	minFood = 7
+	minFood = 8
 	#Highest amount of food level on respawn
 	#Range: 0 ~ 20
 	maxFood = 20

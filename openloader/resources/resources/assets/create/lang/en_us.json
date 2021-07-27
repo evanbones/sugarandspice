@@ -2,5 +2,6 @@
 	"block.create.limestone_cobblestone": "Sweet Stone",
 	"block.create.scoria_cobblestone": "Rich Stone",
 	"advancement.create.brass.desc": "Use Copper and Quartz to create some Brass.",
-	"enchantment.create.capacity.desc": "Increases the breathing capacity of the diving helmet."
+	"enchantment.create.capacity.desc": "Increases the breathing capacity of the diving helmet.",
+	"enchantment.create.potato_recovery.desc": "Adds a chance for vegetables shot by the Potato Cannon to not be destroyed."
 }
