@@ -14,9 +14,11 @@ var booflo_hide = <item:endergetic:booflo_hide>;
 var book = <item:minecraft:book>;
 var mimicream = <item:alexsmobs:mimicream>;
 var brick = <tag:items:forge:ingots/brick>;
+var boat = <tag:items:minecraft:boats>;
 var candelabra = <item:supplementaries:candelabra>;
 var candles = <tag:items:buzzier_bees:candles>;
 var canvas = <item:farmersdelight:canvas>;
+var chest = <tag:items:forge:chests/wooden>;
 var clay = <item:minecraft:clay>;
 var clay_ball = <item:minecraft:clay_ball>;
 var coal = <item:minecraft:coal>;
@@ -38,7 +40,9 @@ var iron_ingot = <tag:items:forge:ingots/iron>;
 var koi = <item:environmental:koi>;
 var koi_barrel = <item:fish_in_planks:koi_barrel>;
 var lantern = <item:minecraft:lantern>;
+var lead = <item:minecraft:lead>;
 var leather = <item:minecraft:leather>;
+var log = <tag:items:minecraft:logs>;
 var lumecorn = <item:betterendforge:lumecorn_rod>;
 var nether_star = <item:minecraft:nether_star>;
 var nether_wart = <item:minecraft:nether_wart>;
@@ -56,37 +60,31 @@ var prismarine_crystals = <item:minecraft:prismarine_crystals>;
 var quartz = <item:minecraft:quartz>;
 var rotten_candle = <item:eidolon:candle>;
 var sack = <item:supplementaries:sack>;
+var sail = <item:smallships:sail_item>;
 var stone_bricks = <item:minecraft:stone_bricks>;
 var stone_brick_slab = <item:minecraft:stone_brick_slab>;
 var soul_lantern = <item:minecraft:soul_lantern>;
 var spyglass = <item:farsight_spyglasses:spyglass>;
+var sulfur = <item:eidolon:sulfur>;
+var tripwire_hook = <item:minecraft:tripwire_hook>;
 var thorny_kelp = <item:upgrade_aquatic:thorny_kelp>;
 var tongue_kelp = <item:upgrade_aquatic:tongue_kelp>;
 var wicks = <tag:items:buzzier_bees:candle_wick>;
-var chest = <tag:items:forge:chests/wooden>;
 var cobble = <item:minecraft:cobblestone>;
 var crate = <item:quark:crate>;
 var dirt = <item:minecraft:dirt>;
 var planks = <tag:items:minecraft:planks>;
+var wool = <tag:items:minecraft:wool>;
 
 // Recipe Removal
+craftingTable.removeRecipe(<item:naturescompass:naturescompass>);
+craftingTable.removeRecipe(<item:magicfeather:magicfeather>);
 craftingTable.removeRecipe(<item:eidolon:candle>);
 craftingTable.removeRecipe(<item:mowziesmobs:thatch_block>);
 craftingTable.removeRecipe(<item:supplementaries:rope>);
-craftingTable.removeRecipe(<item:valhelsia_structures:metal_framed_glass>);
-craftingTable.removeRecipe(<item:valhelsia_structures:paper_wall>);
-craftingTable.removeRecipe(<item:valhelsia_structures:crimson_post>);
-craftingTable.removeRecipe(<item:valhelsia_structures:warped_post>);
-craftingTable.removeRecipe(<item:valhelsia_structures:acacia_post>);
-craftingTable.removeRecipe(<item:valhelsia_structures:oak_post>);
-craftingTable.removeRecipe(<item:valhelsia_structures:birch_post>);
-craftingTable.removeRecipe(<item:valhelsia_structures:spruce_post>);
-craftingTable.removeRecipe(<item:valhelsia_structures:dark_oak_post>);
-craftingTable.removeRecipe(<item:valhelsia_structures:jungle_post>);
-craftingTable.removeRecipe(<item:valhelsia_structures:brazier>);
-craftingTable.removeRecipe(<item:valhelsia_structures:soul_brazier>);
 craftingTable.removeRecipe(<item:environmental:apple_pie>);
 craftingTable.removeRecipe(<item:supplementaries:pedestal>);
+craftingTable.removeByName("betterendforge:gunpowder_from_sulphur");
 craftingTable.removeByName("minecraft:yellow_dye_from_sunflower");
 craftingTable.removeByName("charm:extra_recipes/trident");
 craftingTable.removeByName("charm:extra_recipes/soul_torch");
@@ -120,6 +118,9 @@ craftingTable.removeRecipe(<item:inspirations:key>);
 craftingTable.removeRecipe(<item:inspirations:barometer>);
 craftingTable.removeRecipe(<item:inspirations:photometer>);
 craftingTable.removeRecipe(<item:inspirations:dimension_compass>);
+craftingTable.removeRecipe(<item:alexsmobs:endolocator>);
+craftingTable.removeRecipe(<item:alexsmobs:echolocator>);
+craftingTable.removeRecipe(<item:alexsmobs:shark_tooth_arrow>);
 stoneCutter.removeRecipe(<item:quark:granite_bricks_vertical_slab>);
 stoneCutter.removeRecipe(<item:quark:diorite_bricks_vertical_slab>);
 stoneCutter.removeRecipe(<item:quark:andesite_bricks_vertical_slab>);
@@ -339,6 +340,45 @@ craftingTable.removeRecipe(<item:alexsmobs:shield_of_the_deep>);
 craftingTable.removeRecipe(<item:alexsmobs:shrimp_fried_rice>);
 craftingTable.removeRecipe(<item:alexsmobs:mosquito_larva>);
 craftingTable.removeRecipe(<item:fish_in_planks:blobfish_barrel>);
+craftingTable.removeByModid("smallships");
+
+// Small Ships Recipes
+craftingTable.addShaped("ss_sail",
+		sail,
+		[[wool, wool, wool],
+		[wool, log, wool],
+		[lead, log, lead]]);
+		
+craftingTable.addShaped("ss_cog",
+		<item:smallships:oak_cog>,
+		[[_string, _string, _string],
+		[chest, sail, chest],
+		[boat, boat, boat]]);
+		
+craftingTable.addShaped("ss_galley",
+		<item:smallships:oak_galley>,
+		[[lead, sail, lead],
+		[tripwire_hook, chest, tripwire_hook],
+		[boat, boat, boat]]);
+
+craftingTable.addShaped("ss_war_galley",
+		<item:smallships:oak_war_galley>,
+		[[_string, sail, _string],
+		[lead, chest, lead],
+		[tripwire_hook, <item:smallships:oak_galley>, tripwire_hook]]);
+		
+craftingTable.addShaped("ss_brigg",
+		<item:smallships:oak_brigg>,
+		[[lead, chest, lead],
+		[sail, chest, sail],
+		[boat, boat, boat]]);
+		
+craftingTable.addShaped("ss_dhow",
+		<item:smallships:oak_dhow>,
+		[[lead, _string, lead],
+		[sail, chest, sail],
+		[boat, boat, boat]]);
+
 
 // Sapling Tags
 var sapling = <tag:items:minecraft:saplings>;
@@ -390,7 +430,7 @@ craftingTable.addShaped("post6", <item:environmental:stripped_wisteria_post>, [[
 craftingTable.removeRecipe(ender_eye);
 craftingTable.addShapeless("better_ender_eye", 
 		ender_eye, 
-		[ender_pearl, blaze_powder, prismarine_crystals, emerald, honeycomb]);
+		[ender_pearl, blaze_powder, prismarine_crystals, emerald, honeycomb, sulfur]);
 #snip end
 
 // New Biotite Recipe
@@ -398,6 +438,12 @@ craftingTable.addShaped("biotite_from_quartz",
 		biotite,  
 		[[coal, quartz],
 		 [quartz, coal]]);
+
+// Craftable Blue Vine Lantern
+craftingTable.addShaped("blue_vine_lantern_recipe", 
+		<item:betterendforge:blue_vine_lantern>,  
+		[[lumecorn, lumecorn],
+		 [lumecorn, lumecorn]]);
 
 // Ender Shard to Ender Pearl
 craftingTable.addShaped("ender_pearl_from_shard", 
@@ -506,6 +552,9 @@ craftingTable.addShaped("spyglass_crystals",
 		 [leather, gold_ingot, air]]);
 
 // Better End Changes ===============================================================================
+
+craftingTable.removeRecipe(<item:betterendforge:thallasium_bulb_lantern>);
+craftingTable.removeRecipe(<item:betterendforge:terminite_bulb_lantern>);
 
 // Remove Crafting Tables 
 craftingTable.removeRecipe(<item:betterendforge:mossy_glowshroom_crafting_table>);

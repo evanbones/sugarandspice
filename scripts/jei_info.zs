@@ -199,6 +199,59 @@ i(<item:upgrade_aquatic:star_coral>, s);
 i(<item:upgrade_aquatic:star_coral_block>, s);
 i(<item:upgrade_aquatic:star_coral_fan>, s);
 
+// Eidolon
+s = "Consult an Ars Ecclesia for more information.";
+i(<item:eidolon:sulfur>, s);
+i(<item:eidolon:zombie_heart>, s);
+i(<item:eidolon:tattered_cloth>, s);
+i(<item:eidolon:wraith_heart>, s);
+i(<item:eidolon:basic_ring>, s);
+i(<item:eidolon:basic_amulet>, s);
+i(<item:eidolon:basic_belt>, s);
+i(<item:eidolon:soul_shard>, s);
+i(<item:eidolon:death_essence>, s);
+i(<item:eidolon:crimson_essence>, s);
+i(<item:eidolon:fungus_sprouts>, s);
+i(<item:eidolon:warped_sprouts>, s);
+i(<item:eidolon:ender_calx>, s);
+i(<item:eidolon:tallow>, s);
+i(<item:eidolon:lesser_soul_gem>, s);
+i(<item:eidolon:unholy_symbol>, s);
+i(<item:eidolon:reaper_scythe>, s);
+i(<item:eidolon:cleaving_axe>, s);
+i(<item:eidolon:shadow_gem>, s);
+i(<item:eidolon:wicked_weave>, s);
+i(<item:eidolon:warlock_hat>, s);
+i(<item:eidolon:warlock_cloak>, s);
+i(<item:eidolon:warlock_boots>, s);
+i(<item:eidolon:reversal_pick>, s);
+i(<item:eidolon:void_amulet>, s);
+i(<item:eidolon:warded_mail>, s);
+i(<item:eidolon:sapping_sword>, s);
+i(<item:eidolon:sanguine_amulet>, s);
+i(<item:eidolon:soulfire_wand>, s);
+i(<item:eidolon:bonechill_wand>, s);
+i(<item:eidolon:gravity_belt>, s);
+i(<item:eidolon:resolute_belt>, s);
+i(<item:eidolon:prestigious_palm>, s);
+i(<item:eidolon:mind_shielding_plate>, s);
+i(<item:eidolon:glass_hand>, s);
+i(<item:eidolon:wooden_altar>, s);
+i(<item:eidolon:stone_altar>, s);
+i(<item:eidolon:candle>, s);
+i(<item:eidolon:candlestick>, s);
+i(<item:eidolon:straw_effigy>, s);
+i(<item:eidolon:goblet>, s);
+i(<item:eidolon:unholy_effigy>, s);
+i(<item:eidolon:plinth>, s);
+i(<item:eidolon:stone_hand>, s);
+i(<item:eidolon:enchanted_ash>, s);
+i(<item:eidolon:necrotic_focus>, s);
+i(<item:eidolon:wooden_brewing_stand>, s);
+i(<item:eidolon:crucible>, s);
+i(<item:eidolon:worktable>, s);
+i(<item:eidolon:brazier>, s);
+
 // Alex's Mobs
 s = "Consult an Animal Dictionary for more information.";
 i(<item:alexsmobs:acacia_blossom>, s);
@@ -798,13 +851,26 @@ i(<item:betterendforge:granite_pedestal>, s);
 i(<item:betterendforge:flavolite_pedestal>, s);
 i(<item:betterendforge:violecite_pedestal>, s);
 
+s = "This is a secret Easter Egg item, can you figure out how to get it? Hint: Use dark magic!";
+i(<item:eidolon:top_hat>, s);
+i(<item:eidolon:music_disc_parousia>, s);
+
+i(<item:magicfeather:magicfeather>, "Grants creative flight when within range of a beacon.");
+
+i(<item:infernalexp:ascus_bomb>, "Drops from Shroomloins. Causes a lingering cloud of Infection to appear.");
+i(<item:infernalexp:soul_salt_clump>, "Drops from Embodies in the Soul Sand Valley.");
+i(<item:infernalexp:blindsight_tongue_whip>, "A bright ranged whip that'll strike fear into your enemies!");
+i(<item:infernalexp:glowsilk_bow>, "Fires a bright arrow that lights up dark areas. Especially handy for caving.");
+
+i(<item:eidolon:soul_enchanter>, "This item is disabled. It will be converted to a regular enchanting table when placed.");
+i(<item:eidolon:codex>, "Everything you need to know to get started with the dark arts.");
 i(<item:eidolon:lead_ore>, "Generates between Y=0 and Y=39 in small clusters.");
 
 i(<item:create:copper_ore>, "Generates between Y=40 and Y=85 in large clusters.");
-
 i(<item:create:scoria_cobblestone>, "Created when fluid Chocolate touches Lava.");
 i(<item:create:limestone_cobblestone>, "Created when fluid Honey touches Lava.");
 
+i(<item:betterendforge:brimstone>, "Found in the Sulphur Springs biomes in the Outer End.");
 i(<item:betterendforge:crystal_shards>, "Get these by breaking Aurora Crystals in the Outer End.");
 i(<item:betterendforge:neon_cactus>, "This spawns in the Neon Oasis biome in the Outer End.");
 i(<item:betterendforge:infusion_pedestal>, "Create rare materials via Infusion! Surround an Infusion Pedestal with a circle of eight pedestals, and place the ingredients on the pedestals. Check JEI for recipes!");

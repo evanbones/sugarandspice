@@ -189,7 +189,7 @@ customization {
   hoverlabel = Sponsored by BisectHosting!
   x = -100
   width = 200
-  actionid = 462e93be-e158-4ca2-bd2c-512e9d3e65211627431998326
+  actionid = 2eba2400-82e9-43fc-9194-77805532a6d91627443678651
   action = addbutton
   y = -173
   backgroundnormal = config/fancymenu/files/bisect.png
@@ -218,7 +218,7 @@ customization {
   fadeinspeed = 10.0
   x = -100
   width = 24
-  actionid = 6d9fbaaa-5e90-4a94-a27d-705acae570c41627432017620
+  actionid = 688c1308-b9ff-481a-bca8-ec3b78ef65c11627443678678
   action = addbutton
   y = -47
   delayappearance = true
@@ -238,7 +238,7 @@ customization {
   fadeinspeed = 10.0
   x = 76
   width = 24
-  actionid = 3dfefabf-5e6b-444b-9e07-25aaa61f3d201627432129579
+  actionid = 6438978a-b9c9-4938-9cdb-256eca6234421627443678691
   action = addbutton
   y = -47
   delayappearance = true
@@ -246,5 +246,16 @@ customization {
   value = https://github.com/evanbones/Sugar-Spice
   delayappearanceeverytime = true
   height = 24
+}
+
+customization {
+  path = config/fancymenu/files/frame.png
+  orientation = top-left
+  x = 0
+  width = %guiwidth%
+  action = addtexture
+  actionid = 8602685b-5e91-422b-a5a0-8ee2bc17ceb91627443703196
+  y = 0
+  height = %guiheight%
 }
 

@@ -10,7 +10,7 @@
       "weight": 0
     },
     "biomesoplenty:cold_desert": {
-      "weight": 7
+      "weight": 4
     },
     "biomesoplenty:coniferous_forest": {
       "weight": 0
@@ -61,7 +61,7 @@
       "weight": 0
     },
     "biomesoplenty:prairie": {
-      "weight": 7
+      "weight": 5
     },
     "biomesoplenty:rainforest": {
       "weight": 0
@@ -70,25 +70,25 @@
       "weight": 0
     },
     "biomesoplenty:scrubland": {
-      "weight": 7
+      "weight": 6
     },
     "biomesoplenty:seasonal_forest": {
       "weight": 0
     },
     "biomesoplenty:shrubland": {
-      "weight": 7
+      "weight": 6
     },
     "biomesoplenty:snowy_coniferous_forest": {
       "weight": 0
     },
     "biomesoplenty:tundra": {
-      "weight": 7
+      "weight": 3
     },
     "biomesoplenty:undergrowth": {
       "weight": 10
     },
     "biomesoplenty:visceral_heap": {
-      "weight": 0
+      "weight": 7
     },
     "biomesoplenty:wasteland": {
       "weight": 0

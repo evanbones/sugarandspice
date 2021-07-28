@@ -1,0 +1,31 @@
+{
+    "key": {
+        "a": {
+            "item": "minecraft:compass"
+        },
+        "t": {
+            "item": "eidolon:soul_shard"
+        },
+        "s": {
+            "item": "eidolon:lesser_soul_gem"
+        },
+        "x": {
+            "item": "betterendforge:crystal_shards"
+        },        
+		"w": {
+            "tag": "minecraft:logs"
+        },		
+		"f": {
+            "item": "eidolon:warped_sprouts"
+        },
+		"d": {
+            "item": "eidolon:fungus_sprouts"
+        }
+    },
+    "pattern": ["fwd", "waw", "dwf"],
+    "reagents": "sxtx",
+    "result": {
+        "item": "naturescompass:naturescompass"
+    },
+    "type": "eidolon:worktable"
+}

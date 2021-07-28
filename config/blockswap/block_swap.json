@@ -1,7 +1,6 @@
 {
   "retroGen": true,
   "swapper": {
-	"betterendforge:ancient_emerald_ice": "betterendforge:dense_emerald_ice",
 	"betterendforge:thallasium_ore": "minecraft:end_stone",
 	"betterendforge:terminite_ore": "minecraft:end_stone",
 	"betterendforge:amber_ore": "betterendforge:ender_ore",
@@ -55,6 +54,18 @@
 	"biomesoplenty:hellbark_log": "minecraft:oak_log",
 	"biomesoplenty:hellbark_leaves": "minecraft:oak_leaves",
 	"biomesoplenty:violet": "environmental:violet",
-	"minecraft:mushroom_stem": "enhanced_mushrooms:red_mushroom_stem"
+	"minecraft:mushroom_stem": "enhanced_mushrooms:red_mushroom_stem",
+	"eidolon:soul_enchanter": "minecraft:enchanting_table",
+	"betterendforge:lacugrove_bookshelf": "environmental:wisteria_bookshelf",
+	"betterendforge:lacugrove_stripped_log": "environmental:stripped_wisteria_log",
+	"betterendforge:lacugrove_sign": "environmental:wisteria_sign",
+	"betterendforge:dragon_tree_trapdoor": "endergetic:poise_trapdoor",
+	"betterendforge:dragon_tree_planks": "endergetic:poise_planks",
+	"betterendforge:dragon_tree_stairs": "endergetic:poise_stairs",
+	"betterendforge:dragon_tree_slab": "endergetic:poise_slab",	
+	"betterendforge:dragon_tree_stripped_log": "endergetic:stripped_poise_stem",
+	"betterendforge:end_stone_smelter": "environmental:wisteria_chest",	
+	"betterendforge:pythadendron_stripped_log": "endergetic:stripped_poise_stem",
+	"betterendforge:sulfur_crystal": "minecraft:air"
   }
 }
