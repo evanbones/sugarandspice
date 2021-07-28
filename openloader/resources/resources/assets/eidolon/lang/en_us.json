@@ -1,4 +1,13 @@
 {
+	"eidolon.codex.chapter.tallow": "Rotten Tallow",
+    "eidolon.codex.page.tallow.0.title": "Rotten Tallow",
+    "eidolon.codex.page.tallow.1.title": "Rotten Candles",
+    "eidolon.codex.page.tallow.1": "Adding a wick to a rotten tallow forms a nice candle. Rotten candles primarily serve as decorative sources of light. They may also be mounted in candlesticks, allowing them to be attached to walls.",
+
+	"block.eidolon.candle": "Rotten Candle",
+	"block.eidolon.candlestick": "Rotten Candlestick",
+	"item.eidolon.tallow": "Rotten Tallow",
+	
 	"block.eidolon.brazier": "Ritual Brazier",
 	"jei.eidolon.ritual": "Ritual Brazier",
 	"eidolon.codex.chapter.brazier": "Ritual Brazier",

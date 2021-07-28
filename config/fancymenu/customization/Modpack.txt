@@ -157,87 +157,12 @@ customization {
 
 customization {
   identifier = %id=604382%
-  orientation = bottom-centered
-  x = 76
-  action = movebutton
-  y = -47
-}
-
-customization {
-  identifier = %id=604382%
-  width = 24
-  action = resizebutton
-  height = 24
-}
-
-customization {
-  identifier = %id=604382%
-  action = setbuttonlabel
-  value = 
-}
-
-customization {
-  identifier = %id=604382%
-  action = setbuttontexture
-  backgroundhovered = config/fancymenu/files/accessibilityhover.png
-  backgroundnormal = config/fancymenu/files/accessibility.png
-}
-
-customization {
-  identifier = %id=604382%
-  seconds = 0.15
-  onlyfirsttime = false
-  fadein = true
-  fadeinspeed = 10.0
-  action = hidebuttonfor
+  action = hidebutton
 }
 
 customization {
   identifier = %id=376382%
-  orientation = bottom-centered
-  x = -100
-  action = movebutton
-  y = -47
-}
-
-customization {
-  identifier = %id=376382%
-  width = 24
-  action = resizebutton
-  height = 24
-}
-
-customization {
-  identifier = %id=376382%
-  action = setbuttonlabel
-  value = 
-}
-
-customization {
-  identifier = %id=376382%
-  action = setbuttontexture
-  backgroundhovered = config/fancymenu/files/languagehover.png
-  backgroundnormal = config/fancymenu/files/language.png
-}
-
-customization {
-  identifier = %id=376382%
-  seconds = 0.15
-  onlyfirsttime = false
-  fadein = true
-  fadeinspeed = 10.0
-  action = hidebuttonfor
-}
-
-customization {
-  path = config/fancymenu/files/frame.png
-  orientation = top-left
-  x = 0
-  width = %guiwidth%
-  action = addtexture
-  actionid = ad5f5c40-a72e-4596-9c0e-95fbb65069301627291481720
-  y = 0
-  height = %guiheight%
+  action = hidebutton
 }
 
 customization {
@@ -264,7 +189,7 @@ customization {
   hoverlabel = Sponsored by BisectHosting!
   x = -100
   width = 200
-  actionid = 7ffc6ad4-9dd2-42b0-b2a8-67e28c26518e1627291469174
+  actionid = 462e93be-e158-4ca2-bd2c-512e9d3e65211627431998326
   action = addbutton
   y = -173
   backgroundnormal = config/fancymenu/files/bisect.png
@@ -281,5 +206,45 @@ customization {
   actionid = 12c7b2ed-623c-4a4b-8b87-1ec8100c643c1621700363800
   y = -35
   height = 21
+}
+
+customization {
+  orientation = bottom-centered
+  delayappearanceseconds = 0.15
+  buttonaction = openlink
+  backgroundhovered = config/fancymenu/files/discordhover.png
+  label = 
+  fadein = true
+  fadeinspeed = 10.0
+  x = -100
+  width = 24
+  actionid = 6d9fbaaa-5e90-4a94-a27d-705acae570c41627432017620
+  action = addbutton
+  y = -47
+  delayappearance = true
+  backgroundnormal = config/fancymenu/files/discord.png
+  value = https://discord.com/invite/6twDUSQBc4
+  delayappearanceeverytime = true
+  height = 24
+}
+
+customization {
+  orientation = bottom-centered
+  delayappearanceseconds = 0.15
+  buttonaction = openlink
+  backgroundhovered = config/fancymenu/files/githubhover.png
+  label = 
+  fadein = true
+  fadeinspeed = 10.0
+  x = 76
+  width = 24
+  actionid = 3dfefabf-5e6b-444b-9e07-25aaa61f3d201627432129579
+  action = addbutton
+  y = -47
+  delayappearance = true
+  backgroundnormal = config/fancymenu/files/github.png
+  value = https://github.com/evanbones/Sugar-Spice
+  delayappearanceeverytime = true
+  height = 24
 }
 

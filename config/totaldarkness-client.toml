@@ -11,7 +11,7 @@
 	#Range: 0.0 ~ 1.0
 	maximum_moon_brightness = 1.0
 	dark_default = true
-	dark_end = true
+	dark_end = false
 	dark_skyless = true
 	dark_nether = true
 	#Range: 0.0 ~ 1.0

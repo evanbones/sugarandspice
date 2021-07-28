@@ -49,7 +49,7 @@
 	"biomesoplenty:yellow_autumn_leaves": "autumnity:yellow_maple_leaves",
 	"biomesoplenty:orange_autumn_leaves": "autumnity:yellow_maple_leaves",
 	"biomesoplenty:maple_leaves": "autumnity:red_maple_leaves",
-	"mowziesmobs:thatch": "environmental:grass_thatch",
+	"mowziesmobs:thatch_block": "environmental:grass_thatch",
 	"biomesoplenty:sprout": "minecraft:air",
 	"biomesoplenty:flowering_oak_leaves": "minecraft:oak_leaves",
 	"biomesoplenty:hellbark_log": "minecraft:oak_log",

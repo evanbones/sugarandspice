@@ -149,7 +149,7 @@
 			needs_see_sky = false
 			#Smaller number causes less spawning, 0 to disable spawning
 			#Range: > 0
-			spawn_rate = 5
+			spawn_rate = 0
 			#Set to true to only allow this mob to spawn in the dark, like zombies and skeletons.
 			needs_darkness = false
 			#Names of structures this mob will avoid spawning near.

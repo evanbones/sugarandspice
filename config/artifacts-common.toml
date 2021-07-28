@@ -13,7 +13,7 @@ artifact_rarity = 1.0
 	max_y = 45
 	#Whether to use wooden chests from other mods when generating campsites
 	#(keeping this enabled may make it easier to distinguish them from mimics)
-	use_modded_chests = true
+	use_modded_chests = false
 	#List of biome IDs in which campsites are not allowed to generate
 	#End and nether biomes are excluded by default
 	#To blacklist all biomes from a single mod, use "modid:*"
@@ -32,5 +32,5 @@ artifact_rarity = 1.0
 	#A rarity of 1 will generate a campsite in every chunk, while 10000 will generate no campsites
 	#Not every attempt at generating a campsite succeeds, this also depends on the density and shape of caves
 	#Range: 1 ~ 10000
-	rarity = 12
+	rarity = 15
 

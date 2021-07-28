@@ -22,7 +22,7 @@ mouseSensitivity:0.5
 fov:0.0
 screenEffectScale:1.0
 fovEffectScale:1.0
-gamma:0.0
+gamma:1.0
 renderDistance:12
 entityDistanceScaling:1.0
 guiScale:2
@@ -31,7 +31,7 @@ maxFps:260
 difficulty:2
 graphicsMode:1
 ao:2
-biomeBlendRadius:2
+biomeBlendRadius:5
 renderClouds:true
 resourcePacks:["vanilla","inspirations:config_resources","mod_resources","openloader/resources/resources","quark:emote_resources","file/Infernal Resources.zip"]
 incompatibleResourcePacks:["inspirations:config_resources","quark:emote_resources"]
@@ -43,7 +43,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:true
+advancedItemTooltips:false
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
@@ -142,15 +142,12 @@ key_key.voice_chat_toggle_recording:key.keyboard.unknown
 key_key.endergetic.booflo_vest:key.keyboard.z
 key_key.endergetic.booflo_slam:key.keyboard.x
 key_key.diet.open.desc:key.keyboard.unknown
-key_quark.keybind.transfer_insert:key.keyboard.unknown
 key_doubleslabs.key.toggleVerticalSlabPlacement:key.keyboard.caps.lock
-key_quark.keybind.transfer_extract:key.keyboard.unknown
-key_quark.keybind.shift_lock:key.keyboard.unknown
+key_quark.keybind.camera_mode:key.keyboard.f12
 key_quark.keybind.back:key.mouse.4
+key_quark.keybind.lock_rotation:key.keyboard.k
 key_quark.keybind.sort_player:key.keyboard.unknown
 key_quark.keybind.sort_container:key.keyboard.unknown
-key_quark.keybind.camera_mode:key.keyboard.f12
-key_quark.keybind.change_hotbar:key.keyboard.unknown
 key_quark.emote.no:key.keyboard.unknown
 key_quark.emote.yes:key.keyboard.unknown
 key_quark.emote.wave:key.keyboard.unknown
@@ -169,8 +166,11 @@ key_quark.keybind.patreon_emote.dab:key.keyboard.unknown
 key_quark.keybind.patreon_emote.jet:key.keyboard.unknown
 key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown
 key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown
+key_quark.keybind.transfer_insert:key.keyboard.unknown
+key_quark.keybind.transfer_extract:key.keyboard.unknown
+key_quark.keybind.shift_lock:key.keyboard.unknown
+key_quark.keybind.change_hotbar:key.keyboard.unknown
 key_quark.keybind.autorun:key.keyboard.caps.lock
-key_quark.keybind.lock_rotation:key.keyboard.k
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_key.personality.crawl:key.keyboard.unknown
 key_key.personality.sit:key.keyboard.c

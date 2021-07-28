@@ -54,6 +54,7 @@ var polar_kelp = <item:upgrade_aquatic:polar_kelp>;
 var potato = <item:minecraft:potato>;
 var prismarine_crystals = <item:minecraft:prismarine_crystals>;
 var quartz = <item:minecraft:quartz>;
+var rotten_candle = <item:eidolon:candle>;
 var sack = <item:supplementaries:sack>;
 var stone_bricks = <item:minecraft:stone_bricks>;
 var stone_brick_slab = <item:minecraft:stone_brick_slab>;
@@ -69,6 +70,7 @@ var dirt = <item:minecraft:dirt>;
 var planks = <tag:items:minecraft:planks>;
 
 // Recipe Removal
+craftingTable.removeRecipe(<item:eidolon:candle>);
 craftingTable.removeRecipe(<item:mowziesmobs:thatch_block>);
 craftingTable.removeRecipe(<item:supplementaries:rope>);
 craftingTable.removeRecipe(<item:valhelsia_structures:metal_framed_glass>);
@@ -403,6 +405,12 @@ craftingTable.addShaped("ender_pearl_from_shard",
 		[[ender_shard, ender_shard, ender_shard],
 		 [ender_shard, ender_shard, ender_shard],
 		 [ender_shard, ender_shard, ender_shard]]);
+
+// Eidolon Candle with Yak Hair
+craftingTable.addShaped("fixed_candle", 
+		rotten_candle,  
+		[[wicks],
+		 [<item:eidolon:tallow>]]);
 
 // Koi in Barrel missing recipe from the mod
 craftingTable.addShaped("koi_barrel_fix", 
