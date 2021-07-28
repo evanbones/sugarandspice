@@ -33,7 +33,7 @@
 	strayTowerEnabled = true
 	#Maximum Y value for lead ore veins
 	#Range: 1 ~ 255
-	leadOreMaxY = 41
+	leadOreMaxY = 39
 	#Minimum Y value for lead ore veins
 	#Range: 0 ~ 254
 	leadOreMinY = 0

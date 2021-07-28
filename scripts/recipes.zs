@@ -612,6 +612,10 @@ blastFurnace.removeRecipe(<item:create:zinc_ingot>);
 <recipetype:create:mixing>.removeByName("create:mixing/andesite_alloy_from_zinc");
 <recipetype:create:mixing>.removeRecipe(<item:create:brass_ingot>);
 <recipetype:create:mixing>.removeRecipe(<item:create:crushed_brass>);
+craftingTable.removeRecipe(<item:eidolon:pewter_blend>);
+<recipetype:create:crushing>.addRecipe("pewter_block_crushing", [<item:eidolon:pewter_block>], <item:eidolon:pewter_blend> * 5);
+<recipetype:create:mixing>.addRecipe("pewter_ingot_mixing", "heated", <item:eidolon:pewter_ingot> * 2, [<item:eidolon:lead_ingot>, <item:minecraft:iron_ingot>]);
+<recipetype:create:mixing>.addRecipe("crushed_pewter_mixing", "heated", <item:eidolon:pewter_blend> * 2, [<item:create:crushed_lead_ore>, <item:create:crushed_iron_ore>]);
 <recipetype:create:mixing>.addRecipe("quartz_brass_ingot", "heated", <item:create:brass_ingot> * 2, [<item:create:copper_ingot>, <item:minecraft:quartz>]);
 <recipetype:create:mixing>.addRecipe("quartz_crushed_brass", "heated", <item:create:crushed_brass> * 2, [<item:create:crushed_copper_ore>, <item:minecraft:quartz>]);
 

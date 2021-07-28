@@ -8,6 +8,11 @@
 	"block.eidolon.candlestick": "Rotten Candlestick",
 	"item.eidolon.tallow": "Rotten Tallow",
 	
+	"item.eidolon.pewter_blend": "Crushed Pewter",
+	"block.eidolon.lead_block": "Block of Lead",
+    "block.eidolon.pewter_block": "Block of Pewter",
+    "block.eidolon.arcane_gold_block": "Block of Arcane Gold",
+	
 	"block.eidolon.brazier": "Ritual Brazier",
 	"jei.eidolon.ritual": "Ritual Brazier",
 	"eidolon.codex.chapter.brazier": "Ritual Brazier",

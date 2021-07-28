@@ -798,6 +798,13 @@ i(<item:betterendforge:granite_pedestal>, s);
 i(<item:betterendforge:flavolite_pedestal>, s);
 i(<item:betterendforge:violecite_pedestal>, s);
 
+i(<item:eidolon:lead_ore>, "Generates between Y=0 and Y=39 in small clusters.");
+
+i(<item:create:copper_ore>, "Generates between Y=40 and Y=85 in large clusters.");
+
+i(<item:create:scoria_cobblestone>, "Created when fluid Chocolate touches Lava.");
+i(<item:create:limestone_cobblestone>, "Created when fluid Honey touches Lava.");
+
 i(<item:betterendforge:crystal_shards>, "Get these by breaking Aurora Crystals in the Outer End.");
 i(<item:betterendforge:neon_cactus>, "This spawns in the Neon Oasis biome in the Outer End.");
 i(<item:betterendforge:infusion_pedestal>, "Create rare materials via Infusion! Surround an Infusion Pedestal with a circle of eight pedestals, and place the ingredients on the pedestals. Check JEI for recipes!");

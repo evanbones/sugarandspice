@@ -112,7 +112,7 @@
 #Allows the night to pass when a specified number of players are asleep.
 "SleepImprovements enabled" = false
 #Smelt glowstone to get smooth glowstone.
-"SmoothGlowstone enabled" = true
+"SmoothGlowstone enabled" = false
 #Increases snow layers in cold biomes during thunderstorms.
 "SnowStorms enabled" = false
 #Allows enchanted books to stack.
