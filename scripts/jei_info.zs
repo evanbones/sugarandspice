@@ -855,6 +855,7 @@ s = "This is a secret Easter Egg item, can you figure out how to get it? Hint: U
 i(<item:eidolon:top_hat>, s);
 i(<item:eidolon:music_disc_parousia>, s);
 
+i(<item:naturescompass:naturescompass>, "Lets you search for any biome you'd like.");
 i(<item:magicfeather:magicfeather>, "Grants creative flight when within range of a beacon.");
 
 i(<item:infernalexp:ascus_bomb>, "Drops from Shroomloins. Causes a lingering cloud of Infection to appear.");

@@ -13,16 +13,25 @@
             "item": "betterendforge:crystal_shards"
         },        
 		"w": {
-            "tag": "minecraft:logs"
+            "item": "minecraft:crimson_stem"
         },		
 		"f": {
             "item": "eidolon:warped_sprouts"
         },
 		"d": {
             "item": "eidolon:fungus_sprouts"
+        },
+		"y": {
+            "item": "atmospheric:grimwood_log"
+        },		
+		"u": {
+            "item": "abundance:jacaranda_log"
+        },		
+		"i": {
+            "item": "environmental:cherry_log"
         }
     },
-    "pattern": ["fwd", "waw", "dwf"],
+    "pattern": ["fwd", "yau", "dif"],
     "reagents": "sxtx",
     "result": {
         "item": "naturescompass:naturescompass"
