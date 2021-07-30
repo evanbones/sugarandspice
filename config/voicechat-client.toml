@@ -1,12 +1,12 @@
 #Microphone activation type
 #Allowed Values: PTT, VOICE
-microphone_activation_type = "PTT"
+microphone_activation_type = "VOICE"
 #The threshold for voice activation in dB
 #Range: -127.0 ~ 0.0
 voice_activation_threshold = -50.0
 #The voice chat volume
 #Range: 0.0 ~ 2.0
-voice_chat_volume = 1.0
+voice_chat_volume = 1.0045454545454546
 #The voice chat microphone amplification
 #Range: 0.0 ~ 4.0
 microphone_amplification = 1.0

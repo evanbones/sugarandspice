@@ -355,6 +355,11 @@ craftingTable.addShaped("ss_cog",
 		[chest, sail, chest],
 		[boat, boat, boat]]);
 		
+craftingTable.addShaped("ss_rowboat",
+		<item:smallships:oak_rowboat>,
+		[[chest],
+		[boat]]);
+		
 craftingTable.addShaped("ss_galley",
 		<item:smallships:oak_galley>,
 		[[lead, sail, lead],
@@ -379,6 +384,11 @@ craftingTable.addShaped("ss_dhow",
 		[sail, chest, sail],
 		[boat, boat, boat]]);
 
+craftingTable.addShaped("ss_drakkar",
+		<item:smallships:oak_drakkar>,
+		[[_string, sail, _string],
+		[lead, chest, lead],
+		[boat, boat, boat]]);
 
 // Sapling Tags
 var sapling = <tag:items:minecraft:saplings>;
