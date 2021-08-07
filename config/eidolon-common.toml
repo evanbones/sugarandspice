@@ -33,10 +33,10 @@
 	strayTowerEnabled = true
 	#Maximum Y value for lead ore veins
 	#Range: 1 ~ 255
-	leadOreMaxY = 39
+	leadOreMaxY = 41
 	#Minimum Y value for lead ore veins
 	#Range: 0 ~ 254
 	leadOreMinY = 0
 	#Whether the catacomb structure is enabled. Set to false to disable spawning.
-	catacombEnabled = true
+	catacombEnabled = false
 

@@ -12,18 +12,32 @@ var blaze_powder = <item:minecraft:blaze_powder>;
 var boof_block = <item:endergetic:boof_block>; 
 var booflo_hide = <item:endergetic:booflo_hide>;
 var book = <item:minecraft:book>;
+var bone_block = <item:minecraft:bone_block>;
 var mimicream = <item:alexsmobs:mimicream>;
 var brick = <tag:items:forge:ingots/brick>;
 var boat = <tag:items:minecraft:boats>;
 var candelabra = <item:supplementaries:candelabra>;
 var candles = <tag:items:buzzier_bees:candles>;
 var canvas = <item:farmersdelight:canvas>;
+var charcoal = <item:minecraft:charcoal>;
 var chest = <tag:items:forge:chests/wooden>;
+var charcoal_block = <item:architects_palette:charcoal_block>;
+var chiseled_coal_ore_bricks = <item:architects_palette:chiseled_coal_ore_bricks>;
+var chiseled_diamond_ore_bricks = <item:architects_palette:chiseled_diamond_ore_bricks>;
+var chiseled_emerald_ore_bricks = <item:architects_palette:chiseled_emerald_ore_bricks>;
+var chiseled_gold_ore_bricks = <item:architects_palette:chiseled_gold_ore_bricks>;
+var chiseled_iron_ore_bricks = <item:architects_palette:chiseled_iron_ore_bricks>;
+var chiseled_lapis_ore_bricks = <item:architects_palette:chiseled_lapis_ore_bricks>;
+var chiseled_redstone_ore_bricks = <item:architects_palette:chiseled_redstone_ore_bricks>;
+var chiseled_stone_bricks = <item:minecraft:chiseled_stone_bricks>;
 var clay = <item:minecraft:clay>;
 var clay_ball = <item:minecraft:clay_ball>;
 var coal = <item:minecraft:coal>;
+var cod = <item:minecraft:cod>;
+var cod_log = <item:architects_palette:cod_log>;
 var crafting_table = <item:minecraft:crafting_table>;
-var emerald = <item:minecraft:emerald>;
+var diamond = <tag:items:forge:gems/diamond>;
+var emerald = <tag:items:forge:gems/emerald>;
 var ender_eye = <item:minecraft:ender_eye>;
 var ender_shard = <item:betterendforge:ender_shard>;
 var ender_pearl = <item:minecraft:ender_pearl>;
@@ -36,10 +50,12 @@ var glowing_glass_item_frame = <item:quark:glowing_glass_item_frame>;
 var glowing_ink_sac = <item:upgrade_aquatic:glowing_ink_sac>;
 var gold_ingot = <tag:items:forge:ingots/gold>;
 var honeycomb = <item:minecraft:honeycomb>;
+var ice_bricks = <item:environmental:ice_bricks>;
 var iron_ingot = <tag:items:forge:ingots/iron>;
 var koi = <item:environmental:koi>;
 var koi_barrel = <item:fish_in_planks:koi_barrel>;
 var lantern = <item:minecraft:lantern>;
+var lapis = <tag:items:forge:gems/lapis>;
 var lead = <item:minecraft:lead>;
 var leather = <item:minecraft:leather>;
 var log = <tag:items:minecraft:logs>;
@@ -48,21 +64,33 @@ var nether_star = <item:minecraft:nether_star>;
 var nether_wart = <item:minecraft:nether_wart>;
 var ochre_kelp = <item:upgrade_aquatic:ochre_kelp>;
 var organic_compost = <item:farmersdelight:organic_compost>;
+var olivestone_bricks = <item:architects_palette:olivestone_bricks>;
 var paper = <item:minecraft:paper>;
 var paraglider = <item:paraglider:paraglider>;
 var pipe = <item:quark:pipe>;
 var piston = <item:minecraft:piston>;
 var piston_launcher = <item:supplementaries:piston_launcher>;
 var planter = <item:supplementaries:planter>;
+var stick = <item:minecraft:stick>;
+var stripped_acacia_log = <item:minecraft:stripped_acacia_log>;
+var blank_acacia_totem = <item:architects_palette:blank_acacia_totem>;
+var polished_basalt = <item:minecraft:polished_basalt>;
+var basalt_bricks = <item:infernalexp:basalt_bricks>;
+var basalt_tiles = <item:architects_palette:basalt_tiles>;
 var polar_kelp = <item:upgrade_aquatic:polar_kelp>;
+var polished_packed_ice = <item:architects_palette:polished_packed_ice>;
 var potato = <item:minecraft:potato>;
 var prismarine_crystals = <item:minecraft:prismarine_crystals>;
 var quartz = <item:minecraft:quartz>;
+var redstone = <tag:items:forge:dusts/redstone>;
 var rotten_candle = <item:eidolon:candle>;
 var sack = <item:supplementaries:sack>;
 var sail = <item:smallships:sail_item>;
+var salmon = <item:minecraft:salmon>;
+var salmon_log = <item:architects_palette:salmon_log>;
 var stone_bricks = <item:minecraft:stone_bricks>;
 var stone_brick_slab = <item:minecraft:stone_brick_slab>;
+var cactus_paste = <item:quark:cactus_paste>;
 var soul_lantern = <item:minecraft:soul_lantern>;
 var spyglass = <item:farsight_spyglasses:spyglass>;
 var sulfur = <item:eidolon:sulfur>;
@@ -75,6 +103,110 @@ var crate = <item:quark:crate>;
 var dirt = <item:minecraft:dirt>;
 var planks = <tag:items:minecraft:planks>;
 var wool = <tag:items:minecraft:wool>;
+
+furnace.removeRecipe(<item:charm:smooth_glowstone>);
+
+// AP Stuff
+craftingTable.removeRecipe(<item:supplementaries:hanging_sign_twisted>);
+craftingTable.removeRecipe(<item:supplementaries:sign_post_twisted>);
+craftingTable.removeRecipe(<item:architects_palette:twisted_vertical_slab>);
+craftingTable.removeRecipe(<item:architects_palette:twisted_planks>);
+craftingTable.removeRecipe(<item:architects_palette:twisted_slab>);
+craftingTable.removeRecipe(<item:architects_palette:twisted_stairs>);
+craftingTable.removeRecipe(<item:architects_palette:twisted_log>);
+craftingTable.removeRecipe(<item:architects_palette:twisted_wood>);
+craftingTable.removeRecipe(<item:architects_palette:stripped_twisted_log>);
+craftingTable.removeRecipe(<item:architects_palette:stripped_twisted_wood>);
+craftingTable.removeRecipe(<item:architects_palette:twisted_leaves>);
+craftingTable.removeRecipe(<item:architects_palette:twisted_fence>);
+craftingTable.removeRecipe(<item:architects_palette:twisted_sapling>);
+craftingTable.removeRecipe(<item:architects_palette:twisted_fence_gate>);
+craftingTable.removeRecipe(<item:architects_palette:twisted_door>);
+craftingTable.removeRecipe(<item:architects_palette:twisted_trapdoor>);
+craftingTable.removeRecipe(<item:architects_palette:twisted_button>);
+craftingTable.removeRecipe(<item:architects_palette:twisted_pressure_plate>);
+
+furnace.removeRecipe(<item:infernalexp:basalt_cobbled>);
+craftingTable.removeRecipe(<item:architects_palette:plating_vertical_slab>);
+craftingTable.removeRecipe(<item:architects_palette:plating_stairs>);
+craftingTable.removeRecipe(<item:architects_palette:plating_slab>);
+craftingTable.removeRecipe(<item:architects_palette:plating_block>);
+craftingTable.removeRecipe(<item:architects_palette:limestone_vertical_slab>);
+craftingTable.removeRecipe(<item:architects_palette:limestone_brick_vertical_slab>);
+craftingTable.removeRecipe(<item:architects_palette:mushy_limestone_brick_vertical_slab>);
+craftingTable.removeRecipe(<item:architects_palette:limestone>);
+craftingTable.removeRecipe(<item:architects_palette:limestone_slab>);
+craftingTable.removeRecipe(<item:architects_palette:limestone_stairs>);
+craftingTable.removeRecipe(<item:architects_palette:limestone_bricks>);
+craftingTable.removeRecipe(<item:architects_palette:limestone_brick_slab>);
+craftingTable.removeRecipe(<item:architects_palette:limestone_brick_stairs>);
+craftingTable.removeRecipe(<item:architects_palette:mushy_limestone_bricks>);
+craftingTable.removeRecipe(<item:architects_palette:mushy_limestone_brick_slab>);
+craftingTable.removeRecipe(<item:architects_palette:mushy_limestone_brick_stairs>);
+craftingTable.removeRecipe(<item:architects_palette:limestone_wall>);
+craftingTable.removeRecipe(<item:architects_palette:limestone_brick_wall>);
+craftingTable.removeRecipe(<item:architects_palette:mushy_limestone_brick_wall>);
+craftingTable.removeRecipe(<item:architects_palette:coal_ore_bricks>);
+craftingTable.removeRecipe(<item:architects_palette:coal_ore_brick_slab>);
+craftingTable.removeRecipe(<item:architects_palette:coal_ore_brick_stairs>);
+craftingTable.removeRecipe(<item:architects_palette:cracked_coal_ore_bricks>);
+craftingTable.removeRecipe(<item:architects_palette:lapis_ore_bricks>);
+craftingTable.removeRecipe(<item:architects_palette:lapis_ore_brick_slab>);
+craftingTable.removeRecipe(<item:architects_palette:lapis_ore_brick_stairs>);
+craftingTable.removeRecipe(<item:architects_palette:cracked_lapis_ore_bricks>);
+craftingTable.removeRecipe(<item:architects_palette:coal_ore_brick_vertical_slab>);
+craftingTable.removeRecipe(<item:architects_palette:lapis_ore_brick_vertical_slab>);
+craftingTable.removeRecipe(<item:architects_palette:redstone_ore_brick_vertical_slab>);
+craftingTable.removeRecipe(<item:architects_palette:iron_ore_brick_vertical_slab>);
+craftingTable.removeRecipe(<item:architects_palette:gold_ore_brick_vertical_slab>);
+craftingTable.removeRecipe(<item:architects_palette:emerald_ore_brick_vertical_slab>);
+craftingTable.removeRecipe(<item:architects_palette:diamond_ore_brick_vertical_slab>);
+craftingTable.removeRecipe(<item:architects_palette:redstone_ore_bricks>);
+craftingTable.removeRecipe(<item:architects_palette:redstone_ore_brick_slab>);
+craftingTable.removeRecipe(<item:architects_palette:redstone_ore_brick_stairs>);
+craftingTable.removeRecipe(<item:architects_palette:cracked_redstone_ore_bricks>);
+craftingTable.removeRecipe(<item:architects_palette:iron_ore_bricks>);
+craftingTable.removeRecipe(<item:architects_palette:iron_ore_brick_slab>);
+craftingTable.removeRecipe(<item:architects_palette:iron_ore_brick_stairs>);
+craftingTable.removeRecipe(<item:architects_palette:cracked_iron_ore_bricks>);
+craftingTable.removeRecipe(<item:architects_palette:gold_ore_bricks>);
+craftingTable.removeRecipe(<item:architects_palette:gold_ore_brick_slab>);
+craftingTable.removeRecipe(<item:architects_palette:gold_ore_brick_stairs>);
+craftingTable.removeRecipe(<item:architects_palette:cracked_gold_ore_bricks>);
+craftingTable.removeRecipe(<item:architects_palette:emerald_ore_bricks>);
+craftingTable.removeRecipe(<item:architects_palette:emerald_ore_brick_slab>);
+craftingTable.removeRecipe(<item:architects_palette:emerald_ore_brick_stairs>);
+craftingTable.removeRecipe(<item:architects_palette:cracked_emerald_ore_bricks>);
+craftingTable.removeRecipe(<item:architects_palette:diamond_ore_bricks>);
+craftingTable.removeRecipe(<item:architects_palette:diamond_ore_brick_slab>);
+craftingTable.removeRecipe(<item:architects_palette:diamond_ore_brick_stairs>);
+craftingTable.removeRecipe(<item:architects_palette:cracked_diamond_ore_bricks>);
+craftingTable.removeRecipe(<item:architects_palette:coal_ore_brick_wall>);
+craftingTable.removeRecipe(<item:architects_palette:lapis_ore_brick_wall>);
+craftingTable.removeRecipe(<item:architects_palette:redstone_ore_brick_wall>);
+craftingTable.removeRecipe(<item:architects_palette:iron_ore_brick_wall>);
+craftingTable.removeRecipe(<item:architects_palette:gold_ore_brick_wall>);
+craftingTable.removeRecipe(<item:architects_palette:emerald_ore_brick_wall>);
+craftingTable.removeRecipe(<item:architects_palette:diamond_ore_brick_wall>);
+craftingTable.removeRecipe(<item:architects_palette:weeping_blackstone>);
+craftingTable.removeRecipe(<item:architects_palette:twisting_blackstone>);
+craftingTable.removeRecipe(<item:architects_palette:weeping_blackstone_bricks>);
+craftingTable.removeRecipe(<item:architects_palette:twisting_blackstone_bricks>);
+craftingTable.removeRecipe(<item:architects_palette:cracked_end_stone_bricks>);
+craftingTable.removeRecipe(<item:architects_palette:chiseled_end_stone_bricks>);
+craftingTable.removeRecipe(<item:architects_palette:molten_nether_bricks>);
+craftingTable.removeRecipe(<item:architects_palette:ender_pearl_block>);
+craftingTable.removeRecipe(<item:architects_palette:plating_wall>);
+craftingTable.removeRecipe(<item:architects_palette:redstone_cage_lantern>);
+craftingTable.removeRecipe(<item:architects_palette:glowstone_cage_lantern>);
+craftingTable.removeRecipe(<item:architects_palette:algal_cage_lantern>);
+craftingTable.removeRecipe(<item:architects_palette:scute_block>);
+craftingTable.removeRecipe(<item:architects_palette:polished_glowstone_vertical_slab>);
+craftingTable.removeRecipe(<item:architects_palette:polished_glowstone>);
+stoneCutter.removeRecipe(<item:architects_palette:polished_glowstone>);
+stoneCutter.removeRecipe(<item:architects_palette:polished_glowstone_slab>);
+craftingTable.removeRecipe(<item:architects_palette:polished_glowstone_slab>);
+craftingTable.removeRecipe(<item:architects_palette:runic_glowstone>);
 
 // Recipe Removal
 craftingTable.removeRecipe(<item:naturescompass:naturescompass>);
@@ -226,6 +358,16 @@ craftingTable.removeRecipe(<item:skinnedlanterns:ornament_white_lantern_block>);
 craftingTable.removeRecipe(<item:skinnedlanterns:ornament_white_soul_lantern_block>);
 craftingTable.removeRecipe(<item:skinnedlanterns:ornament_yellow_lantern_block>);
 craftingTable.removeRecipe(<item:skinnedlanterns:ornament_yellow_soul_lantern_block>);
+craftingTable.removeRecipe(<item:betterendforge:andesite_lantern>);
+craftingTable.removeRecipe(<item:betterendforge:blackstone_lantern>);
+craftingTable.removeRecipe(<item:betterendforge:diorite_lantern>);
+craftingTable.removeRecipe(<item:betterendforge:granite_lantern>);
+craftingTable.removeRecipe(<item:betterendforge:quartz_lantern>);
+craftingTable.removeRecipe(<item:betterendforge:end_stone_lantern>);
+craftingTable.removeRecipe(<item:betterendforge:violecite_lantern>);
+craftingTable.removeRecipe(<item:betterendforge:flavolite_lantern>);
+craftingTable.removeRecipe(<item:betterendforge:sulphuric_rock_lantern>);
+craftingTable.removeRecipe(<item:betterendforge:purpur_lantern>);
 craftingTable.removeRecipe(<item:paraglider:spirit_orb>);
 craftingTable.removeRecipe(<item:paraglider:horned_statue>);
 craftingTable.removeRecipe(<item:paraglider:deku_leaf>);
@@ -341,6 +483,7 @@ craftingTable.removeRecipe(<item:alexsmobs:shrimp_fried_rice>);
 craftingTable.removeRecipe(<item:alexsmobs:mosquito_larva>);
 craftingTable.removeRecipe(<item:fish_in_planks:blobfish_barrel>);
 craftingTable.removeByModid("smallships");
+craftingTable.removeByRegex(".*:.*_vertical_slab");
 
 // Small Ships Recipes
 craftingTable.addShaped("ss_sail",
@@ -389,6 +532,22 @@ craftingTable.addShaped("ss_drakkar",
 		[[_string, sail, _string],
 		[lead, chest, lead],
 		[boat, boat, boat]]);
+		
+// AP Warped Wood
+var warping = <recipetype:architects_palette:warping>;
+warping.removeRecipe(<item:architects_palette:twisted_log>);
+warping.removeRecipe(<item:architects_palette:twisted_sapling>);
+warping.removeRecipe(<item:architects_palette:twisted_leaves>);
+warping.removeRecipe(<item:architects_palette:twisted_planks>);		
+	
+// AP Trades
+villagerTrades.removeEmeraldForItemsTrade(<profession:minecraft:fisherman>, 2, <item:architects_palette:cod_log>);
+villagerTrades.removeEmeraldForItemsTrade(<profession:minecraft:fisherman>, 2, <item:architects_palette:salmon_log>);
+villagerTrades.removeEmeraldForItemsTrade(<profession:minecraft:armorer>, 2, <item:architects_palette:plating_block>);
+villagerTrades.removeEmeraldForItemsTrade(<profession:minecraft:toolsmith>, 2, <item:architects_palette:pipe>);
+villagerTrades.removeEmeraldForItemsTrade(<profession:minecraft:shepherd>, 2, <item:architects_palette:spool>);
+villagerTrades.removeEmeraldForItemsTrade(<profession:minecraft:mason>, 1, <item:architects_palette:limestone>);
+villagerTrades.removeEmeraldForItemsTrade(<profession:minecraft:mason>, 1, <item:architects_palette:olivestone_bricks>);
 
 // Sapling Tags
 var sapling = <tag:items:minecraft:saplings>;
@@ -398,6 +557,8 @@ sapling.remove(<item:quark:orange_blossom_sapling>);
 sapling.remove(<item:quark:pink_blossom_sapling>);
 sapling.remove(<item:quark:yellow_blossom_sapling>);
 sapling.remove(<item:quark:red_blossom_sapling>);
+sapling.remove(<item:architects_palette:twisted_sapling>);
+
 
 // Seed Pouch Tags
 var tag = <tag:items:quark:seed_pouch_holdable>;
@@ -426,14 +587,6 @@ craftingTable.removeByName("minecraft:lead");
 craftingTable.removeByName("minecraft:painting");
 craftingTable.removeByName("minecraft:scaffolding");
 craftingTable.removeByName("alexsmobs:sopa_de_macaco");
-
-// Add Post Recipes
-craftingTable.addShaped("post1", <item:environmental:willow_post>, [[<item:environmental:willow_wood>],[<item:environmental:willow_wood>], [<item:environmental:willow_wood>]]);
-craftingTable.addShaped("post2", <item:environmental:stripped_willow_post>, [[<item:environmental:stripped_willow_wood>],[<item:environmental:stripped_willow_wood>], [<item:environmental:stripped_willow_wood>]]);
-craftingTable.addShaped("post3", <item:environmental:cherry_post>, [[<item:environmental:cherry_wood>],[<item:environmental:cherry_wood>], [<item:environmental:cherry_wood>]]);
-craftingTable.addShaped("post4", <item:environmental:stripped_cherry_post>, [[<item:environmental:stripped_cherry_wood>],[<item:environmental:stripped_cherry_wood>], [<item:environmental:stripped_cherry_wood>]]);
-craftingTable.addShaped("post5", <item:environmental:wisteria_post>, [[<item:environmental:wisteria_wood>],[<item:environmental:wisteria_wood>], [<item:environmental:wisteria_wood>]]);
-craftingTable.addShaped("post6", <item:environmental:stripped_wisteria_post>, [[<item:environmental:stripped_wisteria_wood>],[<item:environmental:stripped_wisteria_wood>], [<item:environmental:stripped_wisteria_wood>]]);
 
 // Better Eye of Ender
 #snip modloaded caverns_and_chasms
@@ -503,9 +656,6 @@ craftingTable.addShaped("boof_launcher",
 craftingTable.removeRecipe(glowing_glass_item_frame);
 craftingTable.addShapeless("glowink_to_frame", glowing_glass_item_frame, [glass_item_frame, glowing_ink_sac]);
 
-villagerTrades.removeWanderingTrade(1, <item:environmental:rice>);
-villagerTrades.removeEmeraldForItemsTrade(<profession:minecraft:farmer>, 1, <item:environmental:rice>);
-villagerTrades.removeItemsForEmeraldsTrade(<profession:minecraft:farmer>, 1, <item:environmental:rice>);
 villagerTrades.removeWanderingTrade(2, <item:alexsmobs:banana_peel>);
 
 // Banana
@@ -699,42 +849,42 @@ furnace.addRecipe("chocolate_stone", <item:neapolitan:chocolate_block>, <item:cr
 // Food and Drinks 
 <recipetype:create:compacting>.removeRecipe(<item:create:bar_of_chocolate>);
 <recipetype:create:compacting>.addRecipe("neapolitan_chocolate_create", "none", <item:neapolitan:chocolate_bar> * 4, [], [<fluid:create:chocolate> * 250]);
-<recipetype:create:compacting>.addRecipe("wheat_pancake", "none", <item:autumnity:pancake>, [<item:autumnity:syrup_bottle>, <item:minecraft:egg>, <item:minecraft:wheat> * 2], [<fluid:create:milk> * 250]);
-<recipetype:create:compacting>.addRecipe("flour_pancake", "none", <item:autumnity:pancake>, [<item:autumnity:syrup_bottle>, <item:minecraft:egg>, <item:create:wheat_flour> * 2], [<fluid:create:milk> * 250]);
+<recipetype:create:compacting>.addRecipe("wheat_pancake", "none", <item:autumnity:pancake>, [<item:autumnity:syrup_bottle>, <item:minecraft:egg>, <item:minecraft:wheat> * 2], [<fluid:minecraft:milk> * 250]);
+<recipetype:create:compacting>.addRecipe("flour_pancake", "none", <item:autumnity:pancake>, [<item:autumnity:syrup_bottle>, <item:minecraft:egg>, <item:create:wheat_flour> * 2], [<fluid:minecraft:milk> * 250]);
 <recipetype:create:emptying>.addRecipe("hot_cocoa_emptying", <item:minecraft:glass_bottle>, <fluid:create:chocolate> * 250, <item:farmersdelight:hot_cocoa>);
 <recipetype:create:filling>.addRecipe("hot_cocoa_filling", <item:farmersdelight:hot_cocoa>, <item:minecraft:glass_bottle>, <fluid:create:chocolate> * 250);
-<recipetype:create:emptying>.addRecipe("milk_emptying", <item:minecraft:glass_bottle>, <fluid:create:milk> * 250, <item:neapolitan:milk_bottle>);
-<recipetype:create:filling>.addRecipe("milk_filling", <item:neapolitan:milk_bottle>, <item:minecraft:glass_bottle>, <fluid:create:milk> * 250);
+<recipetype:create:emptying>.addRecipe("milk_emptying", <item:minecraft:glass_bottle>, <fluid:minecraft:milk> * 250, <item:neapolitan:milk_bottle>);
+<recipetype:create:filling>.addRecipe("milk_filling", <item:neapolitan:milk_bottle>, <item:minecraft:glass_bottle>, <fluid:minecraft:milk> * 250);
 <recipetype:create:filling>.removeByName("create:filling/honeyed_apple");
 <recipetype:create:filling>.addRecipe("buzzier_apple", <item:buzzier_bees:honey_apple>, <item:minecraft:apple>, <fluid:create:honey> * 250);
 <recipetype:create:filling>.addRecipe("buzzier_bread", <item:buzzier_bees:honey_bread>, <item:minecraft:bread>, <fluid:create:honey> * 250);
 <recipetype:create:filling>.addRecipe("buzzier_gooseberries", <item:bayou_blues:honey_glazed_gooseberries>, <item:bayou_blues:gooseberries>, <fluid:create:honey> * 250);
 <recipetype:create:filling>.addRecipe("buzzier_pork", <item:buzzier_bees:glazed_porkchop>, <item:minecraft:cooked_porkchop>, <fluid:create:honey> * 250);
 <recipetype:create:mixing>.removeByName("create:mixing/chocolate");
-<recipetype:create:mixing>.addRecipe("neapolitan_chocolate", "none", <fluid:create:chocolate> * 250, [<item:minecraft:sugar>, <item:minecraft:cocoa_beans> * 2], [<fluid:create:milk> * 250]);
-<recipetype:create:mixing>.addRecipe("vanilla_fudge", "none", <item:neapolitan:vanilla_fudge> * 4, [<item:minecraft:sugar>, <item:neapolitan:dried_vanilla_pods> * 2], [<fluid:create:milk> * 250]);
+<recipetype:create:mixing>.addRecipe("neapolitan_chocolate", "none", <fluid:create:chocolate> * 250, [<item:minecraft:sugar>, <item:minecraft:cocoa_beans> * 2], [<fluid:minecraft:milk> * 250]);
+<recipetype:create:mixing>.addRecipe("vanilla_fudge", "none", <item:neapolitan:vanilla_fudge> * 4, [<item:minecraft:sugar>, <item:neapolitan:dried_vanilla_pods> * 2], [<fluid:minecraft:milk> * 250]);
 
-<recipetype:create:mixing>.addRecipe("vanilla_milkshake", "none", <item:neapolitan:vanilla_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:vanilla_ice_cream>], [<fluid:create:milk> * 250]);
-<recipetype:create:mixing>.addRecipe("chocolate_milkshake_ice", "none", <item:neapolitan:chocolate_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:chocolate_bar>, <item:neapolitan:vanilla_ice_cream>], [<fluid:create:milk> * 250]);
-<recipetype:create:mixing>.addRecipe("chocolate_milkshake_pod", "none", <item:neapolitan:chocolate_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:dried_vanilla_pods>, <item:neapolitan:chocolate_ice_cream>], [<fluid:create:milk> * 250]);
-<recipetype:create:mixing>.addRecipe("strawberry_milkshake_ice", "none", <item:neapolitan:strawberry_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:strawberries>, <item:neapolitan:vanilla_ice_cream>], [<fluid:create:milk> * 250]);
-<recipetype:create:mixing>.addRecipe("strawberry_milkshake_pod", "none", <item:neapolitan:strawberry_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:dried_vanilla_pods>, <item:neapolitan:strawberry_ice_cream>], [<fluid:create:milk> * 250]);
-<recipetype:create:mixing>.addRecipe("banana_milkshake_ice", "none", <item:neapolitan:banana_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:banana>, <item:neapolitan:vanilla_ice_cream>], [<fluid:create:milk> * 250]);
-<recipetype:create:mixing>.addRecipe("banana_milkshake_pod", "none", <item:neapolitan:banana_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:dried_vanilla_pods>, <item:neapolitan:banana_ice_cream>], [<fluid:create:milk> * 250]);
-<recipetype:create:mixing>.addRecipe("mint_milkshake_ice", "none", <item:neapolitan:mint_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:mint_leaves>, <item:neapolitan:vanilla_ice_cream>], [<fluid:create:milk> * 250]);
-<recipetype:create:mixing>.addRecipe("mint_milkshake_pod", "none", <item:neapolitan:mint_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:dried_vanilla_pods>, <item:neapolitan:mint_ice_cream>], [<fluid:create:milk> * 250]);
-<recipetype:create:mixing>.addRecipe("adzuki_milkshake_ice", "none", <item:neapolitan:adzuki_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:roasted_adzuki_beans>, <item:neapolitan:vanilla_ice_cream>], [<fluid:create:milk> * 250]);
-<recipetype:create:mixing>.addRecipe("adzuki_milkshake_pod", "none", <item:neapolitan:adzuki_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:dried_vanilla_pods>, <item:neapolitan:adzuki_ice_cream>], [<fluid:create:milk> * 250]);
-<recipetype:create:mixing>.addRecipe("yucca_milkshake_ice", "none", <item:peculiars:yucca_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:atmospheric:yucca_fruit>, <item:neapolitan:vanilla_ice_cream>], [<fluid:create:milk> * 250]);
-<recipetype:create:mixing>.addRecipe("yucca_milkshake_pod", "none", <item:peculiars:yucca_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:dried_vanilla_pods>, <item:peculiars:yucca_ice_cream>], [<fluid:create:milk> * 250]);
-<recipetype:create:mixing>.addRecipe("aloe_milkshake_ice", "none", <item:peculiars:aloe_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:atmospheric:aloe_leaves>, <item:neapolitan:vanilla_ice_cream>], [<fluid:create:milk> * 250]);
-<recipetype:create:mixing>.addRecipe("aloe_milkshake_pod", "none", <item:peculiars:aloe_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:dried_vanilla_pods>, <item:peculiars:aloe_ice_cream>], [<fluid:create:milk> * 250]);
-<recipetype:create:mixing>.addRecipe("passionfruit_milkshake_ice", "none", <item:peculiars:passionfruit_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:atmospheric:passionfruit>, <item:neapolitan:vanilla_ice_cream>], [<fluid:create:milk> * 250]);
-<recipetype:create:mixing>.addRecipe("passionfruit_milkshake_pod", "none", <item:peculiars:passionfruit_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:dried_vanilla_pods>, <item:peculiars:passionfruit_ice_cream>], [<fluid:create:milk> * 250]);
-<recipetype:create:mixing>.addRecipe("pumpkin_milkshake_ice", "none", <item:seasonals:pumpkin_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:seasonals:roasted_pumpkin>, <item:neapolitan:vanilla_ice_cream>], [<fluid:create:milk> * 250]);
-<recipetype:create:mixing>.addRecipe("pumpkin_milkshake_pod", "none", <item:seasonals:pumpkin_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:dried_vanilla_pods>, <item:seasonals:pumpkin_ice_cream>], [<fluid:create:milk> * 250]);
-<recipetype:create:mixing>.addRecipe("sweet_berry_milkshake_ice", "none", <item:seasonals:sweet_berry_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:minecraft:sweet_berries>, <item:neapolitan:vanilla_ice_cream>], [<fluid:create:milk> * 250]);
-<recipetype:create:mixing>.addRecipe("sweet_berry_milkshake_pod", "none", <item:seasonals:sweet_berry_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:dried_vanilla_pods>, <item:seasonals:sweet_berry_ice_cream>], [<fluid:create:milk> * 250]);
+<recipetype:create:mixing>.addRecipe("vanilla_milkshake", "none", <item:neapolitan:vanilla_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:vanilla_ice_cream>], [<fluid:minecraft:milk> * 250]);
+<recipetype:create:mixing>.addRecipe("chocolate_milkshake_ice", "none", <item:neapolitan:chocolate_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:chocolate_bar>, <item:neapolitan:vanilla_ice_cream>], [<fluid:minecraft:milk> * 250]);
+<recipetype:create:mixing>.addRecipe("chocolate_milkshake_pod", "none", <item:neapolitan:chocolate_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:dried_vanilla_pods>, <item:neapolitan:chocolate_ice_cream>], [<fluid:minecraft:milk> * 250]);
+<recipetype:create:mixing>.addRecipe("strawberry_milkshake_ice", "none", <item:neapolitan:strawberry_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:strawberries>, <item:neapolitan:vanilla_ice_cream>], [<fluid:minecraft:milk> * 250]);
+<recipetype:create:mixing>.addRecipe("strawberry_milkshake_pod", "none", <item:neapolitan:strawberry_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:dried_vanilla_pods>, <item:neapolitan:strawberry_ice_cream>], [<fluid:minecraft:milk> * 250]);
+<recipetype:create:mixing>.addRecipe("banana_milkshake_ice", "none", <item:neapolitan:banana_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:banana>, <item:neapolitan:vanilla_ice_cream>], [<fluid:minecraft:milk> * 250]);
+<recipetype:create:mixing>.addRecipe("banana_milkshake_pod", "none", <item:neapolitan:banana_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:dried_vanilla_pods>, <item:neapolitan:banana_ice_cream>], [<fluid:minecraft:milk> * 250]);
+<recipetype:create:mixing>.addRecipe("mint_milkshake_ice", "none", <item:neapolitan:mint_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:mint_leaves>, <item:neapolitan:vanilla_ice_cream>], [<fluid:minecraft:milk> * 250]);
+<recipetype:create:mixing>.addRecipe("mint_milkshake_pod", "none", <item:neapolitan:mint_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:dried_vanilla_pods>, <item:neapolitan:mint_ice_cream>], [<fluid:minecraft:milk> * 250]);
+<recipetype:create:mixing>.addRecipe("adzuki_milkshake_ice", "none", <item:neapolitan:adzuki_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:roasted_adzuki_beans>, <item:neapolitan:vanilla_ice_cream>], [<fluid:minecraft:milk> * 250]);
+<recipetype:create:mixing>.addRecipe("adzuki_milkshake_pod", "none", <item:neapolitan:adzuki_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:dried_vanilla_pods>, <item:neapolitan:adzuki_ice_cream>], [<fluid:minecraft:milk> * 250]);
+<recipetype:create:mixing>.addRecipe("yucca_milkshake_ice", "none", <item:peculiars:yucca_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:atmospheric:yucca_fruit>, <item:neapolitan:vanilla_ice_cream>], [<fluid:minecraft:milk> * 250]);
+<recipetype:create:mixing>.addRecipe("yucca_milkshake_pod", "none", <item:peculiars:yucca_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:dried_vanilla_pods>, <item:peculiars:yucca_ice_cream>], [<fluid:minecraft:milk> * 250]);
+<recipetype:create:mixing>.addRecipe("aloe_milkshake_ice", "none", <item:peculiars:aloe_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:atmospheric:aloe_leaves>, <item:neapolitan:vanilla_ice_cream>], [<fluid:minecraft:milk> * 250]);
+<recipetype:create:mixing>.addRecipe("aloe_milkshake_pod", "none", <item:peculiars:aloe_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:dried_vanilla_pods>, <item:peculiars:aloe_ice_cream>], [<fluid:minecraft:milk> * 250]);
+<recipetype:create:mixing>.addRecipe("passionfruit_milkshake_ice", "none", <item:peculiars:passionfruit_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:atmospheric:passionfruit>, <item:neapolitan:vanilla_ice_cream>], [<fluid:minecraft:milk> * 250]);
+<recipetype:create:mixing>.addRecipe("passionfruit_milkshake_pod", "none", <item:peculiars:passionfruit_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:dried_vanilla_pods>, <item:peculiars:passionfruit_ice_cream>], [<fluid:minecraft:milk> * 250]);
+<recipetype:create:mixing>.addRecipe("pumpkin_milkshake_ice", "none", <item:seasonals:pumpkin_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:seasonals:roasted_pumpkin>, <item:neapolitan:vanilla_ice_cream>], [<fluid:minecraft:milk> * 250]);
+<recipetype:create:mixing>.addRecipe("pumpkin_milkshake_pod", "none", <item:seasonals:pumpkin_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:dried_vanilla_pods>, <item:seasonals:pumpkin_ice_cream>], [<fluid:minecraft:milk> * 250]);
+<recipetype:create:mixing>.addRecipe("sweet_berry_milkshake_ice", "none", <item:seasonals:sweet_berry_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:minecraft:sweet_berries>, <item:neapolitan:vanilla_ice_cream>], [<fluid:minecraft:milk> * 250]);
+<recipetype:create:mixing>.addRecipe("sweet_berry_milkshake_pod", "none", <item:seasonals:sweet_berry_milkshake> * 4, [<item:minecraft:glass_bottle> * 4, <item:neapolitan:dried_vanilla_pods>, <item:seasonals:sweet_berry_ice_cream>], [<fluid:minecraft:milk> * 250]);
 
 // Feature Parity 
 <recipetype:create:crushing>.addRecipe("red_crushing", [<item:minecraft:red_sand>], <item:minecraft:red_sandstone>);
@@ -1369,3 +1519,73 @@ tag = <tag:items:sugarandspice:categories/useful_items>;
 tag.add(<item:create:goggles>);
 tag.add(<item:create:super_glue>);
 tag.add(<item:create:wrench>);
+
+// Better recipes for Chiseled Ore Bricks
+stoneCutter.removeRecipe(chiseled_coal_ore_bricks);
+stoneCutter.removeRecipe(chiseled_lapis_ore_bricks);
+stoneCutter.removeRecipe(chiseled_redstone_ore_bricks);
+stoneCutter.removeRecipe(chiseled_iron_ore_bricks);
+stoneCutter.removeRecipe(chiseled_gold_ore_bricks);
+stoneCutter.removeRecipe(chiseled_emerald_ore_bricks);
+stoneCutter.removeRecipe(chiseled_diamond_ore_bricks);
+
+craftingTable.addShapeless("coal_bricks", chiseled_coal_ore_bricks, [chiseled_stone_bricks, coal]);
+craftingTable.addShapeless("lapis_bricks", chiseled_lapis_ore_bricks, [chiseled_stone_bricks, lapis]);
+craftingTable.addShapeless("redstone_bricks", chiseled_redstone_ore_bricks, [chiseled_stone_bricks, redstone]);
+craftingTable.addShapeless("iron_bricks", chiseled_iron_ore_bricks, [chiseled_stone_bricks, iron_ingot]);
+craftingTable.addShapeless("gold_bricks", chiseled_gold_ore_bricks, [chiseled_stone_bricks, gold_ingot]);
+craftingTable.addShapeless("emerald_bricks", chiseled_emerald_ore_bricks, [chiseled_stone_bricks, emerald]);
+craftingTable.addShapeless("diamond_bricks", chiseled_diamond_ore_bricks, [chiseled_stone_bricks, diamond]);
+
+// Packed Ice Bricks
+craftingTable.removeRecipe(ice_bricks);
+craftingTable.addShaped("packed_ice_bricks", 
+		ice_bricks * 4, 
+		[[polished_packed_ice, polished_packed_ice],
+		 [polished_packed_ice, polished_packed_ice]]);
+
+// Charcoal Block -> Charred Log
+craftingTable.removeRecipe(charcoal_block);
+craftingTable.addShaped("charred_log", 
+		charcoal_block, 
+		[[charcoal], [log], [charcoal]]);
+
+// Salmon and Cod Cuts
+craftingTable.addShaped("salmon_cut", 
+		salmon_log * 4, 
+		[[salmon, salmon, salmon], 
+		[salmon, bone_block, salmon], 
+		[salmon, salmon, salmon]]);
+
+craftingTable.addShaped("cod_cut", // crl
+		cod_log * 4, 
+		[[cod, cod, cod], 
+		[cod, bone_block, cod], 
+		[cod, cod, cod]]);
+
+// Olivestone Bricks
+craftingTable.removeRecipe(olivestone_bricks);
+craftingTable.addShaped("cactus_paste_olivestone", 
+		olivestone_bricks * 8, 
+		[[stone_bricks, stone_bricks, stone_bricks], 
+		[stone_bricks, cactus_paste, stone_bricks], 
+		[stone_bricks, stone_bricks, stone_bricks]]);
+
+// Blank Acacia Totem as Default
+craftingTable.removeByName("architects_palette:grinning_acacia_totem");
+craftingTable.addShaped("blank_acacia_totem", 
+		blank_acacia_totem * 2, 
+		[[stick, stripped_acacia_log, stick], 
+		[air, stripped_acacia_log, air]]);
+
+// Fix Basalt Bricks and Tiles recipes
+craftingTable.removeRecipe(basalt_bricks);
+craftingTable.removeRecipe(basalt_tiles);
+craftingTable.addShaped("fixed_basalt_bricks", 
+		basalt_bricks * 4, 
+		[[polished_basalt, polished_basalt], 
+		[polished_basalt, polished_basalt]]);
+craftingTable.addShaped("fixed_basalt_tiles", 
+		basalt_tiles * 4, 
+		[[basalt_bricks, basalt_bricks], 
+		[basalt_bricks, basalt_bricks]]);

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [],
+  "optional": [
+    "decorative_blocks:brazier",
+    "decorative_blocks:soul_brazier",
+    "decorative_blocks_abnormals:ender_brazier",
+	"sugarandspice:glow_brazier"
+  ]
+}

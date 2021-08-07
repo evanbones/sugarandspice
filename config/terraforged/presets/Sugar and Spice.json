@@ -1,6 +1,6 @@
 {
   "miscellaneous": {
-    "smoothLayerDecorator": false,
+    "smoothLayerDecorator": true,
     "strataRegionSize": 600,
     "strataDecorator": false,
     "oreCompatibleStoneOnly": true,
@@ -22,7 +22,7 @@
       "variance": 0
     },
     "dimensions": {
-      "nether": "quark:realistic",
+      "nether": "infernalexp:compat_world_type",
       "end": "betterendforge:world_type",
       "includeExtraDimensions": true
     }
@@ -47,6 +47,30 @@
         "spacing": 32,
         "separation": 8,
         "salt": 56181420,
+        "disabled": false
+      },
+      "betterdungeons:skeleton_dungeon": {
+        "spacing": 46,
+        "separation": 23,
+        "salt": 732581696,
+        "disabled": false
+      },
+      "betterdungeons:small_dungeon": {
+        "spacing": 10,
+        "separation": 6,
+        "salt": 34239824,
+        "disabled": false
+      },
+      "betterdungeons:spider_dungeon": {
+        "spacing": 44,
+        "separation": 22,
+        "salt": 596523136,
+        "disabled": false
+      },
+      "betterdungeons:zombie_dungeon": {
+        "spacing": 48,
+        "separation": 24,
+        "salt": 280667680,
         "disabled": false
       },
       "bettermineshafts:mineshaft": {
@@ -289,6 +313,96 @@
         "salt": 10387312,
         "disabled": false
       },
+      "mostructures:abandoned_church": {
+        "spacing": 38,
+        "separation": 14,
+        "salt": 669968384,
+        "disabled": false
+      },
+      "mostructures:air_balloon": {
+        "spacing": 6,
+        "separation": 1,
+        "salt": 12994829,
+        "disabled": false
+      },
+      "mostructures:barn_house": {
+        "spacing": 38,
+        "separation": 8,
+        "salt": 165757312,
+        "disabled": false
+      },
+      "mostructures:big_pyramid": {
+        "spacing": 25,
+        "separation": 5,
+        "salt": 239284288,
+        "disabled": false
+      },
+      "mostructures:ice_tower": {
+        "spacing": 28,
+        "separation": 8,
+        "salt": 964058304,
+        "disabled": false
+      },
+      "mostructures:jungle_pyramid": {
+        "spacing": 25,
+        "separation": 5,
+        "salt": 312178656,
+        "disabled": false
+      },
+      "mostructures:killer_bunny_castle": {
+        "spacing": 45,
+        "separation": 25,
+        "salt": 29573968,
+        "disabled": false
+      },
+      "mostructures:lighthouse": {
+        "spacing": 32,
+        "separation": 16,
+        "salt": 29502322,
+        "disabled": false
+      },
+      "mostructures:moai": {
+        "spacing": 4,
+        "separation": 2,
+        "salt": 22494868,
+        "disabled": false
+      },
+      "mostructures:pillager_factory": {
+        "spacing": 36,
+        "separation": 16,
+        "salt": 839204928,
+        "disabled": false
+      },
+      "mostructures:pirateship": {
+        "spacing": 40,
+        "separation": 16,
+        "salt": 583957376,
+        "disabled": false
+      },
+      "mostructures:tavern": {
+        "spacing": 32,
+        "separation": 12,
+        "salt": 19296726,
+        "disabled": false
+      },
+      "mostructures:the_castle_in_the_sky": {
+        "spacing": 30,
+        "separation": 8,
+        "salt": 423494944,
+        "disabled": false
+      },
+      "mostructures:villager_market": {
+        "spacing": 36,
+        "separation": 16,
+        "salt": 784939520,
+        "disabled": false
+      },
+      "mostructures:villager_tower": {
+        "spacing": 34,
+        "separation": 16,
+        "salt": 550292480,
+        "disabled": false
+      },
       "mowziesmobs:barakoa_village": {
         "spacing": 25,
         "separation": 8,
@@ -475,7 +589,7 @@
       "terrainRegionSize": 690,
       "globalVerticalScale": 0.629,
       "globalHorizontalScale": 0.629,
-      "fancyMountains": false
+      "fancyMountains": true
     },
     "steppe": {
       "weight": 1.0,

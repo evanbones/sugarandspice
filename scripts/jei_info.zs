@@ -277,7 +277,7 @@ i(<item:alexsmobs:leafcutter_ant_chamber>, s);
 
 i(<item:alexsmobs:crocodile_scute>, "Drops from Crocodiles, which spawn in Rivers and Swamps. Crocodiles may kill you. Consult an Animal Dictionary for more information.");
 i(<item:alexsmobs:animal_dictionary>, "Contains information on Alex's Mobs.");
-i(<item:alexsmobs:straddlite>, "Drops from Basalt Giants, which spawn in the Basalt Deltas. Take care fighting these behemoths, because they pack quite a punch. Consult an Animal Dictionary for more information.");
+i(<item:alexsmobs:straddlite>, "Drops from Basalt Giants, which spawn in the Basalt Deltas. Take care fighting these behemoths, because they pack quite a punch.");
 i(<item:alexsmobs:straddleboard>, "Can be used to surf through the lava lakes in the Nether. Makes even Striders jealous!");
 i(<item:alexsmobs:mimicream>, "Drops from Mimicubes near end cities. Consult an Animal Dictionary for more information.");
 i(<item:alexsmobs:pocket_sand>, "Can be used as a longrange weapon, if you're so inclined.");
@@ -821,8 +821,6 @@ i(<item:supplementaries:netherite_trapdoor>, s);
 
 i(<item:paraglider:paraglider>, "Can be found on Wild Tower chests only. When held, right click to glide.");
 
-i(<item:conjurer_illager:conjurer_hat>, "This is the trademark accessory of the Conjurer illager, who resides in its theatre, located in Dark Forests. While worn, it keeps Bad Omens away.");
-
 i(<item:alexsmobs:music_disc_thime>, "Can be acquired from bartering with Seals. Consult an Animal Dictionary for more information.");
 i(<item:alexsmobs:music_disc_daze>, "Can be acquired by placing any Music Disc inside a Capsid.");
 i(<item:environmental:music_disc_leaving_home>, "Can be acquired by having a Skeleton kill a Wandering Trader.");
@@ -830,7 +828,7 @@ i(<item:environmental:music_disc_slabrave>, "Can be acquired by giving another M
 i(<item:endergetic:music_disc_kilobyte>, "Can be acquired from chests in End Cities.");
 i(<item:infernalexp:music_disc_soul_spunk>, "Can be acquired as a rare drop from Embodies in the Soul Sand Valleys.");
 i(<item:berry_good:music_disc_fox>, "Can be acquired from Foxes, who randomly spawn with it in their mouths.");
-i(<item:infernalexp:music_disc_flush>, "Can be acquired as a rare drop from Glowsquitoes.");
+i(<item:infernalexp:music_disc_flush>, "Can be acquired as a rare drop from Glowsquitoes in the Glowstone Canyon.");
 
 s = "Crystalite Armor has less armor toughness but is more enchantable than Netherite.";
 i(<item:betterendforge:crystalite_helmet>, s);
@@ -858,10 +856,66 @@ i(<item:eidolon:music_disc_parousia>, s);
 i(<item:naturescompass:naturescompass>, "Lets you search for any biome you'd like.");
 i(<item:magicfeather:magicfeather>, "Grants creative flight when within range of a beacon.");
 
-i(<item:infernalexp:ascus_bomb>, "Drops from Shroomloins. Causes a lingering cloud of Infection to appear.");
-i(<item:infernalexp:soul_salt_clump>, "Drops from Embodies in the Soul Sand Valley.");
-i(<item:infernalexp:blindsight_tongue_whip>, "A bright ranged whip that'll strike fear into your enemies!");
-i(<item:infernalexp:glowsilk_bow>, "Fires a bright arrow that lights up dark areas. Especially handy for caving.");
+i(<item:fruitful:flowering_oak_sapling>, "Can be found in Forests and more commonly in Flowering Forests. Can be pollinated by bees during full moons to sprout apples.");
+
+i(<item:architects_palette:entrails>, "Can be traded for with a Butcher villager.");
+i(<item:architects_palette:warpstone>, "Can be acquired by sending a Clay Block through a Nether Portal.");
+i(<item:architects_palette:withered_bone>, "Drops from Wither Skeletons. Not sure what you expected.");
+i(<item:architects_palette:moonstone>, "Sold only by the Wandering Trader. Glows at night.");
+i(<item:architects_palette:sunstone>, "Sold only by the Wandering Trader. Glows during the day.");
+i(<item:architects_palette:chiseled_abyssaline_bricks>, "Serves as the main source for lighting up Abyssaline blocks. Can be powered on by using a Heart of the Sea on it.");
+
+s = "Can be carved out of an Acacia Totem by taking an axe to it.";
+i(<item:architects_palette:grinning_acacia_totem>, s);
+i(<item:architects_palette:placid_acacia_totem>, s);
+i(<item:architects_palette:shocked_acacia_totem>, s);
+
+s = "Can be lit up by adjacent Abyssaline blocks, starting with a powered Chiseled Abyssaline Brick block.";
+i(<item:architects_palette:abyssaline>, s);
+i(<item:architects_palette:abyssaline_bricks>, s);
+i(<item:architects_palette:abyssaline_pillar>, s);
+i(<item:architects_palette:abyssaline_brick_slab>, s);
+i(<item:architects_palette:abyssaline_tiles>, s);
+i(<item:architects_palette:abyssaline_tile_slab>, s);
+i(<item:architects_palette:abyssaline_lamp>, s);
+i(<item:architects_palette:abyssaline_brick_vertical_slab>, s);
+i(<item:architects_palette:abyssaline_tile_vertical_slab>, s);
+
+s = "Can be found in the Glowstone Canyon biome in the Nether.";
+i(<item:infernalexp:dimstone>, s);
+i(<item:infernalexp:dullstone>, s);
+i(<item:infernalexp:luminous_wart_block>, s);
+i(<item:infernalexp:glowdust_sand>, s);
+i(<item:infernalexp:glowdust>, s);
+i(<item:infernalexp:trapped_glowdust_sand>, s);
+i(<item:infernalexp:glowdust_stone>, s);
+i(<item:infernalexp:crumbling_blackstone>, s);
+i(<item:infernalexp:dullthorns>, s);
+i(<item:infernalexp:luminous_fungus>, s);
+
+s = "Can be found in the Basalt Deltas biome in the Nether.";
+i(<item:infernalexp:basalt_iron_ore>, s);
+i(<item:infernalexp:basaltic_magma>, s);
+
+s = "Can be acquired by using a hoe on the respective block.";
+i(<item:infernalexp:crimson_nylium_path>, s);
+i(<item:infernalexp:warped_nylium_path>, s);
+i(<item:infernalexp:soul_soil_path>, s);
+
+i(<item:infernalexp:infernal_painting>, "Displays different art from the regular one.");
+i(<item:infernalexp:raw_hogchop>, "Dropped by Hoglins.");
+i(<item:infernalexp:glowcoal>, "Dropped by Glowsquitoes, which can be found in the Glowstone Canyon biome in the Nether.");
+i(<item:infernalexp:glownuggets>, "Dropped by mining Dullstone or Dimstone, which can be found in the Glowstone Canyon biome in the Nether.");
+i(<item:infernalexp:blindsight_tongue>, "Dropped by Blindsights, which can be found in the Glowstone Canyon biome in the Nether.");
+i(<item:infernalexp:moth_dust>, "Dropped by Glow Moths, which can be found in the Glowstone Canyon biome in the Nether.");
+i(<item:infernalexp:molten_gold_cluster>, "Can be acquired through feeding Volines gold items by dropping them. Volines can be found in Nether Wastes and Crimson Forests.");
+i(<item:infernalexp:glowsilk>, "Can be harvested from Glowsilk Cocoons and used to repair items in an anvil.");
+i(<item:infernalexp:glowsilk_cocoon>, "Can be found underground in the Nether, similarly to Ancient Debris, and harvested using a Diamond or Netherite hoe.");
+i(<item:infernalexp:soul_salt_clump>, "Dropped by Embodies, which can be found in Soul Sand Valleys.");
+i(<item:infernalexp:ascus_bomb>, "Dropped by Shroomloins, which can be found in Crimson Forests. Can be thrown to release an Infection cloud. Infection is dangerous and contagious, so be careful.");
+i(<item:infernalexp:glowsilk_bow>, "An upgrade to the standard Bow. Shoots twice as far and tips normal arrows with Luminance. Arrows with Luminance emit light and can be used to light up far away areas.");
+i(<item:infernalexp:blindsight_tongue_whip>, "A melee weapon with higher reach and knockback than usual. Must be charged by right clicking before using.");
+i(<item:infernalexp:shroomlight_fungus>, "Can be found on grown fungi in the Nether, or created by using Bone Meal on a Shroomlight block.");
 
 i(<item:eidolon:soul_enchanter>, "This item is disabled. It will be converted to a regular enchanting table when placed.");
 i(<item:eidolon:codex>, "Everything you need to know to get started with the dark arts.");

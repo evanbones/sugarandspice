@@ -11,7 +11,7 @@
 	limit_player_reach = true
 	#The default perspective when you load the game
 	#Allowed Values: FIRST_PERSON, THIRD_PERSON_BACK, THIRD_PERSON_FRONT, SHOULDER_SURFING
-	default_perspective = "THIRD_PERSON_BACK"
+	default_perspective = "FIRST_PERSON"
 	#Whether or not to remember the last perspective used
 	remember_last_perspective = true
 
@@ -24,7 +24,7 @@
 		offset_y = 0.049999999999999954
 		#Third person camera z-offset
 		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-		offset_z = 1.8000000000000043
+		offset_z = 1.6500000000000048
 
 		[perspective.offset.min]
 			#If x-offset is limited this is the minimum amount
@@ -57,11 +57,14 @@
 			unlimited_offset_x = false
 
 [crosshair]
-	#Whether or not to show the crosshairs farther than normal
-	show_crosshair_farther = true
+	#The raytrace distance used for the dynamic crosshair
+	#Range: 0.0 ~ 1.7976931348623157E308
+	custom_raytrace_distance = 400.0
 	#Crosshair type to use for shoulder surfing
 	#Allowed Values: ADAPTIVE, DYNAMIC, STATIC, STATIC_WITH_1PP
 	crosshair_type = "DYNAMIC"
+	#Whether or not to use the custom raytrace distance used for the dynamic crosshair
+	use_custom_raytrace_distance = true
 	#Additional items that trigger the dynamic crosshair when in apative mode
 	adaptive_crosshair_items = ["minecraft:snowball", "minecraft:egg", "minecraft:experience_bottle", "minecraft:ender_pearl", "minecraft:splash_potion", "minecraft:fishing_rod", "minecraft:lingering_potion"]
 

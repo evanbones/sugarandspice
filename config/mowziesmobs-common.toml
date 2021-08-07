@@ -9,7 +9,7 @@
 
 	[tools_and_abilities.wrought_helm]
 		#Set to true for the Wrought Helm to have limited durability.
-		breakable = true
+		breakable = false
 
 		[tools_and_abilities.wrought_helm.armor_config]
 			#See official Minecraft Wiki for an explanation of how armor damage reduction works.
@@ -90,7 +90,7 @@
 
 	[tools_and_abilities.axe_of_a_thousand_metals]
 		#Set to true for the Axe of a Thousand Metals to have limited durability.
-		breakable = true
+		breakable = false
 
 		[tools_and_abilities.axe_of_a_thousand_metals.tool_config]
 			#Tool attack damage
@@ -149,7 +149,7 @@
 			needs_see_sky = false
 			#Smaller number causes less spawning, 0 to disable spawning
 			#Range: > 0
-			spawn_rate = 0
+			spawn_rate = 5
 			#Set to true to only allow this mob to spawn in the dark, like zombies and skeletons.
 			needs_darkness = false
 			#Names of structures this mob will avoid spawning near.
@@ -180,7 +180,7 @@
 		#Which item Barako desires in exchange for the Sun's Blessing
 		trade_which_item = "minecraft:gold_block"
 		#Disable/enable Barako's boss health bar
-		has_boss_bar = true
+		has_boss_bar = false
 
 		#Generation controls for Barakoa villages
 		[mobs.barako.biome_config]
@@ -289,7 +289,7 @@
 		#Allow players to steal frostmaws' ice crystals (only using specific means!)
 		stealable_ice_crystal = true
 		#Disable/enable Barako's boss health bar
-		has_boss_bar = true
+		has_boss_bar = false
 
 		[mobs.frostmaw.biome_config]
 			#Prevent spawns in these biomes regardless of the biome type settings
@@ -364,7 +364,7 @@
 			needs_see_sky = false
 			#Smaller number causes less spawning, 0 to disable spawning
 			#Range: > 0
-			spawn_rate = 0
+			spawn_rate = 2
 			#Set to true to only allow this mob to spawn in the dark, like zombies and skeletons.
 			needs_darkness = true
 			#Names of structures this mob will avoid spawning near.
@@ -417,7 +417,7 @@
 			needs_see_sky = false
 			#Smaller number causes less spawning, 0 to disable spawning
 			#Range: > 0
-			spawn_rate = 0
+			spawn_rate = 5
 			#Set to true to only allow this mob to spawn in the dark, like zombies and skeletons.
 			needs_darkness = true
 			#Names of structures this mob will avoid spawning near.
@@ -475,7 +475,7 @@
 			needs_see_sky = true
 			#Smaller number causes less spawning, 0 to disable spawning
 			#Range: > 0
-			spawn_rate = 0
+			spawn_rate = 15
 			#Set to true to only allow this mob to spawn in the dark, like zombies and skeletons.
 			needs_darkness = false
 			#Names of structures this mob will avoid spawning near.
@@ -501,7 +501,7 @@
 		#Disable/enable Ferrous Wroughtnaut healing while not active
 		heals_out_of_battle = true
 		#Disable/enable Ferrous Wroughtnauts' boss health bars
-		has_boss_bar = true
+		has_boss_bar = false
 
 		[mobs.ferrous_wroughtnaut.biome_config]
 			#Prevent spawns in these biomes regardless of the biome type settings
