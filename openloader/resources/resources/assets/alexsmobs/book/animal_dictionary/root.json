@@ -184,6 +184,20 @@
       "x": 90,
       "y": 110,
       "page": 2
+    },
+	{
+      "linked_page": "platypus.json",
+      "text": "Platypus",
+      "x": 90,
+      "y": 135,
+      "page": 2
+    },
+	{
+      "linked_page": "lobster.json",
+      "text": "Lobster",
+      "x": 90,
+      "y": 160,
+      "page": 2
     }
   ],
   "images": [

@@ -605,8 +605,9 @@ craftingTable.addShaped("biotite_from_quartz",
 // Craftable Blue Vine Lantern
 craftingTable.addShaped("blue_vine_lantern_recipe", 
 		<item:betterendforge:blue_vine_lantern>,  
-		[[lumecorn, lumecorn],
-		 [lumecorn, lumecorn]]);
+		[[lumecorn, lumecorn, lumecorn],
+		 [lumecorn, lumecorn, lumecorn],
+		 [lumecorn, lumecorn, lumecorn]]);
 
 // Ender Shard to Ender Pearl
 craftingTable.addShaped("ender_pearl_from_shard", 
