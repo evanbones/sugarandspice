@@ -23,7 +23,7 @@ fov:0.0
 screenEffectScale:1.0
 fovEffectScale:1.0
 gamma:1.0
-renderDistance:12
+renderDistance:16
 entityDistanceScaling:1.0
 guiScale:2
 particles:1
@@ -33,7 +33,7 @@ graphicsMode:1
 ao:2
 biomeBlendRadius:2
 renderClouds:true
-resourcePacks:["vanilla","inspirations:config_resources","mod_resources","openloader/resources/resources","file/Infernal Resources.zip","quark:emote_resources"]
+resourcePacks:["vanilla","inspirations:config_resources","mod_resources","openloader/resources/resources","quark:emote_resources","openloader/resources/contenttweaker"]
 incompatibleResourcePacks:["inspirations:config_resources","quark:emote_resources"]
 lastServer:localhost:6666
 lang:en_us
@@ -43,7 +43,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:true
+advancedItemTooltips:false
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
@@ -110,17 +110,13 @@ key_key.itemzoom.toggle:key.keyboard.z:SHIFT
 key_key.itemzoom.hold:key.keyboard.unknown
 key_key.itemzoom.zoom.in:key.keyboard.unknown
 key_key.itemzoom.zoom.out:key.keyboard.unknown
+key_placebo.toggleWings:key.keyboard.keypad.8
 key_key.farsight_spyglasses.zooming_key:key.keyboard.escape
 key_neat.keybind.toggle:key.keyboard.unknown
-key_placebo.toggleWings:key.keyboard.keypad.8
 key_placebo.toggleTrails:key.keyboard.keypad.9
 key_fpsreducer.key.openGui:key.keyboard.end
 key_fpsreducer.key.forceIdle:key.keyboard.pause
 key_key.curios.open.desc:key.keyboard.g
-key_key.ship_sail:key.keyboard.r
-key_key.ship_inventory:key.keyboard.e
-key_key.lower_ship_sail:key.keyboard.j
-key_key.higher_ship_sail:key.keyboard.k
 key_key.toastcontrol.clear:key.keyboard.unknown
 key_sndctrl.text.quickvolumemenu.open:key.keyboard.v:CONTROL
 key_sndctrl.text.soundconfig.open:key.keyboard.unknown
@@ -147,7 +143,12 @@ key_key.voice_chat_toggle_recording:key.keyboard.unknown
 key_key.endergetic.booflo_vest:key.keyboard.z
 key_key.endergetic.booflo_slam:key.keyboard.x
 key_key.diet.open.desc:key.keyboard.unknown
+key_quark.keybind.sort_player:key.keyboard.unknown
 key_doubleslabs.key.toggleVerticalSlabPlacement:key.keyboard.unknown
+key_quark.keybind.sort_container:key.keyboard.unknown
+key_quark.keybind.autorun:key.keyboard.unknown
+key_quark.keybind.back:key.mouse.4
+key_quark.keybind.change_hotbar:key.keyboard.unknown
 key_quark.emote.no:key.keyboard.unknown
 key_quark.emote.yes:key.keyboard.unknown
 key_quark.emote.wave:key.keyboard.unknown
@@ -166,16 +167,11 @@ key_quark.keybind.patreon_emote.dab:key.keyboard.unknown
 key_quark.keybind.patreon_emote.jet:key.keyboard.unknown
 key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown
 key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown
-key_quark.keybind.back:key.mouse.4
-key_quark.keybind.sort_player:key.keyboard.unknown
-key_quark.keybind.sort_container:key.keyboard.unknown
-key_quark.keybind.camera_mode:key.keyboard.f12
-key_quark.keybind.autorun:key.keyboard.unknown
-key_quark.keybind.change_hotbar:key.keyboard.unknown
-key_quark.keybind.lock_rotation:key.keyboard.unknown
 key_quark.keybind.transfer_insert:key.keyboard.unknown
 key_quark.keybind.transfer_extract:key.keyboard.unknown
 key_quark.keybind.shift_lock:key.keyboard.unknown
+key_quark.keybind.camera_mode:key.keyboard.f12
+key_quark.keybind.lock_rotation:key.keyboard.unknown
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_key.personality.crawl:key.keyboard.unknown
 key_key.personality.sit:key.keyboard.c
@@ -194,7 +190,7 @@ key_key.jei.bookmark:key.keyboard.a
 key_key.jei.toggleBookmarkOverlay:key.keyboard.unknown
 key_key.waila.show_recipes:key.keyboard.keypad.3
 key_key.waila.show_uses:key.keyboard.keypad.4
-soundCategory_master:0.50993377
+soundCategory_master:1.0
 soundCategory_music:0.50352114
 soundCategory_record:1.0
 soundCategory_weather:1.0

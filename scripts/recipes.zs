@@ -15,7 +15,6 @@ var book = <item:minecraft:book>;
 var bone_block = <item:minecraft:bone_block>;
 var mimicream = <item:alexsmobs:mimicream>;
 var brick = <tag:items:forge:ingots/brick>;
-var boat = <tag:items:minecraft:boats>;
 var candelabra = <item:supplementaries:candelabra>;
 var candles = <tag:items:buzzier_bees:candles>;
 var canvas = <item:farmersdelight:canvas>;
@@ -83,9 +82,7 @@ var potato = <item:minecraft:potato>;
 var prismarine_crystals = <item:minecraft:prismarine_crystals>;
 var quartz = <item:minecraft:quartz>;
 var redstone = <tag:items:forge:dusts/redstone>;
-var rotten_candle = <item:eidolon:candle>;
 var sack = <item:supplementaries:sack>;
-var sail = <item:smallships:sail_item>;
 var salmon = <item:minecraft:salmon>;
 var salmon_log = <item:architects_palette:salmon_log>;
 var stone_bricks = <item:minecraft:stone_bricks>;
@@ -93,7 +90,6 @@ var stone_brick_slab = <item:minecraft:stone_brick_slab>;
 var cactus_paste = <item:quark:cactus_paste>;
 var soul_lantern = <item:minecraft:soul_lantern>;
 var spyglass = <item:farsight_spyglasses:spyglass>;
-var sulfur = <item:eidolon:sulfur>;
 var tripwire_hook = <item:minecraft:tripwire_hook>;
 var thorny_kelp = <item:upgrade_aquatic:thorny_kelp>;
 var tongue_kelp = <item:upgrade_aquatic:tongue_kelp>;
@@ -211,7 +207,6 @@ craftingTable.removeRecipe(<item:architects_palette:runic_glowstone>);
 // Recipe Removal
 craftingTable.removeRecipe(<item:naturescompass:naturescompass>);
 craftingTable.removeRecipe(<item:magicfeather:magicfeather>);
-craftingTable.removeRecipe(<item:eidolon:candle>);
 craftingTable.removeRecipe(<item:mowziesmobs:thatch_block>);
 craftingTable.removeRecipe(<item:supplementaries:rope>);
 craftingTable.removeRecipe(<item:environmental:apple_pie>);
@@ -482,56 +477,7 @@ craftingTable.removeRecipe(<item:alexsmobs:shield_of_the_deep>);
 craftingTable.removeRecipe(<item:alexsmobs:shrimp_fried_rice>);
 craftingTable.removeRecipe(<item:alexsmobs:mosquito_larva>);
 craftingTable.removeRecipe(<item:fish_in_planks:blobfish_barrel>);
-craftingTable.removeByModid("smallships");
 craftingTable.removeByRegex(".*:.*_vertical_slab");
-
-// Small Ships Recipes
-craftingTable.addShaped("ss_sail",
-		sail,
-		[[wool, wool, wool],
-		[wool, log, wool],
-		[lead, log, lead]]);
-		
-craftingTable.addShaped("ss_cog",
-		<item:smallships:oak_cog>,
-		[[_string, _string, _string],
-		[chest, sail, chest],
-		[boat, boat, boat]]);
-		
-craftingTable.addShaped("ss_rowboat",
-		<item:smallships:oak_rowboat>,
-		[[chest],
-		[boat]]);
-		
-craftingTable.addShaped("ss_galley",
-		<item:smallships:oak_galley>,
-		[[lead, sail, lead],
-		[tripwire_hook, chest, tripwire_hook],
-		[boat, boat, boat]]);
-
-craftingTable.addShaped("ss_war_galley",
-		<item:smallships:oak_war_galley>,
-		[[_string, sail, _string],
-		[lead, chest, lead],
-		[tripwire_hook, <item:smallships:oak_galley>, tripwire_hook]]);
-		
-craftingTable.addShaped("ss_brigg",
-		<item:smallships:oak_brigg>,
-		[[lead, chest, lead],
-		[sail, chest, sail],
-		[boat, boat, boat]]);
-		
-craftingTable.addShaped("ss_dhow",
-		<item:smallships:oak_dhow>,
-		[[lead, _string, lead],
-		[sail, chest, sail],
-		[boat, boat, boat]]);
-
-craftingTable.addShaped("ss_drakkar",
-		<item:smallships:oak_drakkar>,
-		[[_string, sail, _string],
-		[lead, chest, lead],
-		[boat, boat, boat]]);
 		
 // AP Warped Wood
 var warping = <recipetype:architects_palette:warping>;
@@ -593,7 +539,7 @@ craftingTable.removeByName("alexsmobs:sopa_de_macaco");
 craftingTable.removeRecipe(ender_eye);
 craftingTable.addShapeless("better_ender_eye", 
 		ender_eye, 
-		[ender_pearl, blaze_powder, prismarine_crystals, emerald, honeycomb, sulfur]);
+		[ender_pearl, blaze_powder, prismarine_crystals, emerald, honeycomb]);
 #snip end
 
 // New Biotite Recipe
@@ -615,12 +561,6 @@ craftingTable.addShaped("ender_pearl_from_shard",
 		[[ender_shard, ender_shard, ender_shard],
 		 [ender_shard, ender_shard, ender_shard],
 		 [ender_shard, ender_shard, ender_shard]]);
-
-// Eidolon Candle with Yak Hair
-craftingTable.addShaped("fixed_candle", 
-		rotten_candle,  
-		[[wicks],
-		 [<item:eidolon:tallow>]]);
 
 // Koi in Barrel missing recipe from the mod
 craftingTable.addShaped("koi_barrel_fix", 
@@ -731,12 +671,7 @@ craftingTable.removeRecipe(<item:betterendforge:lucernia_crafting_table>);
 
 // Remove Woodtypes
 craftingTable.removeRecipe(<item:betterendforge:tenanea_planks>);
-craftingTable.removeRecipe(<item:betterendforge:umbrella_tree_planks>);
-craftingTable.removeRecipe(<item:betterendforge:lucernia_planks>);
-craftingTable.removeRecipe(<item:betterendforge:pythadendron_planks>);
-craftingTable.removeRecipe(<item:betterendforge:dragon_tree_planks>);
-craftingTable.removeRecipe(<item:betterendforge:lacugrove_planks>);
-craftingTable.removeRecipe(<item:betterendforge:end_lotus_planks>);
+craftingTable.removeRecipe(<item:betterendforge:tenanea_bark>);
 
 // End Stone Chest
 craftingTable.removeRecipe(<item:betterendforge:lacugrove_chest>);
@@ -822,12 +757,20 @@ blastFurnace.removeRecipe(<item:create:zinc_ingot>);
 <recipetype:create:mixing>.removeByName("create:mixing/andesite_alloy_from_zinc");
 <recipetype:create:mixing>.removeRecipe(<item:create:brass_ingot>);
 <recipetype:create:mixing>.removeRecipe(<item:create:crushed_brass>);
-craftingTable.removeRecipe(<item:eidolon:pewter_blend>);
-<recipetype:create:crushing>.addRecipe("pewter_block_crushing", [<item:eidolon:pewter_block>], <item:eidolon:pewter_blend> * 5);
-<recipetype:create:mixing>.addRecipe("pewter_ingot_mixing", "heated", <item:eidolon:pewter_ingot> * 2, [<item:eidolon:lead_ingot>, <item:minecraft:iron_ingot>]);
-<recipetype:create:mixing>.addRecipe("crushed_pewter_mixing", "heated", <item:eidolon:pewter_blend> * 2, [<item:create:crushed_lead_ore>, <item:create:crushed_iron_ore>]);
 <recipetype:create:mixing>.addRecipe("quartz_brass_ingot", "heated", <item:create:brass_ingot> * 2, [<item:create:copper_ingot>, <item:minecraft:quartz>]);
 <recipetype:create:mixing>.addRecipe("quartz_crushed_brass", "heated", <item:create:crushed_brass> * 2, [<item:create:crushed_copper_ore>, <item:minecraft:quartz>]);
+
+
+// Raw Ores
+craftingTable.addShaped("raw_copper_compact", <item:contenttweaker:raw_copper_block>, [[<item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>], [<item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>], [<item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>]]);
+craftingTable.addShapeless("raw_copper_uncompact", <item:contenttweaker:raw_copper> * 9, [<item:contenttweaker:raw_copper_block>]);
+
+<recipetype:create:milling>.addRecipe("raw_iron_milling", [<item:create:crushed_iron_ore>], <item:iron_and_gold:raw_iron>);
+<recipetype:create:milling>.addRecipe("raw_gold_milling", [<item:create:crushed_gold_ore>], <item:iron_and_gold:raw_gold>);
+<recipetype:create:milling>.addRecipe("raw_copper_milling", [<item:create:crushed_copper_ore>], <item:contenttweaker:raw_copper>);
+<recipetype:create:crushing>.addRecipe("raw_iron_crushing", [<item:create:crushed_iron_ore>, <item:create:crushed_iron_ore> % 30, <item:minecraft:gravel> % 6], <item:iron_and_gold:raw_iron>);
+<recipetype:create:crushing>.addRecipe("raw_gold_crushing", [<item:create:crushed_gold_ore>, <item:create:crushed_gold_ore> % 30, <item:minecraft:gravel> % 6], <item:iron_and_gold:raw_gold>);
+<recipetype:create:crushing>.addRecipe("raw_copper_crushing", [<item:create:crushed_copper_ore>, <item:create:crushed_copper_ore> % 30, <item:minecraft:gravel> % 6], <item:contenttweaker:raw_copper>);
 
 // Tweaks 
 <recipetype:create:splashing>.removeByName("create:splashing/gravel");
@@ -906,6 +849,8 @@ furnace.addRecipe("chocolate_stone", <item:neapolitan:chocolate_block>, <item:cr
 
 <recipetype:create:cutting>.addRecipe("morado_log", <item:atmospheric:stripped_morado_log>, <item:atmospheric:morado_log>);
 <recipetype:create:cutting>.addRecipe("morado_wood", <item:atmospheric:stripped_morado_wood>, <item:atmospheric:morado_wood>);
+<recipetype:create:cutting>.addRecipe("stripped_morado_log", <item:atmospheric:morado_planks> * 5, <item:atmospheric:stripped_morado_log>);
+<recipetype:create:cutting>.addRecipe("stripped_morado_wood", <item:atmospheric:morado_planks> * 5, <item:atmospheric:stripped_morado_wood>);
 <recipetype:create:cutting>.addRecipe("aspen_wood", <item:atmospheric:stripped_aspen_wood>, <item:atmospheric:aspen_wood>);
 <recipetype:create:cutting>.addRecipe("stripped_aspen_wood", <item:atmospheric:aspen_planks> * 5, <item:atmospheric:stripped_aspen_wood>);
 <recipetype:create:cutting>.addRecipe("rosewood", <item:atmospheric:stripped_rosewood>, <item:atmospheric:rosewood>);
@@ -1047,7 +992,7 @@ furnace.addRecipe("chocolate_stone", <item:neapolitan:chocolate_block>, <item:cr
 // Remove Fluids 
 <recipetype:create:filling>.removeRecipe(<item:inspirations:honey_bucket>);
 <recipetype:create:emptying>.removeRecipe(<fluid:inspirations:honey>);
-<recipetype:create:emptying>.addRecipe("uninspirational_honey", <item:minecraft:bucket>, <fluid:create:honey> * 1000, <item:inspirations:honey_bucket>);
+<recipetype:create:emptying>.addRecipe("honey_removal", <item:minecraft:bucket>, <fluid:create:honey> * 1000, <item:inspirations:honey_bucket>);
 
 // Remove Schematics 
 craftingTable.removeRecipe(<item:create:schematicannon>);
@@ -1475,51 +1420,6 @@ craftingTable.removeRecipe(<item:quark:brown_stool>);
 craftingTable.removeRecipe(<item:quark:green_stool>);
 craftingTable.removeRecipe(<item:quark:red_stool>);
 craftingTable.removeRecipe(<item:quark:black_stool>);
-
-// Tagging 
-tag = <tag:items:sugarandspice:categories/building_blocks>;
-tag.add(<item:create:copper_block>);
-tag.add(<item:create:copper_shingles>);
-tag.add(<item:create:copper_tiles>);
-tag.add(<item:create:brass_block>);
-tag.add(<item:create:tiled_glass>);
-tag.add(<item:create:ornate_iron_window>);
-tag.add(<item:create:limestone_cobblestone>);
-tag.add(<item:create:scoria_cobblestone>);
-
-tag = <tag:items:sugarandspice:categories/decoration_blocks>;
-tag.add(<item:create:tiled_glass_pane>);
-tag.add(<item:create:ornate_iron_window_pane>);
-tag.add(<item:create:white_seat>);
-tag.add(<item:create:orange_seat>);
-tag.add(<item:create:magenta_seat>);
-tag.add(<item:create:light_blue_seat>);
-tag.add(<item:create:yellow_seat>);
-tag.add(<item:create:lime_seat>);
-tag.add(<item:create:pink_seat>);
-tag.add(<item:create:gray_seat>);
-tag.add(<item:create:light_gray_seat>);
-tag.add(<item:create:cyan_seat>);
-tag.add(<item:create:purple_seat>);
-tag.add(<item:create:blue_seat>);
-tag.add(<item:create:brown_seat>);
-tag.add(<item:create:green_seat>);
-tag.add(<item:create:red_seat>);
-tag.add(<item:create:black_seat>);
-
-tag = <tag:items:sugarandspice:categories/equipment>;
-tag.add(<item:create:goggles>);
-tag.add(<item:create:wrench>);
-
-tag = <tag:items:sugarandspice:categories/food_items>;
-tag.add(<item:create:sweet_roll>);
-tag.add(<item:create:chocolate_glazed_berries>);
-tag.add(<item:create:builders_tea>);
-
-tag = <tag:items:sugarandspice:categories/useful_items>;
-tag.add(<item:create:goggles>);
-tag.add(<item:create:super_glue>);
-tag.add(<item:create:wrench>);
 
 // Better recipes for Chiseled Ore Bricks
 stoneCutter.removeRecipe(chiseled_coal_ore_bricks);

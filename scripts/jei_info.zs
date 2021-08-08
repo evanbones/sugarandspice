@@ -6,6 +6,12 @@ function i(m as IItemStack, s as string) as void {
 }
 
 i(<item:savageandravage:cleaver_of_beheading>, "Can be used to behead players.");
+i(<item:conjurer_illager:conjurer_hat>, "This is the trademark accessory of the Conjurer illager, who resides in its theatre, located in Dark Forests. While worn, it keeps Bad Omens away.");
+
+i(<item:contenttweaker:raw_copper>, "Drops from Copper Ore when mined without Silk Touch. Using Fortune increases the amount dropped.");
+
+i(<item:iron_and_gold:raw_iron>, "Drops from Iron Ore when mined without Silk Touch. Using Fortune increases the amount dropped.");
+i(<item:iron_and_gold:raw_gold>, "Drops from Gold Ore when mined without Silk Touch. Using Fortune increases the amount dropped.");
 
 // Quark Stuff
 i(<item:minecraft:chest>, "If needed, can be acquired by the standard recipe, mixing two or more types of wood.");
@@ -15,17 +21,9 @@ i(<item:minecraft:minecart>, "Minecarts are one of the few ways to properly move
 i(<item:quark:backpack>, "When wearing this, you'll have 27 more inventory slots. You can even dye it to look fancy!");
 i(<item:quark:ravager_hide>, "This drops from Ravagers. Call in a raid to get them over.");
 
-// Toretoise Stuff
-var s = "Toretoises can spawn this. Find them underground and feed them Cave Roots. Iron Rods can pop it automatically, or manually with a Pickaxe.";
-i(<item:minecraft:iron_ingot>, s);
-i(<item:minecraft:iron_nugget>, s);
-i(<item:minecraft:redstone>, s);
-i(<item:minecraft:coal>, s);
-i(<item:minecraft:lapis_lazuli>, s);
-i(<item:minecraft:iron_ore>, s);
-i(<item:minecraft:redstone_ore>, s);
-i(<item:minecraft:coal_ore>, s);
-i(<item:minecraft:lapis_ore>, s);
+var s = "These can be found underground. Stick them on a wall in a dark area to grow them.";
+i(<item:quark:root>, s);
+i(<item:quark:root_item>, s);
 
 i(<item:alexsmobs:fedora>, "Give a named Platypus a redstone block, and it has a chance of digging up a cool hat!");
 
@@ -72,10 +70,6 @@ i(<item:caverns_and_chasms:golden_bucket>, "Can hold up to 3 blocks of liquid.")
 i(<item:caverns_and_chasms:spiked_rail>, "Damages any mobs on minecarts that go through it.");
 i(<item:caverns_and_chasms:ore_detector>, "Glows when there's ore within a few blocks of the holder. Can be enchanted with Treasure enchantments to react only to gems or metals.");
 #snip end
-
-s = "These can be found underground. Stick them on a wall in a dark area to grow them.";
-i(<item:quark:root>, s);
-i(<item:quark:root_item>, s);
 
 // Coralstone
 s = "Put the respective coral block next to raw Coralstone and it'll propagate. Powering with redstone gives coral bits.";
@@ -199,58 +193,17 @@ i(<item:upgrade_aquatic:star_coral>, s);
 i(<item:upgrade_aquatic:star_coral_block>, s);
 i(<item:upgrade_aquatic:star_coral_fan>, s);
 
-// Eidolon
-s = "Consult an Ars Ecclesia for more information.";
-i(<item:eidolon:sulfur>, s);
-i(<item:eidolon:zombie_heart>, s);
-i(<item:eidolon:tattered_cloth>, s);
-i(<item:eidolon:wraith_heart>, s);
-i(<item:eidolon:basic_ring>, s);
-i(<item:eidolon:basic_amulet>, s);
-i(<item:eidolon:basic_belt>, s);
-i(<item:eidolon:soul_shard>, s);
-i(<item:eidolon:death_essence>, s);
-i(<item:eidolon:crimson_essence>, s);
-i(<item:eidolon:fungus_sprouts>, s);
-i(<item:eidolon:warped_sprouts>, s);
-i(<item:eidolon:ender_calx>, s);
-i(<item:eidolon:tallow>, s);
-i(<item:eidolon:lesser_soul_gem>, s);
-i(<item:eidolon:unholy_symbol>, s);
-i(<item:eidolon:reaper_scythe>, s);
-i(<item:eidolon:cleaving_axe>, s);
-i(<item:eidolon:shadow_gem>, s);
-i(<item:eidolon:wicked_weave>, s);
-i(<item:eidolon:warlock_hat>, s);
-i(<item:eidolon:warlock_cloak>, s);
-i(<item:eidolon:warlock_boots>, s);
-i(<item:eidolon:reversal_pick>, s);
-i(<item:eidolon:void_amulet>, s);
-i(<item:eidolon:warded_mail>, s);
-i(<item:eidolon:sapping_sword>, s);
-i(<item:eidolon:sanguine_amulet>, s);
-i(<item:eidolon:soulfire_wand>, s);
-i(<item:eidolon:bonechill_wand>, s);
-i(<item:eidolon:gravity_belt>, s);
-i(<item:eidolon:resolute_belt>, s);
-i(<item:eidolon:prestigious_palm>, s);
-i(<item:eidolon:mind_shielding_plate>, s);
-i(<item:eidolon:glass_hand>, s);
-i(<item:eidolon:wooden_altar>, s);
-i(<item:eidolon:stone_altar>, s);
-i(<item:eidolon:candle>, s);
-i(<item:eidolon:candlestick>, s);
-i(<item:eidolon:straw_effigy>, s);
-i(<item:eidolon:goblet>, s);
-i(<item:eidolon:unholy_effigy>, s);
-i(<item:eidolon:plinth>, s);
-i(<item:eidolon:stone_hand>, s);
-i(<item:eidolon:enchanted_ash>, s);
-i(<item:eidolon:necrotic_focus>, s);
-i(<item:eidolon:wooden_brewing_stand>, s);
-i(<item:eidolon:crucible>, s);
-i(<item:eidolon:worktable>, s);
-i(<item:eidolon:brazier>, s);
+// Toretoise Stuff
+s = "Toretoises can spawn this. Find them underground and feed them Cave Roots. Iron Rods can pop it automatically, or manually with a Pickaxe.";
+i(<item:minecraft:iron_ingot>, s);
+i(<item:minecraft:iron_nugget>, s);
+i(<item:minecraft:redstone>, s);
+i(<item:minecraft:coal>, s);
+i(<item:minecraft:lapis_lazuli>, s);
+i(<item:minecraft:iron_ore>, s);
+i(<item:minecraft:redstone_ore>, s);
+i(<item:minecraft:coal_ore>, s);
+i(<item:minecraft:lapis_ore>, s);
 
 // Alex's Mobs
 s = "Consult an Animal Dictionary for more information.";
@@ -849,16 +802,12 @@ i(<item:betterendforge:granite_pedestal>, s);
 i(<item:betterendforge:flavolite_pedestal>, s);
 i(<item:betterendforge:violecite_pedestal>, s);
 
-s = "This is a secret Easter Egg item, can you figure out how to get it? Hint: Use dark magic!";
-i(<item:eidolon:top_hat>, s);
-i(<item:eidolon:music_disc_parousia>, s);
-
 i(<item:naturescompass:naturescompass>, "Lets you search for any biome you'd like.");
 i(<item:magicfeather:magicfeather>, "Grants creative flight when within range of a beacon.");
 
 i(<item:fruitful:flowering_oak_sapling>, "Can be found in Forests and more commonly in Flowering Forests. Can be pollinated by bees during full moons to sprout apples.");
 
-i(<item:architects_palette:entrails>, "Can be traded for with a Butcher villager.");
+i(<item:architects_palette:entrails>, "Can be acquired by trading with a butcher villager.");
 i(<item:architects_palette:warpstone>, "Can be acquired by sending a Clay Block through a Nether Portal.");
 i(<item:architects_palette:withered_bone>, "Drops from Wither Skeletons. Not sure what you expected.");
 i(<item:architects_palette:moonstone>, "Sold only by the Wandering Trader. Glows at night.");
@@ -916,10 +865,6 @@ i(<item:infernalexp:ascus_bomb>, "Dropped by Shroomloins, which can be found in 
 i(<item:infernalexp:glowsilk_bow>, "An upgrade to the standard Bow. Shoots twice as far and tips normal arrows with Luminance. Arrows with Luminance emit light and can be used to light up far away areas.");
 i(<item:infernalexp:blindsight_tongue_whip>, "A melee weapon with higher reach and knockback than usual. Must be charged by right clicking before using.");
 i(<item:infernalexp:shroomlight_fungus>, "Can be found on grown fungi in the Nether, or created by using Bone Meal on a Shroomlight block.");
-
-i(<item:eidolon:soul_enchanter>, "This item is disabled. It will be converted to a regular enchanting table when placed.");
-i(<item:eidolon:codex>, "Everything you need to know to get started with the dark arts.");
-i(<item:eidolon:lead_ore>, "Generates between Y=0 and Y=39 in small clusters.");
 
 i(<item:create:copper_ore>, "Generates between Y=40 and Y=85 in large clusters.");
 i(<item:create:scoria_cobblestone>, "Created when fluid Chocolate touches Lava.");
