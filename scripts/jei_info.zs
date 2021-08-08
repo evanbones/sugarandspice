@@ -802,9 +802,6 @@ i(<item:betterendforge:granite_pedestal>, s);
 i(<item:betterendforge:flavolite_pedestal>, s);
 i(<item:betterendforge:violecite_pedestal>, s);
 
-i(<item:naturescompass:naturescompass>, "Lets you search for any biome you'd like.");
-i(<item:magicfeather:magicfeather>, "Grants creative flight when within range of a beacon.");
-
 i(<item:fruitful:flowering_oak_sapling>, "Can be found in Forests and more commonly in Flowering Forests. Can be pollinated by bees during full moons to sprout apples.");
 
 i(<item:architects_palette:entrails>, "Can be acquired by trading with a butcher villager.");

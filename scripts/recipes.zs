@@ -205,8 +205,6 @@ craftingTable.removeRecipe(<item:architects_palette:polished_glowstone_slab>);
 craftingTable.removeRecipe(<item:architects_palette:runic_glowstone>);
 
 // Recipe Removal
-craftingTable.removeRecipe(<item:naturescompass:naturescompass>);
-craftingTable.removeRecipe(<item:magicfeather:magicfeather>);
 craftingTable.removeRecipe(<item:mowziesmobs:thatch_block>);
 craftingTable.removeRecipe(<item:supplementaries:rope>);
 craftingTable.removeRecipe(<item:environmental:apple_pie>);
@@ -764,6 +762,8 @@ blastFurnace.removeRecipe(<item:create:zinc_ingot>);
 // Raw Ores
 craftingTable.addShaped("raw_copper_compact", <item:contenttweaker:raw_copper_block>, [[<item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>], [<item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>], [<item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>]]);
 craftingTable.addShapeless("raw_copper_uncompact", <item:contenttweaker:raw_copper> * 9, [<item:contenttweaker:raw_copper_block>]);
+furnace.addRecipe("raw_copper_smelting", <item:create:copper_ingot>, <item:contenttweaker:raw_copper>, 0.1, 200);
+blastFurnace.addRecipe("raw_copper_blasting", <item:create:copper_ingot>, <item:contenttweaker:raw_copper>, 0.1, 100);
 
 <recipetype:create:milling>.addRecipe("raw_iron_milling", [<item:create:crushed_iron_ore>], <item:iron_and_gold:raw_iron>);
 <recipetype:create:milling>.addRecipe("raw_gold_milling", [<item:create:crushed_gold_ore>], <item:iron_and_gold:raw_gold>);
