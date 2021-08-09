@@ -476,7 +476,8 @@ craftingTable.removeRecipe(<item:alexsmobs:shrimp_fried_rice>);
 craftingTable.removeRecipe(<item:alexsmobs:mosquito_larva>);
 craftingTable.removeRecipe(<item:fish_in_planks:blobfish_barrel>);
 craftingTable.removeByRegex(".*:.*_vertical_slab");
-		
+craftingTable.removeByRegex(".*:.*_seat");		
+
 // AP Warped Wood
 var warping = <recipetype:architects_palette:warping>;
 warping.removeRecipe(<item:architects_palette:twisted_log>);
