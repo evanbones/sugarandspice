@@ -73,9 +73,6 @@ var planter = <item:supplementaries:planter>;
 var stick = <item:minecraft:stick>;
 var stripped_acacia_log = <item:minecraft:stripped_acacia_log>;
 var blank_acacia_totem = <item:architects_palette:blank_acacia_totem>;
-var polished_basalt = <item:minecraft:polished_basalt>;
-var basalt_bricks = <item:infernalexp:basalt_bricks>;
-var basalt_tiles = <item:architects_palette:basalt_tiles>;
 var polar_kelp = <item:upgrade_aquatic:polar_kelp>;
 var polished_packed_ice = <item:architects_palette:polished_packed_ice>;
 var potato = <item:minecraft:potato>;
@@ -89,7 +86,6 @@ var stone_bricks = <item:minecraft:stone_bricks>;
 var stone_brick_slab = <item:minecraft:stone_brick_slab>;
 var cactus_paste = <item:quark:cactus_paste>;
 var soul_lantern = <item:minecraft:soul_lantern>;
-var spyglass = <item:farsight_spyglasses:spyglass>;
 var tripwire_hook = <item:minecraft:tripwire_hook>;
 var thorny_kelp = <item:upgrade_aquatic:thorny_kelp>;
 var tongue_kelp = <item:upgrade_aquatic:tongue_kelp>;
@@ -99,6 +95,15 @@ var crate = <item:quark:crate>;
 var dirt = <item:minecraft:dirt>;
 var planks = <tag:items:minecraft:planks>;
 var wool = <tag:items:minecraft:wool>;
+
+// C&C Stuff
+#snip modnotloaded("cavesandcliffs")
+furnace.removeRecipe(<item:cavesandcliffs:copper_ingot>);
+blastFurnace.removeRecipe(<item:cavesandcliffs:copper_ingot>);
+craftingTable.removeRecipe(<item:cavesandcliffs:copper_ingot>);
+craftingTable.removeByRegex("cavesandcliffs:.*candle");	
+
+#snip end
 
 furnace.removeRecipe(<item:charm:smooth_glowstone>);
 
@@ -282,75 +287,6 @@ craftingTable.removeRecipe(<item:betterendforge:iron_chandelier>);
 craftingTable.removeRecipe(<item:betterendforge:gold_chandelier>);
 craftingTable.removeRecipe(<item:betterendforge:thallasium_chandelier>);
 craftingTable.removeRecipe(<item:betterendforge:terminite_chandelier>);
-craftingTable.removeRecipe(<item:skinnedlanterns:bee_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:bee_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:blinky_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:blinky_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:clyde_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:clyde_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:creeper_ender_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:creeper_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:creeper_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ghost_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ghost_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:guardian_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:guardian_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:honey_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:honey_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:inky_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:inky_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:jack_o_lantern_ender_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:jack_o_lantern_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:jack_o_lantern_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:pacman_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:pacman_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:pinky_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:pinky_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:present_green_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:present_green_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:present_red_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:present_red_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:pufferfish_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:pufferfish_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:slime_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:slime_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:snowman_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:snowman_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:zombie_ender_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:zombie_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:zombie_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_black_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_black_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_blue_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_blue_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_brown_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_brown_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_cyan_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_cyan_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_gray_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_gray_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_green_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_green_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_light_blue_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_light_blue_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_light_gray_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_light_gray_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_lime_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_lime_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_magenta_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_magenta_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_orange_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_orange_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_pink_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_pink_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_purple_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_purple_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_red_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_red_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_white_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_white_soul_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_yellow_lantern_block>);
-craftingTable.removeRecipe(<item:skinnedlanterns:ornament_yellow_soul_lantern_block>);
 craftingTable.removeRecipe(<item:betterendforge:andesite_lantern>);
 craftingTable.removeRecipe(<item:betterendforge:blackstone_lantern>);
 craftingTable.removeRecipe(<item:betterendforge:diorite_lantern>);
@@ -413,6 +349,12 @@ craftingTable.removeRecipe(<item:decorative_blocks_abnormals:red_mushroom_seat>)
 craftingTable.removeRecipe(<item:decorative_blocks_abnormals:river_seat>);
 craftingTable.removeRecipe(<item:decorative_blocks_abnormals:rosewood_seat>);
 craftingTable.removeRecipe(<item:decorative_blocks_abnormals:yucca_seat>);
+craftingTable.removeRecipe(<item:muchmoremodcompat:bamboo_seat>);
+craftingTable.removeRecipe(<item:muchmoremodcompat:glowshroom_seat>);
+craftingTable.removeRecipe(<item:muchmoremodcompat:kousa_seat>);
+craftingTable.removeRecipe(<item:muchmoremodcompat:aspen_seat>);
+craftingTable.removeRecipe(<item:muchmoremodcompat:wisteria_seat>);
+craftingTable.removeRecipe(<item:muchmoremodcompat:grimwood_seat>);
 craftingTable.removeRecipe(<item:decorative_winter:acacia_thin_branch>);
 craftingTable.removeRecipe(<item:decorative_winter:birch_thin_branch>);
 craftingTable.removeRecipe(<item:decorative_winter:crimson_thin_branch>);
@@ -476,7 +418,7 @@ craftingTable.removeRecipe(<item:alexsmobs:shrimp_fried_rice>);
 craftingTable.removeRecipe(<item:alexsmobs:mosquito_larva>);
 craftingTable.removeRecipe(<item:fish_in_planks:blobfish_barrel>);
 craftingTable.removeByRegex(".*:.*_vertical_slab");
-craftingTable.removeByRegex(".*:.*_seat");		
+	
 
 // AP Warped Wood
 var warping = <recipetype:architects_palette:warping>;
@@ -527,7 +469,7 @@ tag.add(<item:upgrade_aquatic:polar_kelp>);
 tag.add(<item:upgrade_aquatic:thorny_kelp>);
 tag.add(<item:upgrade_aquatic:tongue_kelp>);
 
-// Remove Recipes
+// Remove Added Vanilla Recipes
 craftingTable.removeByName("minecraft:lead");
 craftingTable.removeByName("minecraft:painting");
 craftingTable.removeByName("minecraft:scaffolding");
@@ -617,15 +559,6 @@ craftingTable.addShapeless("globe_pattern",
 		globe_pattern, 
 		[paper, globe]);
 
-// Tater Easter Egg
-craftingTable.addShapeless("tater", 
-		<item:skinnedlanterns:tiny_potato_lantern_block>,
-		[lantern, potato, nether_star, clay_ball]);
-
-craftingTable.addShapeless("tater_soul", 
-		<item:skinnedlanterns:tiny_potato_soul_lantern_block>,
-		[soul_lantern, potato, nether_star, clay_ball]);
-
 // Candelabra Candles
 craftingTable.removeRecipe(candelabra);
 craftingTable.addShaped("candelabra_candles", 
@@ -642,14 +575,6 @@ craftingTable.removeRecipe(animal_dictionary);
 craftingTable.addShapeless("animal_dictionary_any", 
 		animal_dictionary, 
 		[book, alex_drops]);
-
-// Spyglass
-craftingTable.removeRecipe(spyglass);
-craftingTable.addShaped("spyglass_crystals", 
-		spyglass, 
-		[[air, gold_ingot, prismarine_crystals],
-		 [gold_ingot, prismarine_crystals, gold_ingot],
-		 [leather, gold_ingot, air]]);
 
 // Better End Changes ===============================================================================
 
@@ -758,20 +683,6 @@ blastFurnace.removeRecipe(<item:create:zinc_ingot>);
 <recipetype:create:mixing>.removeRecipe(<item:create:crushed_brass>);
 <recipetype:create:mixing>.addRecipe("quartz_brass_ingot", "heated", <item:create:brass_ingot> * 2, [<item:create:copper_ingot>, <item:minecraft:quartz>]);
 <recipetype:create:mixing>.addRecipe("quartz_crushed_brass", "heated", <item:create:crushed_brass> * 2, [<item:create:crushed_copper_ore>, <item:minecraft:quartz>]);
-
-
-// Raw Ores
-craftingTable.addShaped("raw_copper_compact", <item:contenttweaker:raw_copper_block>, [[<item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>], [<item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>], [<item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>]]);
-craftingTable.addShapeless("raw_copper_uncompact", <item:contenttweaker:raw_copper> * 9, [<item:contenttweaker:raw_copper_block>]);
-furnace.addRecipe("raw_copper_smelting", <item:create:copper_ingot>, <item:contenttweaker:raw_copper>, 0.1, 200);
-blastFurnace.addRecipe("raw_copper_blasting", <item:create:copper_ingot>, <item:contenttweaker:raw_copper>, 0.1, 100);
-
-<recipetype:create:milling>.addRecipe("raw_iron_milling", [<item:create:crushed_iron_ore>], <item:iron_and_gold:raw_iron>);
-<recipetype:create:milling>.addRecipe("raw_gold_milling", [<item:create:crushed_gold_ore>], <item:iron_and_gold:raw_gold>);
-<recipetype:create:milling>.addRecipe("raw_copper_milling", [<item:create:crushed_copper_ore>], <item:contenttweaker:raw_copper>);
-<recipetype:create:crushing>.addRecipe("raw_iron_crushing", [<item:create:crushed_iron_ore>, <item:create:crushed_iron_ore> % 30, <item:minecraft:gravel> % 6], <item:iron_and_gold:raw_iron>);
-<recipetype:create:crushing>.addRecipe("raw_gold_crushing", [<item:create:crushed_gold_ore>, <item:create:crushed_gold_ore> % 30, <item:minecraft:gravel> % 6], <item:iron_and_gold:raw_gold>);
-<recipetype:create:crushing>.addRecipe("raw_copper_crushing", [<item:create:crushed_copper_ore>, <item:create:crushed_copper_ore> % 30, <item:minecraft:gravel> % 6], <item:contenttweaker:raw_copper>);
 
 // Tweaks 
 <recipetype:create:splashing>.removeByName("create:splashing/gravel");
@@ -1404,7 +1315,6 @@ stoneCutter.removeRecipe(<item:create:mossy_dark_scoria>);
 stoneCutter.removeRecipe(<item:create:overgrown_dark_scoria>);
 
 // Overlap Removal 
-craftingTable.removeRecipe(<item:supplementaries:turn_table>);
 craftingTable.removeRecipe(<item:supplementaries:piston_launcher>);
 craftingTable.removeRecipe(<item:quark:white_stool>);
 craftingTable.removeRecipe(<item:quark:orange_stool>);
@@ -1479,15 +1389,3 @@ craftingTable.addShaped("blank_acacia_totem",
 		blank_acacia_totem * 2, 
 		[[stick, stripped_acacia_log, stick], 
 		[air, stripped_acacia_log, air]]);
-
-// Fix Basalt Bricks and Tiles recipes
-craftingTable.removeRecipe(basalt_bricks);
-craftingTable.removeRecipe(basalt_tiles);
-craftingTable.addShaped("fixed_basalt_bricks", 
-		basalt_bricks * 4, 
-		[[polished_basalt, polished_basalt], 
-		[polished_basalt, polished_basalt]]);
-craftingTable.addShaped("fixed_basalt_tiles", 
-		basalt_tiles * 4, 
-		[[basalt_bricks, basalt_bricks], 
-		[basalt_bricks, basalt_bricks]]);

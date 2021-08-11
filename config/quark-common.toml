@@ -510,10 +510,10 @@
 	"Brimstone Underground Biome" = true
 	"Cave Crystal Underground Biome" = true
 	"Spiral Spires" = false
-	"Overgrown Underground Biome" = true
+	"Overgrown Underground Biome" = false
 	"Cave Roots" = true
 	"Spider Nest Underground Biome" = true
-	Deepslate = true
+	Deepslate = false
 	"Monster Box" = true
 
 	[world.monster_box]

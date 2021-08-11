@@ -93,7 +93,7 @@
 	#Pirate Ship Activation
 	pirateShip = true
 	#Pirate Ship Separation
-	pirateShip_separation = 16
+	pirateShip_separation = 24
 
 [Lighthouse]
 	#Lighthouse Spacing

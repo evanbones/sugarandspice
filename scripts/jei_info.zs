@@ -8,11 +8,6 @@ function i(m as IItemStack, s as string) as void {
 i(<item:savageandravage:cleaver_of_beheading>, "Can be used to behead players.");
 i(<item:conjurer_illager:conjurer_hat>, "This is the trademark accessory of the Conjurer illager, who resides in its theatre, located in Dark Forests. While worn, it keeps Bad Omens away.");
 
-i(<item:contenttweaker:raw_copper>, "Drops from Copper Ore when mined without Silk Touch. Using Fortune increases the amount dropped.");
-
-i(<item:iron_and_gold:raw_iron>, "Drops from Iron Ore when mined without Silk Touch. Using Fortune increases the amount dropped.");
-i(<item:iron_and_gold:raw_gold>, "Drops from Gold Ore when mined without Silk Touch. Using Fortune increases the amount dropped.");
-
 // Quark Stuff
 i(<item:minecraft:chest>, "If needed, can be acquired by the standard recipe, mixing two or more types of wood.");
 i(<item:minecraft:minecart>, "Minecarts are one of the few ways to properly move Toretoises. They get comfy in there!");
@@ -26,50 +21,6 @@ i(<item:quark:root>, s);
 i(<item:quark:root_item>, s);
 
 i(<item:alexsmobs:fedora>, "Give a named Platypus a redstone block, and it has a chance of digging up a cool hat!");
-
-#snip modnotloaded caverns_and_chasms
-// Caverns and Chasms JEI Info
-i(<item:caverns_and_chasms:music_disc_epilogue>, "Can be acquired by killing a Mime while holding Music Disc 11.");
-
-s = "Silver Ore replaces Gold Ore in cold biomes, like taigas, mountains, and tundras.";
-i(<item:caverns_and_chasms:silver_ingot>, s);
-i(<item:caverns_and_chasms:silver_ore>, s);
-
-s = "Silver Tools apply Affliction when hitting an undead mob. The mob takes damage when the effect expires.";
-i(<item:caverns_and_chasms:silver_sword>, s);
-i(<item:caverns_and_chasms:silver_hoe>, s);
-i(<item:caverns_and_chasms:silver_axe>, s);
-i(<item:caverns_and_chasms:silver_pickaxe>, s);
-i(<item:caverns_and_chasms:silver_shovel>, s);
-
-s = "Silver Armor applies Affliction when an undead mob hits the wearer. The mob takes damage when the effect expires.";
-i(<item:caverns_and_chasms:silver_helmet>, s);
-i(<item:caverns_and_chasms:silver_chestplate>, s);
-i(<item:caverns_and_chasms:silver_leggings>, s);
-i(<item:caverns_and_chasms:silver_boots>, s);
-
-s = "Necromium Tools provide slowness to any enemies they hit.";
-i(<item:caverns_and_chasms:necromium_sword>, s);
-i(<item:caverns_and_chasms:necromium_hoe>, s);
-i(<item:caverns_and_chasms:necromium_axe>, s);
-i(<item:caverns_and_chasms:necromium_pickaxe>, s);
-i(<item:caverns_and_chasms:necromium_shovel>, s);
-
-s = "Necromium Armor has no knockback resistance or armor toughness but gives weakness to nearby mobs when hit, allowing for crowd control.";
-i(<item:caverns_and_chasms:necromium_helmet>, s);
-i(<item:caverns_and_chasms:necromium_chestplate>, s);
-i(<item:caverns_and_chasms:necromium_leggings>, s);
-i(<item:caverns_and_chasms:necromium_boots>, s);
-
-s = "Can be found under Jungle and Desert biomes. Can be used for building blocks or to make a potion that sends you back to where you drank it when it ends.";
-i(<item:caverns_and_chasms:sugilite>, s);
-i(<item:caverns_and_chasms:sugilite_ore>, s);
-
-i(<item:caverns_and_chasms:rotten_flesh_block>, "If set on fire, emits green Cursed Fire, which only harms undead.");
-i(<item:caverns_and_chasms:golden_bucket>, "Can hold up to 3 blocks of liquid.");
-i(<item:caverns_and_chasms:spiked_rail>, "Damages any mobs on minecarts that go through it.");
-i(<item:caverns_and_chasms:ore_detector>, "Glows when there's ore within a few blocks of the holder. Can be enchanted with Treasure enchantments to react only to gems or metals.");
-#snip end
 
 // Coralstone
 s = "Put the respective coral block next to raw Coralstone and it'll propagate. Powering with redstone gives coral bits.";
@@ -454,9 +405,6 @@ i(<item:quark:limestone>, "This spawns in large clusters under Swamps and Oceans
 i(<item:quark:marble>, "This spawns in large clusters under Plains.");
 i(<item:quark:permafrost>, "This spawns in large clusters under icy and snowy biomes.");
 i(<item:quark:slate>, "This spawns in large clusters under icy and snowy biomes.");
-i(<item:quark:deepslate>, "This spawns in a large sheet towards the bottom of the world.");
-i(<item:quark:cobbled_deepslate>, "Dropped by Deepslate, which spawns in a large sheet towards the bottom of the world.");
-i(<item:quark:smooth_basalt>, "This spawns topping the large sheet of Deepslate towards the bottom of the world.");
 
 // Slime Blocks
 s = "Slime blocks will only stick to ones composed of their color or vice versa. (e.g. Red won't stick to Blue, but it'll stick to Magenta, as Magenta contains Red)";
@@ -873,5 +821,3 @@ i(<item:betterendforge:neon_cactus>, "This spawns in the Neon Oasis biome in the
 i(<item:betterendforge:infusion_pedestal>, "Create rare materials via Infusion! Surround an Infusion Pedestal with a circle of eight pedestals, and place the ingredients on the pedestals. Check JEI for recipes!");
 i(<item:betterendforge:eternal_crystal>, "A rare crystal used as an ingredient in Infusion and for lighting Eternal End Portals.");
 i(<item:betterendforge:flavolite_runed>, "Created through Infusion. Can be used to fill in missing blocks from Eternal End Portals.");
-
-i(<item:farsight_spyglasses:spyglass>, "Can be used to zoom in wherever you're looking at.");
