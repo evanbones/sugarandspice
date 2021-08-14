@@ -123,3 +123,4 @@ key.jei.bookmark
 key.jei.toggleBookmarkOverlay
 key.waila.show_recipes
 key.waila.show_uses
+key.farsight_spyglasses.zooming_key

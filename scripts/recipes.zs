@@ -13,7 +13,6 @@ var boof_block = <item:endergetic:boof_block>;
 var booflo_hide = <item:endergetic:booflo_hide>;
 var book = <item:minecraft:book>;
 var bone_block = <item:minecraft:bone_block>;
-var mimicream = <item:alexsmobs:mimicream>;
 var brick = <tag:items:forge:ingots/brick>;
 var candelabra = <item:supplementaries:candelabra>;
 var candles = <tag:items:buzzier_bees:candles>;
@@ -97,7 +96,7 @@ var planks = <tag:items:minecraft:planks>;
 var wool = <tag:items:minecraft:wool>;
 
 // C&C Stuff
-#snip modnotloaded("cavesandcliffs")
+#snip modnotloaded cavesandcliffs
 furnace.removeRecipe(<item:cavesandcliffs:copper_ingot>);
 blastFurnace.removeRecipe(<item:cavesandcliffs:copper_ingot>);
 craftingTable.removeRecipe(<item:cavesandcliffs:copper_ingot>);
@@ -210,10 +209,15 @@ craftingTable.removeRecipe(<item:architects_palette:polished_glowstone_slab>);
 craftingTable.removeRecipe(<item:architects_palette:runic_glowstone>);
 
 // Recipe Removal
+craftingTable.removeRecipe(<item:magicfeather:magicfeather>);
 craftingTable.removeRecipe(<item:mowziesmobs:thatch_block>);
 craftingTable.removeRecipe(<item:supplementaries:rope>);
 craftingTable.removeRecipe(<item:environmental:apple_pie>);
 craftingTable.removeRecipe(<item:supplementaries:pedestal>);
+craftingTable.removeRecipe(<item:farmersdelight:wheat_dough>);
+craftingTable.removeByModid("relics");
+furnace.removeByName("farmersdelight:bread_from_smelting");
+smoker.removeByName("farmersdelight:bread_from_smoking");
 craftingTable.removeByName("betterendforge:gunpowder_from_sulphur");
 craftingTable.removeByName("minecraft:yellow_dye_from_sunflower");
 craftingTable.removeByName("charm:extra_recipes/trident");
@@ -248,9 +252,6 @@ craftingTable.removeRecipe(<item:inspirations:key>);
 craftingTable.removeRecipe(<item:inspirations:barometer>);
 craftingTable.removeRecipe(<item:inspirations:photometer>);
 craftingTable.removeRecipe(<item:inspirations:dimension_compass>);
-craftingTable.removeRecipe(<item:alexsmobs:endolocator>);
-craftingTable.removeRecipe(<item:alexsmobs:echolocator>);
-craftingTable.removeRecipe(<item:alexsmobs:shark_tooth_arrow>);
 stoneCutter.removeRecipe(<item:quark:granite_bricks_vertical_slab>);
 stoneCutter.removeRecipe(<item:quark:diorite_bricks_vertical_slab>);
 stoneCutter.removeRecipe(<item:quark:andesite_bricks_vertical_slab>);
@@ -303,6 +304,10 @@ craftingTable.removeRecipe(<item:paraglider:deku_leaf>);
 craftingTable.removeRecipe(<item:paraglider:paraglider>);
 craftingTable.removeRecipe(<item:paraglider:heart_container>);
 craftingTable.removeRecipe(<item:paraglider:stamina_vessel>);
+craftingTable.removeRecipe(<item:paraglider:goddess_statue>);
+craftingTable.removeRecipe(<item:paraglider:kakariko_goddess_statue>);
+craftingTable.removeRecipe(<item:paraglider:goron_goddess_statue>);
+craftingTable.removeRecipe(<item:paraglider:rito_goddess_statue>);
 craftingTable.removeRecipe(<item:waystones:warp_stone>);
 craftingTable.removeRecipe(<item:waystones:return_scroll>);
 craftingTable.removeRecipe(<item:waystones:bound_scroll>);
@@ -407,7 +412,6 @@ craftingTable.removeRecipe(<item:infernalexp:infernal_painting>);
 craftingTable.removeRecipe(<item:alexsmobs:fish_oil>);
 craftingTable.removeRecipe(<item:alexsmobs:poison_bottle>);
 craftingTable.removeRecipe(<item:alexsmobs:komodo_spit_bottle>);
-craftingTable.removeRecipe(<item:alexsmobs:centipede_leggings>);
 craftingTable.removeRecipe(<item:alexsmobs:banner_pattern_new_mexico>);
 craftingTable.removeRecipe(<item:alexsmobs:dimensional_carver>);
 craftingTable.removeRecipe(<item:alexsmobs:falconry_glove>);
@@ -415,6 +419,9 @@ craftingTable.removeRecipe(<item:alexsmobs:falconry_hood>);
 craftingTable.removeRecipe(<item:alexsmobs:mysterious_worm>);
 craftingTable.removeRecipe(<item:alexsmobs:shield_of_the_deep>);
 craftingTable.removeRecipe(<item:alexsmobs:shrimp_fried_rice>);
+craftingTable.removeRecipe(<item:alexsmobs:endolocator>);
+craftingTable.removeRecipe(<item:alexsmobs:echolocator>);
+craftingTable.removeRecipe(<item:alexsmobs:blood_sprayer>);
 craftingTable.removeRecipe(<item:alexsmobs:mosquito_larva>);
 craftingTable.removeRecipe(<item:fish_in_planks:blobfish_barrel>);
 craftingTable.removeByRegex(".*:.*_vertical_slab");
@@ -473,6 +480,7 @@ tag.add(<item:upgrade_aquatic:tongue_kelp>);
 craftingTable.removeByName("minecraft:lead");
 craftingTable.removeByName("minecraft:painting");
 craftingTable.removeByName("minecraft:scaffolding");
+
 craftingTable.removeByName("alexsmobs:sopa_de_macaco");
 
 // Better Eye of Ender
@@ -683,6 +691,21 @@ blastFurnace.removeRecipe(<item:create:zinc_ingot>);
 <recipetype:create:mixing>.removeRecipe(<item:create:crushed_brass>);
 <recipetype:create:mixing>.addRecipe("quartz_brass_ingot", "heated", <item:create:brass_ingot> * 2, [<item:create:copper_ingot>, <item:minecraft:quartz>]);
 <recipetype:create:mixing>.addRecipe("quartz_crushed_brass", "heated", <item:create:crushed_brass> * 2, [<item:create:crushed_copper_ore>, <item:minecraft:quartz>]);
+
+// Raw Ores 
+craftingTable.addShaped("raw_copper_compact", <item:contenttweaker:raw_copper_block>, [[<item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>], [<item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>], [<item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>]]);
+craftingTable.addShapeless("raw_copper_uncompact", <item:contenttweaker:raw_copper> * 9, [<item:contenttweaker:raw_copper_block>]);
+
+furnace.addRecipe("raw_copper_smelting", <item:create:copper_ingot>, <item:contenttweaker:raw_copper>, 0.1, 200);
+blastFurnace.addRecipe("raw_copper_blasting", <item:create:copper_ingot>, <item:contenttweaker:raw_copper>, 0.1, 100);
+
+<recipetype:create:milling>.addRecipe("raw_iron_milling", [<item:create:crushed_iron_ore>], <item:iron_and_gold:raw_iron>);
+<recipetype:create:milling>.addRecipe("raw_gold_milling", [<item:create:crushed_gold_ore>], <item:iron_and_gold:raw_gold>);
+<recipetype:create:milling>.addRecipe("raw_copper_milling", [<item:create:crushed_copper_ore>], <item:contenttweaker:raw_copper>);
+<recipetype:create:crushing>.addRecipe("raw_iron_crushing", [<item:create:crushed_iron_ore>, <item:create:crushed_iron_ore> % 30, <item:minecraft:gravel> % 6], <item:iron_and_gold:raw_iron>);
+<recipetype:create:crushing>.addRecipe("raw_gold_crushing", [<item:create:crushed_gold_ore>, <item:create:crushed_gold_ore> % 30, <item:minecraft:gravel> % 6], <item:iron_and_gold:raw_gold>);
+<recipetype:create:crushing>.addRecipe("raw_copper_crushing", [<item:create:crushed_copper_ore>, <item:create:crushed_copper_ore> % 30, <item:minecraft:gravel> % 6], <item:contenttweaker:raw_copper>);
+
 
 // Tweaks 
 <recipetype:create:splashing>.removeByName("create:splashing/gravel");

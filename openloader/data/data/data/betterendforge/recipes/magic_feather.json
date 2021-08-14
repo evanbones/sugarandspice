@@ -1,0 +1,43 @@
+{
+  "type": "betterendforge:infusion",
+  "input": 
+  {
+     "item": "minecraft:elytra"
+  },
+  "output": "magicfeather:magicfeather",
+  "time": 300,
+  "catalysts": [
+    {
+      "item": "minecraft:nether_star",
+      "index": 0
+    },
+	{
+      "item": "betterendforge:ender_shard",
+      "index": 1
+    },
+    {
+      "item": "minecraft:feather",
+      "index": 2
+    },
+	{
+      "item": "betterendforge:ender_shard",
+      "index": 3
+    },
+    {
+      "item": "minecraft:gold_block",
+      "index": 4
+    },
+	{
+      "item": "betterendforge:ender_shard",
+      "index": 5
+    },
+    {
+      "item": "minecraft:feather",
+      "index": 6
+    },
+	{
+      "item": "betterendforge:ender_shard",
+      "index": 7
+    }
+  ]
+}

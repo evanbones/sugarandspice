@@ -20,8 +20,6 @@ var s = "These can be found underground. Stick them on a wall in a dark area to 
 i(<item:quark:root>, s);
 i(<item:quark:root_item>, s);
 
-i(<item:alexsmobs:fedora>, "Give a named Platypus a redstone block, and it has a chance of digging up a cool hat!");
-
 // Coralstone
 s = "Put the respective coral block next to raw Coralstone and it'll propagate. Powering with redstone gives coral bits.";
 i(<item:upgrade_aquatic:acan_coralstone>, s);
@@ -42,6 +40,12 @@ i(<item:upgrade_aquatic:rock_coralstone>, s);
 i(<item:upgrade_aquatic:silk_coralstone>, s);
 i(<item:upgrade_aquatic:star_coralstone>, s);
 i(<item:upgrade_aquatic:tube_coralstone>, s);
+
+s = "Temporarily increases your maximum health when eaten.";
+i(<item:environmental:truffle_mash>, s);
+i(<item:environmental:truffle_pie>, s);
+
+i(<item:environmental:truffle>, "Can be scavenged by Pigs by feeding them Golden Carrots.");
 
 // Coral
 s = "This can be found in reefs under warm oceans and farmed with bone meal underwater in those biomes.";
@@ -160,32 +164,44 @@ i(<item:minecraft:lapis_ore>, s);
 s = "Consult an Animal Dictionary for more information.";
 i(<item:alexsmobs:acacia_blossom>, s);
 i(<item:alexsmobs:bear_fur>, s);
+i(<item:alexsmobs:blood_sac>, s);
 i(<item:alexsmobs:bone_serpent_tooth>, s);
+i(<item:alexsmobs:centipede_leg>, s);
+i(<item:alexsmobs:cockroach_ootheca>, s);
+i(<item:alexsmobs:cockroach_wing_fragment>, s);
 i(<item:alexsmobs:crocodile_egg>, s);
 i(<item:alexsmobs:gazelle_horn>, s);
+i(<item:alexsmobs:komodo_spit>, s);
+i(<item:alexsmobs:lobster_tail>, s);
 i(<item:alexsmobs:moose_antler>, s);
+i(<item:alexsmobs:mosquito_larva>, s);
+i(<item:alexsmobs:mosquito_proboscis>, s);
 i(<item:alexsmobs:raccoon_tail>, s);
 i(<item:alexsmobs:rattlesnake_rattle>, s);
 i(<item:alexsmobs:roadrunner_feather>, s);
+i(<item:alexsmobs:soul_heart>, s);
 i(<item:alexsmobs:moose_ribs>, s);
+i(<item:alexsmobs:spiked_scute>, s);
 i(<item:alexsmobs:guster_eye>, s);
 i(<item:alexsmobs:emu_egg>, s);
 i(<item:alexsmobs:emu_feather>, s);
 i(<item:alexsmobs:kangaroo_meat>, s);
 i(<item:alexsmobs:kangaroo_hide>, s);
+i(<item:alexsmobs:straddlite>, s);
+i(<item:alexsmobs:stradpole_bucket>, s);
+i(<item:alexsmobs:straddleboard>, s);
 i(<item:alexsmobs:gongylidia>, s);
 i(<item:alexsmobs:leafcutter_ant_pupa>, s);
 i(<item:alexsmobs:enderiophage_rocket>, s);
 i(<item:alexsmobs:leafcutter_anthill>, s);
 i(<item:alexsmobs:leafcutter_ant_chamber>, s);
 
-i(<item:alexsmobs:crocodile_scute>, "Drops from Crocodiles, which spawn in Rivers and Swamps. Crocodiles may kill you. Consult an Animal Dictionary for more information.");
+i(<item:alexsmobs:crocodile_scute>, "Sourced from Crocodiles, which spawn in Rivers and Swamps. Crocodiles may kill you. Consult an Animal Dictionary for more information.");
 i(<item:alexsmobs:animal_dictionary>, "Contains information on Alex's Mobs.");
-i(<item:alexsmobs:straddlite>, "Drops from Basalt Giants, which spawn in the Basalt Deltas. Take care fighting these behemoths, because they pack quite a punch.");
-i(<item:alexsmobs:straddleboard>, "Can be used to surf through the lava lakes in the Nether. Makes even Striders jealous!");
 i(<item:alexsmobs:mimicream>, "Drops from Mimicubes near end cities. Consult an Animal Dictionary for more information.");
 i(<item:alexsmobs:pocket_sand>, "Can be used as a longrange weapon, if you're so inclined.");
 i(<item:alexsmobs:gustmaker>, "When given a redstone signal, sends a sand tornado in the direction it's facing.");
+i(<item:alexsmobs:fedora>, "Do bee do bee doo ba doo");
 i(<item:alexsmobs:capsid>, "Can drop from Enderiophages and used to transport items. Consult an Animal Dictionary for more information.");
 
 s = "This wood spawns in Glowshroom Forests, in the Outer End.";
@@ -518,6 +534,23 @@ i(<item:neapolitan:magic_beans>, "Can be planted to grow large beanstalks.");
 // Savage & Ravage
 i(<item:savageandravage:creeper_spores>, "Drops when a Creeper blows another Creeper up. Try throwing it to make friends!");
 
+// Mowzies Mobs
+i(<item:mowziesmobs:foliaath_seed>, "Plant in grass. Every half day, the baby foliaath will get hungry. Toss it any meat to feed it. After 2 days, the foliaath will be fully grown.");
+i(<item:mowziesmobs:wrought_axe>, "Right-click to attack in a large arc. Shift-right-click to slam the ground and create a shockwave.");
+
+s = "I wonder how smart Barakoas are?";
+i(<item:mowziesmobs:barakoa_mask_fury>, s);
+i(<item:mowziesmobs:barakoa_mask_fear>, s);
+i(<item:mowziesmobs:barakoa_mask_rage>, s);
+i(<item:mowziesmobs:barakoa_mask_bliss>, s);
+i(<item:mowziesmobs:barakoa_mask_misery>, s);
+i(<item:mowziesmobs:barakoa_mask_faith>, s);
+
+i(<item:mowziesmobs:barako_mask>, "Equip, then right-click with a Barakoa mask to summon followers. Right-click a follower to return it to the mask.");
+i(<item:mowziesmobs:spear>, "Extends attack range by 3.5 blocks. 1/3 chance to instantly kill animals with less than 30 health.");
+i(<item:mowziesmobs:grant_suns_blessing>, "Grants Sun's Blessing for 60 minutes. With empty hand, right-click to call a sunstrike. With empty hand, sneak-right-click to fire a solar beam (costs 5 minutes)");
+i(<item:mowziesmobs:ice_crystal>, "Hold right-click to channel an icy whirlwind. Recharges while in inventory.");
+
 // Upgrade Aquatic Stuff
 s = "Spawns in Beaches";
 i(<item:upgrade_aquatic:beachgrass>, s);
@@ -821,3 +854,7 @@ i(<item:betterendforge:neon_cactus>, "This spawns in the Neon Oasis biome in the
 i(<item:betterendforge:infusion_pedestal>, "Create rare materials via Infusion! Surround an Infusion Pedestal with a circle of eight pedestals, and place the ingredients on the pedestals. Check JEI for recipes!");
 i(<item:betterendforge:eternal_crystal>, "A rare crystal used as an ingredient in Infusion and for lighting Eternal End Portals.");
 i(<item:betterendforge:flavolite_runed>, "Created through Infusion. Can be used to fill in missing blocks from Eternal End Portals.");
+
+i(<item:etched:album_jukebox>, "Plays a collection of music discs in order. Loops back to the start after the last one is done playing.");
+i(<item:etched:etching_table>, "A table used to make custom music discs. It's also the workstation of the Bard villager.");
+i(<item:etched:blank_music_disc>, "Use this in an etching table to make custom music discs.");

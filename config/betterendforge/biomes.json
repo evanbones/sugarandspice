@@ -46,7 +46,7 @@
     },
     "foggy_mushroomland": {
       "fog_density [default: 3.0]": 3.0,
-      "generation_chance [default: 1.0]": 1.0,
+      "generation_chance [default: 1.0]": 0.9,
       "has_caves [default: true]": true,
       "enabled [default: true]": true
     },
@@ -58,13 +58,13 @@
     },
     "dust_wastelands": {
       "fog_density [default: 2.0]": 2.0,
-      "generation_chance [default: 1.0]": 1.0,
+      "generation_chance [default: 1.0]": 0.9,
       "has_caves [default: false]": false,
       "enabled [default: true]": true
     },
     "painted_mountains": {
       "fog_density [default: 2.0]": 2.0,
-      "generation_chance [default: 1.0]": 1.0,
+      "generation_chance [default: 1.0]": 0.9,
       "has_caves [default: false]": false,
       "enabled [default: true]": true
     },
@@ -76,19 +76,19 @@
     },
     "shadow_forest": {
       "fog_density [default: 2.5]": 2.5,
-      "generation_chance [default: 1.0]": 1.0,
+      "generation_chance [default: 1.0]": 0.9,
       "has_caves [default: true]": true,
       "enabled [default: true]": true
     },
     "blossoming_spires": {
       "fog_density [default: 1.7]": 1.7,
-      "generation_chance [default: 1.0]": 1.0,
+      "generation_chance [default: 1.0]": 0.9,
       "has_caves [default: false]": false,
       "enabled [default: true]": false
     },
     "sulphur_springs": {
       "fog_density [default: 1.5]": 1.5,
-      "generation_chance [default: 1.0]": 1.0,
+      "generation_chance [default: 1.0]": 0.9,
       "has_caves [default: false]": false,
       "enabled [default: true]": true
     },
@@ -106,7 +106,7 @@
     },
     "glowing_grasslands": {
       "fog_density [default: 1.3]": 1.3,
-      "generation_chance [default: 1.0]": 1.0,
+      "generation_chance [default: 1.0]": 0.9,
       "has_caves [default: true]": true,
       "enabled [default: true]": true
     },
@@ -118,7 +118,7 @@
     },
     "lantern_woods": {
       "fog_density [default: 1.1]": 1.1,
-      "generation_chance [default: 1.0]": 1.0,
+      "generation_chance [default: 1.0]": 0.9,
       "has_caves [default: true]": true,
       "enabled [default: true]": true
     },
@@ -142,31 +142,31 @@
     },
     "empty_end_cave": {
       "fog_density [default: 2.0]": 2.0,
-      "generation_chance [default: 1.0]": 1.0,
+      "generation_chance [default: 1.0]": 0.9,
       "has_caves [default: true]": true,
       "enabled [default: true]": true
     },
     "empty_smaragdant_cave": {
       "fog_density [default: 2.0]": 2.0,
-      "generation_chance [default: 1.0]": 1.0,
+      "generation_chance [default: 1.0]": 0.9,
       "has_caves [default: true]": true,
       "enabled [default: true]": true
     },
     "lush_smaragdant_cave": {
       "fog_density [default: 2.0]": 2.0,
-      "generation_chance [default: 1.0]": 1.0,
+      "generation_chance [default: 1.0]": 0.9,
       "has_caves [default: true]": true,
       "enabled [default: true]": true
     },
     "empty_aurora_cave": {
       "fog_density [default: 2.0]": 2.0,
-      "generation_chance [default: 1.0]": 1.0,
+      "generation_chance [default: 1.0]": 0.9,
       "has_caves [default: true]": true,
       "enabled [default: true]": true
     },
     "lush_aurora_cave": {
       "fog_density [default: 2.0]": 2.0,
-      "generation_chance [default: 1.0]": 1.0,
+      "generation_chance [default: 1.0]": 0.9,
       "has_caves [default: true]": true,
       "enabled [default: true]": true
     }
@@ -175,7 +175,7 @@
     "poise_forest": {
       "enabled [default: true]": true,
       "fog_density [default: 1.0]": 1.0,
-      "generation_chance [default: 1.0]": 1.8,
+      "generation_chance [default: 1.0]": 2.2,
       "has_caves [default: true]": true
     }
   }

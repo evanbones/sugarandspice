@@ -501,19 +501,19 @@
 	"Slime Underground Biome" = true
 	"Fairy Rings" = true
 	"Chorus Vegetation" = true
-	Crevices = false
+	Crevices = true
 	"Nether Obsidian Spikes" = true
-	"Mega Caves" = false
+	"Mega Caves" = true
 	"Realistic World Gen" = true
 	Biotite = true
 	"Big Stone Clusters" = true
 	"Brimstone Underground Biome" = true
 	"Cave Crystal Underground Biome" = true
 	"Spiral Spires" = false
-	"Overgrown Underground Biome" = false
+	"Overgrown Underground Biome" = true
 	"Cave Roots" = true
 	"Spider Nest Underground Biome" = true
-	Deepslate = false
+	Deepslate = true
 	"Monster Box" = true
 
 	[world.monster_box]
@@ -551,7 +551,7 @@
 			#Allowed values: [0,)
 			"Horizontal Size" = 42
 			#Allowed values: [0,)
-			Rarity = 300
+			Rarity = 150
 			#Allowed values: [0,)
 			"Horizontal Variation" = 22
 			#Allowed values: [0,255]
@@ -594,7 +594,7 @@
 			#Allowed values: [0,)
 			"Horizontal Size" = 26
 			#Allowed values: [0,)
-			Rarity = 60
+			Rarity = 30
 			#Allowed values: [0,)
 			"Horizontal Variation" = 14
 			#Allowed values: [0,255]
@@ -834,7 +834,7 @@
 			#Allowed values: [0,)
 			"Horizontal Size" = 26
 			#Allowed values: [0,)
-			Rarity = 50
+			Rarity = 25
 			#Allowed values: [0,)
 			"Horizontal Variation" = 14
 			#Allowed values: [0,255]
@@ -1047,7 +1047,7 @@
 			#Allowed values: [0,)
 			"Horizontal Size" = 26
 			#Allowed values: [0,)
-			Rarity = 150
+			Rarity = 75
 			#Allowed values: [0,)
 			"Horizontal Variation" = 14
 			#Allowed values: [0,255]
@@ -1084,7 +1084,7 @@
 			#Allowed values: [0,)
 			"Horizontal Size" = 26
 			#Allowed values: [0,)
-			Rarity = 50
+			Rarity = 25
 			#Allowed values: [0,)
 			"Horizontal Variation" = 14
 			#Allowed values: [0,255]
@@ -1445,7 +1445,7 @@
 			#Allowed values: [0,)
 			"Horizontal Size" = 26
 			#Allowed values: [0,)
-			Rarity = 60
+			Rarity = 30
 			#Allowed values: [0,)
 			"Horizontal Variation" = 14
 			#Allowed values: [0,255]
@@ -1476,7 +1476,7 @@
 			#Allowed values: [0,)
 			"Horizontal Size" = 26
 			#Allowed values: [0,)
-			Rarity = 50
+			Rarity = 25
 			#Allowed values: [0,)
 			"Horizontal Variation" = 14
 			#Allowed values: [0,255]
@@ -1507,7 +1507,7 @@
 			#Allowed values: [0,)
 			"Horizontal Size" = 26
 			#Allowed values: [0,)
-			Rarity = 60
+			Rarity = 30
 			#Allowed values: [0,)
 			"Horizontal Variation" = 14
 			#Allowed values: [0,255]
@@ -1538,7 +1538,7 @@
 			#Allowed values: [0,)
 			"Horizontal Size" = 26
 			#Allowed values: [0,)
-			Rarity = 50
+			Rarity = 25
 			#Allowed values: [0,)
 			"Horizontal Variation" = 14
 			#Allowed values: [0,255]
@@ -1627,7 +1627,7 @@
 			#Allowed values: [0,)
 			"Horizontal Size" = 26
 			#Allowed values: [0,)
-			Rarity = 90
+			Rarity = 45
 			#Allowed values: [0,)
 			"Horizontal Variation" = 14
 			#Allowed values: [0,255]
@@ -1918,7 +1918,7 @@
 	[client.greener_grass]
 		"Leaves List" = ["minecraft:spruce_leaves", "minecraft:birch_leaves", "minecraft:oak_leaves", "minecraft:jungle_leaves", "minecraft:acacia_leaves", "minecraft:dark_oak_leaves", "atmospheric:rosewood_leaves", "atmospheric:morado_leaves", "atmospheric:yucca_leaves", "autumnity:maple_leaves", "environmental:willow_leaves", "environmental:hanging_willow_leaves", "minecraft:vine"]
 		"Block List" = ["minecraft:large_fern", "minecraft:tall_grass", "minecraft:grass_block", "minecraft:fern", "minecraft:grass", "minecraft:potted_fern", "minecraft:sugar_cane", "environmental:giant_tall_grass"]
-		"Affect Leaves" = true
+		"Affect Leaves" = false
 
 		[client.greener_grass.color_matrix]
 			R = [0.89, 0.0, 0.0]
@@ -1953,7 +1953,7 @@
 		#Set to false to disable the ability to influence enchantment outcomes with candles (requires the Tallow and Candles module enabled)
 		"Allow Influencing" = true
 		#A list of enchantment IDs you don't want the enchantment table to be able to create
-		"Disallowed Enchantments" = ["charm:tinted", "charm:aerial_affinity", "ensorcellation:"]
+		"Disallowed Enchantments" = ["charm:tinted", "charm:aerial_affinity"]
 		#How much to multiply the frequency of pieces where at least one of the same type has been generated
 		"Dupe Multiplier" = 1.4
 		#The maximum enchanting power the matrix enchanter can accept
