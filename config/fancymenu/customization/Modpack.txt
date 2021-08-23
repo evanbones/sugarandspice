@@ -189,7 +189,7 @@ customization {
   hoverlabel = Sponsored by BisectHosting!
   x = -100
   width = 200
-  actionid = 2eba2400-82e9-43fc-9194-77805532a6d91627443678651
+  actionid = 0eb6fcd5-4d74-441a-bba0-986c09ff41f61629704941413
   action = addbutton
   y = -173
   backgroundnormal = config/fancymenu/files/bisect.png
@@ -218,7 +218,7 @@ customization {
   fadeinspeed = 10.0
   x = -100
   width = 24
-  actionid = 688c1308-b9ff-481a-bca8-ec3b78ef65c11627443678678
+  actionid = 4c877a53-e90c-4f61-a94c-5b672c1708cb1629704941438
   action = addbutton
   y = -47
   delayappearance = true
@@ -238,7 +238,7 @@ customization {
   fadeinspeed = 10.0
   x = 76
   width = 24
-  actionid = 6438978a-b9c9-4938-9cdb-256eca6234421627443678691
+  actionid = 542d3551-18b6-4688-ab79-f146cf93f6721629704941450
   action = addbutton
   y = -47
   delayappearance = true
@@ -249,12 +249,33 @@ customization {
 }
 
 customization {
+  orientation = bottom-centered
+  delayappearanceseconds = 0.15
+  buttonaction = runscript
+  backgroundhovered = config/fancymenu/files/optifinehover.png
+  description = Install Optifine
+  label = 
+  fadein = true
+  fadeinspeed = 10.0
+  x = -127
+  width = 24
+  actionid = c388d2de-e033-4ea8-ae3d-94d3c9bdbe661629704941465
+  action = addbutton
+  y = -171
+  delayappearance = true
+  backgroundnormal = config/fancymenu/files/optifine.png
+  value = optifine
+  delayappearanceeverytime = true
+  height = 24
+}
+
+customization {
   path = config/fancymenu/files/frame.png
   orientation = top-left
   x = 0
   width = %guiwidth%
   action = addtexture
-  actionid = 8602685b-5e91-422b-a5a0-8ee2bc17ceb91627443703196
+  actionid = ed2a720b-aa59-4b30-b117-b620e29c536e1629705029837
   y = 0
   height = %guiheight%
 }

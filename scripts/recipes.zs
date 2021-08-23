@@ -64,7 +64,6 @@ var ochre_kelp = <item:upgrade_aquatic:ochre_kelp>;
 var organic_compost = <item:farmersdelight:organic_compost>;
 var olivestone_bricks = <item:architects_palette:olivestone_bricks>;
 var paper = <item:minecraft:paper>;
-var paraglider = <item:paraglider:paraglider>;
 var pipe = <item:quark:pipe>;
 var piston = <item:minecraft:piston>;
 var piston_launcher = <item:supplementaries:piston_launcher>;
@@ -95,14 +94,13 @@ var dirt = <item:minecraft:dirt>;
 var planks = <tag:items:minecraft:planks>;
 var wool = <tag:items:minecraft:wool>;
 
-// C&C Stuff
-#snip modnotloaded cavesandcliffs
 furnace.removeRecipe(<item:cavesandcliffs:copper_ingot>);
 blastFurnace.removeRecipe(<item:cavesandcliffs:copper_ingot>);
 craftingTable.removeRecipe(<item:cavesandcliffs:copper_ingot>);
 craftingTable.removeByRegex("cavesandcliffs:.*candle");	
 
-#snip end
+var cooking = <recipetype:farmersdelight:cooking>;
+cooking.removeByName("abnormals_delight:environmental/cooking/squid_ink_risotto");
 
 furnace.removeRecipe(<item:charm:smooth_glowstone>);
 
@@ -215,7 +213,7 @@ craftingTable.removeRecipe(<item:supplementaries:rope>);
 craftingTable.removeRecipe(<item:environmental:apple_pie>);
 craftingTable.removeRecipe(<item:supplementaries:pedestal>);
 craftingTable.removeRecipe(<item:farmersdelight:wheat_dough>);
-craftingTable.removeByModid("relics");
+craftingTable.removeByRegex("valhelsia_structures:.*post");
 furnace.removeByName("farmersdelight:bread_from_smelting");
 smoker.removeByName("farmersdelight:bread_from_smoking");
 craftingTable.removeByName("betterendforge:gunpowder_from_sulphur");
@@ -298,16 +296,6 @@ craftingTable.removeRecipe(<item:betterendforge:violecite_lantern>);
 craftingTable.removeRecipe(<item:betterendforge:flavolite_lantern>);
 craftingTable.removeRecipe(<item:betterendforge:sulphuric_rock_lantern>);
 craftingTable.removeRecipe(<item:betterendforge:purpur_lantern>);
-craftingTable.removeRecipe(<item:paraglider:spirit_orb>);
-craftingTable.removeRecipe(<item:paraglider:horned_statue>);
-craftingTable.removeRecipe(<item:paraglider:deku_leaf>);
-craftingTable.removeRecipe(<item:paraglider:paraglider>);
-craftingTable.removeRecipe(<item:paraglider:heart_container>);
-craftingTable.removeRecipe(<item:paraglider:stamina_vessel>);
-craftingTable.removeRecipe(<item:paraglider:goddess_statue>);
-craftingTable.removeRecipe(<item:paraglider:kakariko_goddess_statue>);
-craftingTable.removeRecipe(<item:paraglider:goron_goddess_statue>);
-craftingTable.removeRecipe(<item:paraglider:rito_goddess_statue>);
 craftingTable.removeRecipe(<item:waystones:warp_stone>);
 craftingTable.removeRecipe(<item:waystones:return_scroll>);
 craftingTable.removeRecipe(<item:waystones:bound_scroll>);
@@ -360,17 +348,6 @@ craftingTable.removeRecipe(<item:muchmoremodcompat:kousa_seat>);
 craftingTable.removeRecipe(<item:muchmoremodcompat:aspen_seat>);
 craftingTable.removeRecipe(<item:muchmoremodcompat:wisteria_seat>);
 craftingTable.removeRecipe(<item:muchmoremodcompat:grimwood_seat>);
-craftingTable.removeRecipe(<item:decorative_winter:acacia_thin_branch>);
-craftingTable.removeRecipe(<item:decorative_winter:birch_thin_branch>);
-craftingTable.removeRecipe(<item:decorative_winter:crimson_thin_branch>);
-craftingTable.removeRecipe(<item:decorative_winter:dark_oak_thin_branch>);
-craftingTable.removeRecipe(<item:decorative_winter:festive_chain>);
-craftingTable.removeRecipe(<item:decorative_winter:frosty_wand>);
-craftingTable.removeRecipe(<item:decorative_winter:jungle_thin_branch>);
-craftingTable.removeRecipe(<item:decorative_winter:oak_thin_branch>);
-craftingTable.removeRecipe(<item:decorative_winter:spruce_thin_branch>);
-craftingTable.removeRecipe(<item:decorative_winter:warped_thin_branch>);
-craftingTable.removeRecipe(<item:decorative_winter:wreath>);
 craftingTable.removeRecipe(<item:buzzier_bees:allium_scented_candle>);
 craftingTable.removeRecipe(<item:buzzier_bees:autumn_crocus_scented_candle>);
 craftingTable.removeRecipe(<item:buzzier_bees:azure_bluet_scented_candle>);
@@ -575,9 +552,6 @@ craftingTable.addShaped("candelabra_candles",
 		 [gold_ingot, gold_ingot, gold_ingot],
 		 [air, gold_ingot, air]]);
 
-// Paraglider to Canvas
-craftingTable.addShapeless("recycle_paraglider", canvas * 4, [paraglider]);
-
 // Any item for Animal Dictionary
 craftingTable.removeRecipe(animal_dictionary);
 craftingTable.addShapeless("animal_dictionary_any", 
@@ -692,21 +666,6 @@ blastFurnace.removeRecipe(<item:create:zinc_ingot>);
 <recipetype:create:mixing>.addRecipe("quartz_brass_ingot", "heated", <item:create:brass_ingot> * 2, [<item:create:copper_ingot>, <item:minecraft:quartz>]);
 <recipetype:create:mixing>.addRecipe("quartz_crushed_brass", "heated", <item:create:crushed_brass> * 2, [<item:create:crushed_copper_ore>, <item:minecraft:quartz>]);
 
-// Raw Ores 
-craftingTable.addShaped("raw_copper_compact", <item:contenttweaker:raw_copper_block>, [[<item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>], [<item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>], [<item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>, <item:contenttweaker:raw_copper>]]);
-craftingTable.addShapeless("raw_copper_uncompact", <item:contenttweaker:raw_copper> * 9, [<item:contenttweaker:raw_copper_block>]);
-
-furnace.addRecipe("raw_copper_smelting", <item:create:copper_ingot>, <item:contenttweaker:raw_copper>, 0.1, 200);
-blastFurnace.addRecipe("raw_copper_blasting", <item:create:copper_ingot>, <item:contenttweaker:raw_copper>, 0.1, 100);
-
-<recipetype:create:milling>.addRecipe("raw_iron_milling", [<item:create:crushed_iron_ore>], <item:iron_and_gold:raw_iron>);
-<recipetype:create:milling>.addRecipe("raw_gold_milling", [<item:create:crushed_gold_ore>], <item:iron_and_gold:raw_gold>);
-<recipetype:create:milling>.addRecipe("raw_copper_milling", [<item:create:crushed_copper_ore>], <item:contenttweaker:raw_copper>);
-<recipetype:create:crushing>.addRecipe("raw_iron_crushing", [<item:create:crushed_iron_ore>, <item:create:crushed_iron_ore> % 30, <item:minecraft:gravel> % 6], <item:iron_and_gold:raw_iron>);
-<recipetype:create:crushing>.addRecipe("raw_gold_crushing", [<item:create:crushed_gold_ore>, <item:create:crushed_gold_ore> % 30, <item:minecraft:gravel> % 6], <item:iron_and_gold:raw_gold>);
-<recipetype:create:crushing>.addRecipe("raw_copper_crushing", [<item:create:crushed_copper_ore>, <item:create:crushed_copper_ore> % 30, <item:minecraft:gravel> % 6], <item:contenttweaker:raw_copper>);
-
-
 // Tweaks 
 <recipetype:create:splashing>.removeByName("create:splashing/gravel");
 <recipetype:create:splashing>.addRecipe("gravel_splashing", [<item:minecraft:flint> % 25, <item:create:copper_nugget> % 12], <item:minecraft:gravel>);
@@ -728,8 +687,8 @@ furnace.addRecipe("chocolate_stone", <item:neapolitan:chocolate_block>, <item:cr
 // Food and Drinks 
 <recipetype:create:compacting>.removeRecipe(<item:create:bar_of_chocolate>);
 <recipetype:create:compacting>.addRecipe("neapolitan_chocolate_create", "none", <item:neapolitan:chocolate_bar> * 4, [], [<fluid:create:chocolate> * 250]);
-<recipetype:create:compacting>.addRecipe("wheat_pancake", "none", <item:autumnity:pancake>, [<item:autumnity:syrup_bottle>, <item:minecraft:egg>, <item:minecraft:wheat> * 2], [<fluid:minecraft:milk> * 250]);
-<recipetype:create:compacting>.addRecipe("flour_pancake", "none", <item:autumnity:pancake>, [<item:autumnity:syrup_bottle>, <item:minecraft:egg>, <item:create:wheat_flour> * 2], [<fluid:minecraft:milk> * 250]);
+<recipetype:create:compacting>.addRecipe("wheat_pancake", "none", <item:supplementaries:pancake>, [<item:autumnity:syrup_bottle>, <item:minecraft:egg>, <item:minecraft:wheat> * 2], [<fluid:minecraft:milk> * 250]);
+<recipetype:create:compacting>.addRecipe("flour_pancake", "none", <item:supplementaries:pancake>, [<item:autumnity:syrup_bottle>, <item:minecraft:egg>, <item:create:wheat_flour> * 2], [<fluid:minecraft:milk> * 250]);
 <recipetype:create:emptying>.addRecipe("hot_cocoa_emptying", <item:minecraft:glass_bottle>, <fluid:create:chocolate> * 250, <item:farmersdelight:hot_cocoa>);
 <recipetype:create:filling>.addRecipe("hot_cocoa_filling", <item:farmersdelight:hot_cocoa>, <item:minecraft:glass_bottle>, <fluid:create:chocolate> * 250);
 <recipetype:create:emptying>.addRecipe("milk_emptying", <item:minecraft:glass_bottle>, <fluid:minecraft:milk> * 250, <item:neapolitan:milk_bottle>);
@@ -842,6 +801,9 @@ furnace.addRecipe("chocolate_stone", <item:neapolitan:chocolate_block>, <item:cr
 <recipetype:create:cutting>.addRecipe("stripped_driftwood", <item:upgrade_aquatic:driftwood_planks> * 5, <item:upgrade_aquatic:stripped_driftwood>);
 <recipetype:create:cutting>.addRecipe("river_wood", <item:upgrade_aquatic:stripped_river_wood>, <item:upgrade_aquatic:river_wood>);
 <recipetype:create:cutting>.addRecipe("stripped_river_wood", <item:upgrade_aquatic:river_planks> * 5, <item:upgrade_aquatic:stripped_river_wood>);
+
+<recipetype:create:milling>.addRecipe("basalt_iron_ore_milling", [<item:create:crushed_iron_ore>], <item:infernalexp:basalt_iron_ore>);
+<recipetype:create:crushing>.addRecipe("basalt_iron_ore_crushing", [<item:create:crushed_iron_ore>, <item:create:crushed_iron_ore> * 2 % 30, <item:minecraft:basalt> % 12], <item:infernalexp:basalt_iron_ore>);
 
 <recipetype:create:crushing>.addRecipe("buttercup_crushing", [<item:minecraft:yellow_dye> * 2, <item:minecraft:brown_dye> % 10], <item:buzzier_bees:buttercup>);
 <recipetype:create:milling>.addRecipe("buttercup_milling", [<item:minecraft:yellow_dye> * 2, <item:minecraft:brown_dye> % 10], <item:buzzier_bees:buttercup>);

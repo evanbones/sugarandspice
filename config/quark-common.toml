@@ -489,31 +489,31 @@
 
 [world]
 	"New Stone Types" = true
-	"Lush Underground Biome" = true
+	"Lush Underground Biome" = false
 	"Big Dungeon" = true
 	Speleothems = true
 	"Elder Prismarine Underground Biome" = true
 	"Blossom Trees" = false
-	"Sandstone Underground Biome" = true
+	"Sandstone Underground Biome" = false
 	"Glowshroom Underground Biome" = true
-	"Permafrost Underground Biome" = true
+	"Permafrost Underground Biome" = false
 	"Underground Clay" = true
-	"Slime Underground Biome" = true
+	"Slime Underground Biome" = false
 	"Fairy Rings" = true
 	"Chorus Vegetation" = true
-	Crevices = true
+	Crevices = false
 	"Nether Obsidian Spikes" = true
 	"Mega Caves" = true
 	"Realistic World Gen" = true
 	Biotite = true
 	"Big Stone Clusters" = true
-	"Brimstone Underground Biome" = true
-	"Cave Crystal Underground Biome" = true
+	"Brimstone Underground Biome" = false
+	"Cave Crystal Underground Biome" = false
 	"Spiral Spires" = false
-	"Overgrown Underground Biome" = true
+	"Overgrown Underground Biome" = false
 	"Cave Roots" = true
-	"Spider Nest Underground Biome" = true
-	Deepslate = true
+	"Spider Nest Underground Biome" = false
+	Deepslate = false
 	"Monster Box" = true
 
 	[world.monster_box]

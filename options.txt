@@ -5,7 +5,7 @@ chatColors:true
 chatLinks:true
 chatLinksPrompt:true
 enableVsync:false
-entityShadows:false
+entityShadows:true
 forceUnicodeFont:false
 discrete_mouse_scroll:false
 invertYMouse:false
@@ -23,10 +23,10 @@ fov:0.0
 screenEffectScale:0.0
 fovEffectScale:0.7095922
 gamma:0.0
-renderDistance:12
+renderDistance:10
 entityDistanceScaling:1.0
 guiScale:2
-particles:0
+particles:1
 maxFps:260
 difficulty:3
 graphicsMode:1
@@ -35,7 +35,7 @@ biomeBlendRadius:2
 renderClouds:true
 resourcePacks:[]
 incompatibleResourcePacks:[]
-lastServer:localhost:6666
+lastServer:
 lang:en_us
 chatVisibility:0
 chatOpacity:1.0
@@ -102,10 +102,11 @@ key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
 key_key.namepain.showCulled:key.keyboard.unknown
 key_[Forgery] Toggle/Hold Sprint:key.keyboard.unknown
+key_[Forgery] Toggle Stance:key.keyboard.unknown
 key_key.openNotes:key.keyboard.n
 key_key.enchdesc.show:key.keyboard.left.shift
-key_Reload Menu | CTRL + ALT + :key.keyboard.r
-key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.c
+key_Reload Menu | CTRL + ALT + :key.keyboard.unknown
+key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.f8
 key_key.charm.openCraftingTable:key.keyboard.unknown
 key_key.charm.openEnderChest:key.keyboard.unknown
 key_key.itemzoom.toggle:key.keyboard.z:SHIFT
@@ -116,40 +117,33 @@ key_key.entityculling.toggle:key.keyboard.unknown
 key_placebo.toggleWings:key.keyboard.unknown
 key_placebo.toggleTrails:key.keyboard.unknown
 key_neat.keybind.toggle:key.keyboard.unknown
-key_key.relics.hud_up:key.keyboard.right.bracket
-key_key.relics.hud_down:key.keyboard.apostrophe
-key_key.relics.hud_first:key.keyboard.1:ALT
-key_key.relics.hud_second:key.keyboard.2:ALT
-key_key.relics.hud_third:key.keyboard.3:ALT
-key_key.relics.hud_fourth:key.keyboard.4:ALT
-key_key.relics.hud_fifth:key.keyboard.5:ALT
 key_key.curios.open.desc:key.keyboard.g
 key_key.toastcontrol.clear:key.keyboard.j
 key_sndctrl.text.quickvolumemenu.open:key.keyboard.unknown
 key_sndctrl.text.soundconfig.open:key.keyboard.unknown
-key_key.cofh.mode_change_increment:key.keyboard.v
+key_key.cofh.mode_change_increment:key.keyboard.unknown
 key_key.waila.config:key.keyboard.keypad.0
 key_key.waila.show_overlay:key.keyboard.keypad.1
 key_key.waila.toggle_liquid:key.keyboard.keypad.2
 key_key.push_to_talk:key.keyboard.caps.lock
 key_key.mute_microphone:key.keyboard.m
-key_key.disable_voice_chat:key.keyboard.n
+key_key.disable_voice_chat:key.keyboard.unknown
 key_key.hide_icons:key.keyboard.h
 key_key.voice_chat:key.keyboard.v
 key_key.voice_chat_settings:key.keyboard.unknown
-key_key.voice_chat_group:key.keyboard.g
+key_key.voice_chat_group:key.keyboard.unknown
 key_key.voice_chat_toggle_recording:key.keyboard.unknown
-key_key.endergetic.booflo_vest:key.keyboard.space
+key_key.endergetic.booflo_vest:key.keyboard.left.alt
 key_key.endergetic.booflo_slam:key.keyboard.x
 key_key.diet.open.desc:key.keyboard.unknown
-key_doubleslabs.key.toggleVerticalSlabPlacement:key.keyboard.caps.lock
-key_quark.keybind.lock_rotation:key.keyboard.k
-key_quark.keybind.autorun:key.keyboard.caps.lock
+key_quark.keybind.autorun:key.keyboard.unknown
+key_doubleslabs.key.toggleVerticalSlabPlacement:key.keyboard.y
 key_quark.keybind.transfer_insert:key.keyboard.unknown
 key_quark.keybind.transfer_extract:key.keyboard.unknown
 key_quark.keybind.shift_lock:key.keyboard.unknown
 key_quark.keybind.sort_player:key.keyboard.unknown
 key_quark.keybind.sort_container:key.keyboard.unknown
+key_quark.keybind.camera_mode:key.keyboard.f12
 key_quark.emote.no:key.keyboard.unknown
 key_quark.emote.yes:key.keyboard.unknown
 key_quark.emote.wave:key.keyboard.unknown
@@ -168,16 +162,16 @@ key_quark.keybind.patreon_emote.dab:key.keyboard.unknown
 key_quark.keybind.patreon_emote.jet:key.keyboard.unknown
 key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown
 key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown
-key_quark.keybind.camera_mode:key.keyboard.f12
-key_quark.keybind.change_hotbar:key.keyboard.b
+key_quark.keybind.lock_rotation:key.keyboard.k
 key_quark.keybind.back:key.mouse.4
-key_create.keyinfo.toolmenu:key.keyboard.left.alt
+key_quark.keybind.change_hotbar:key.keyboard.b
+key_create.keyinfo.toolmenu:key.keyboard.right.alt
 key_key.personality.crawl:key.keyboard.c
 key_key.personality.sit:key.keyboard.z
 key_key.jei.toggleOverlay:key.keyboard.o:CONTROL
 key_key.jei.focusSearch:key.keyboard.f:CONTROL
 key_key.jei.toggleCheatMode:key.keyboard.unknown
-key_key.jei.toggleEditMode:key.keyboard.unknown
+key_key.jei.toggleEditMode:key.keyboard.f1
 key_key.jei.showRecipe:key.keyboard.r
 key_key.jei.showUses:key.keyboard.u
 key_key.jei.recipeBack:key.keyboard.backspace

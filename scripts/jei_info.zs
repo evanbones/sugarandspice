@@ -753,8 +753,6 @@ i(<item:supplementaries:safe>, s);
 i(<item:supplementaries:netherite_door>, s);
 i(<item:supplementaries:netherite_trapdoor>, s);
 
-i(<item:paraglider:paraglider>, "Can be found on Wild Tower chests only. When held, right click to glide.");
-
 i(<item:alexsmobs:music_disc_thime>, "Can be acquired from bartering with Seals. Consult an Animal Dictionary for more information.");
 i(<item:alexsmobs:music_disc_daze>, "Can be acquired by placing any Music Disc inside a Capsid.");
 i(<item:environmental:music_disc_leaving_home>, "Can be acquired by having a Skeleton kill a Wandering Trader.");
