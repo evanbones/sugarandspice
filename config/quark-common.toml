@@ -501,18 +501,18 @@
 	"Slime Underground Biome" = false
 	"Fairy Rings" = true
 	"Chorus Vegetation" = true
-	Crevices = false
+	Crevices = true
 	"Nether Obsidian Spikes" = true
 	"Mega Caves" = true
 	"Realistic World Gen" = true
 	Biotite = true
 	"Big Stone Clusters" = true
 	"Brimstone Underground Biome" = false
-	"Cave Crystal Underground Biome" = false
+	"Cave Crystal Underground Biome" = true
 	"Spiral Spires" = false
 	"Overgrown Underground Biome" = false
 	"Cave Roots" = true
-	"Spider Nest Underground Biome" = false
+	"Spider Nest Underground Biome" = true
 	Deepslate = false
 	"Monster Box" = true
 
