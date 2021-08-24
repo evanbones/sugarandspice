@@ -407,6 +407,12 @@ i(<item:quark:limestone_speleothem>, s);
 i(<item:quark:jasper_speleothem>, s);
 i(<item:quark:slate_speleothem>, s);
 i(<item:quark:basalt_speleothem>, s);
+i(<item:darkerdepths:shale_speleothem>, s);
+i(<item:darkerdepths:shale_speleothem>, s);
+i(<item:darkerdepths:shale_speleothem>, s);
+i(<item:darkerdepths:aridrock_speleothem>, s);
+i(<item:darkerdepths:limestone_speleothem>, s);
+i(<item:darkerdepths:grimestone_speleothem>, s);
 
 // World Stones
 i(<item:minecraft:andesite>, "This spawns in large clusters under Forest type biomes.");
@@ -846,7 +852,7 @@ i(<item:create:copper_ore>, "Generates between Y=40 and Y=85 in large clusters."
 i(<item:create:scoria_cobblestone>, "Created when fluid Chocolate touches Lava.");
 i(<item:create:limestone_cobblestone>, "Created when fluid Honey touches Lava.");
 
-i(<item:betterendforge:brimstone>, "Found in the Sulphur Springs biomes in the Outer End.");
+i(<item:betterendforge:brimstone>, "Can be found in the Sulphur Springs biome in the Outer End.");
 i(<item:betterendforge:crystal_shards>, "Get these by breaking Aurora Crystals in the Outer End.");
 i(<item:betterendforge:neon_cactus>, "This spawns in the Neon Oasis biome in the Outer End.");
 i(<item:betterendforge:infusion_pedestal>, "Create rare materials via Infusion! Surround an Infusion Pedestal with a circle of eight pedestals, and place the ingredients on the pedestals. Check JEI for recipes!");
@@ -862,6 +868,50 @@ i(<item:cavesandcliffs:calcite>, s);
 i(<item:cavesandcliffs:amethyst_block>, s);
 i(<item:cavesandcliffs:tuff>, s);
 
-i(<item:cavesandcliffs:tuff>, "Can be found in Amethyst Geodes. Also generates in large blobs underground.");
+i(<item:cavesandcliffs:tuff>, "Can be found in Amethyst Geodes. Also spawns in large clusters underground.");
+
+s = "Can be found in Amethyst Geodes. Grows from Budding Amethyst.";
+i(<item:cavesandcliffs:small_amethyst_bud>, s);
+i(<item:cavesandcliffs:medium_amethyst_bud>, s);
+i(<item:cavesandcliffs:large_amethyst_bud>, s);
+i(<item:cavesandcliffs:amethyst_cluster>, s);
 
 i(<item:cavesandcliffs:budding_amethyst>, "Can be found in Amethyst Geodes. Periodically grows Amethyst Clusters.");
+i(<item:cavesandcliffs:tinted_glass>, "Blocks light, while still being fully transparent.");
+i(<item:cavesandcliffs:deepslate>, "Spawns in large clusters deep underground.");
+i(<item:cavesandcliffs:lightning_rod>, "Diverts lightning strikes during thunderstorms. A good way to prevent your wooden house from burning down!");
+i(<item:cavesandcliffs:spyglass>, "Can be used to zoom in on whatever you're looking at. Who even needs OptiFine?");
+
+i(<item:cavesandcliffs:raw_copper>, "Drops from Copper Ore when mined without Silk Touch. Using Fortune increases the amount dropped.");
+i(<item:cavesandcliffs:raw_gold>, "Drops from Gold Ore when mined without Silk Touch. Using Fortune increases the amount dropped.");
+i(<item:cavesandcliffs:raw_iron>, "Drops from Iron Ore when mined without Silk Touch. Using Fortune increases the amount dropped.");
+
+s = "Spawns in the Dripstone Caves biome underground.";
+i(<item:cavesandcliffs:dripstone_block>, s);
+i(<item:cavesandcliffs:pointed_dripstone>, s);
+
+s = "Spawns in the Lush Caves biome underground.";
+i(<item:cavesandcliffs:big_dripleaf>, s);
+i(<item:cavesandcliffs:small_dripleaf>, s);
+i(<item:cavesandcliffs:moss_block>, s);
+i(<item:cavesandcliffs:glow_berries>, s);
+i(<item:cavesandcliffs:azalea>, s);
+i(<item:cavesandcliffs:flowering_azalea>, s);
+
+s = "Spawns in the Glowshroom Caves biome underground.";
+i(<item:darkerdepths:mossy_grimestone>, s);
+i(<item:darkerdepths:glowshroom>, s);
+i(<item:darkerdepths:grimestone>, s);
+i(<item:darkerdepths:glowspire>, s);
+i(<item:darkerdepths:glowshroom_block>, s);
+
+s = "Spawns in the Molten Caverns biome underground.";
+i(<item:darkerdepths:ash_block>, s);
+i(<item:darkerdepths:geyser>, s);
+i(<item:darkerdepths:shale>, s);
+i(<item:darkerdepths:ash>, s);
+
+s = "Spawns in the Sandy Catacombs biome underground.";
+i(<item:architects_palette:charcoal_block>, s);
+i(<item:darkerdepths:limestone>, s);
+i(<item:darkerdepths:aridrock>, s);

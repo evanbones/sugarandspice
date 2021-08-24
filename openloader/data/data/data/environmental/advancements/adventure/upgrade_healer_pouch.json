@@ -5,10 +5,10 @@
       "item": "environmental:healer_pouch"
     },
     "title": {
-      "translate": "advancements.crucial.override.upgrade_healer_pouch.title"
+      "translate": "advancements.sugarandspice.override.upgrade_healer_pouch.title"
     },
     "description": {
-      "translate": "advancements.crucial.override.upgrade_healer_pouch.description"
+      "translate": "advancements.sugarandspice.override.upgrade_healer_pouch.description"
     },
     "frame": "goal",
     "show_toast": true,

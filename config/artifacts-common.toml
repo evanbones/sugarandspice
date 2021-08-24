@@ -32,5 +32,5 @@ artifact_rarity = 1.5
 	#A rarity of 1 will generate a campsite in every chunk, while 10000 will generate no campsites
 	#Not every attempt at generating a campsite succeeds, this also depends on the density and shape of caves
 	#Range: 1 ~ 10000
-	rarity = 20
+	rarity = 10000
 

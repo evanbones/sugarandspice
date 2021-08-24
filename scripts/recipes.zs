@@ -430,7 +430,7 @@ sapling.remove(<item:quark:pink_blossom_sapling>);
 sapling.remove(<item:quark:yellow_blossom_sapling>);
 sapling.remove(<item:quark:red_blossom_sapling>);
 sapling.remove(<item:architects_palette:twisted_sapling>);
-
+sapling.add(<item:darkerdepths:glowshroom>);
 
 // Seed Pouch Tags
 var tag = <tag:items:quark:seed_pouch_holdable>;
@@ -453,6 +453,7 @@ tag.add(<item:upgrade_aquatic:ochre_kelp>);
 tag.add(<item:upgrade_aquatic:polar_kelp>);
 tag.add(<item:upgrade_aquatic:thorny_kelp>);
 tag.add(<item:upgrade_aquatic:tongue_kelp>);
+tag.add(<item:darkerdepths:glowshroom>);
 
 // Remove Added Vanilla Recipes
 craftingTable.removeByName("minecraft:lead");
