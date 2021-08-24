@@ -98,7 +98,6 @@ furnace.removeRecipe(<item:cavesandcliffs:copper_ingot>);
 blastFurnace.removeRecipe(<item:cavesandcliffs:copper_ingot>);
 craftingTable.removeRecipe(<item:cavesandcliffs:copper_ingot>);
 craftingTable.removeByRegex("cavesandcliffs:.*candle");	
-craftingTable.removeByRegex("betterendforge:hydralux.*");	
 
 var cooking = <recipetype:farmersdelight:cooking>;
 cooking.removeByName("abnormals_delight:environmental/cooking/squid_ink_risotto");

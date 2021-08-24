@@ -497,7 +497,7 @@
 	"Sandstone Underground Biome" = false
 	"Glowshroom Underground Biome" = false
 	"Permafrost Underground Biome" = false
-	"Underground Clay" = true
+	"Underground Clay" = false
 	"Slime Underground Biome" = false
 	"Fairy Rings" = true
 	"Chorus Vegetation" = true

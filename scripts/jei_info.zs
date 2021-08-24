@@ -856,3 +856,12 @@ i(<item:betterendforge:flavolite_runed>, "Created through Infusion. Can be used 
 i(<item:etched:album_jukebox>, "Plays a collection of music discs in order. Loops back to the start after the last one is done playing.");
 i(<item:etched:etching_table>, "A table used to make custom music discs. It's also the workstation of the Bard villager.");
 i(<item:etched:blank_music_disc>, "Use this in an etching table to make custom music discs.");
+
+s = "Can be found in Amethyst Geodes.";
+i(<item:cavesandcliffs:calcite>, s);
+i(<item:cavesandcliffs:amethyst_block>, s);
+i(<item:cavesandcliffs:tuff>, s);
+
+i(<item:cavesandcliffs:tuff>, "Can be found in Amethyst Geodes. Also generates in large blobs underground.");
+
+i(<item:cavesandcliffs:budding_amethyst>, "Can be found in Amethyst Geodes. Periodically grows Amethyst Clusters.");

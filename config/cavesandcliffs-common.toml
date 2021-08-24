@@ -37,7 +37,7 @@
 	["Entity Settings"."Goat Settings"]
 		#Range: 0 ~ 100
 		goatWeight = 10
-		generateGoats = true
+		generateGoats = false
 
 ["Experimental Settings"]
 	#Range: 0 ~ 256
