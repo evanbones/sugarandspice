@@ -208,7 +208,7 @@ s = "This wood spawns in Glowshroom Forests, in the Outer End.";
 i(<item:atmospheric:kousa_log>, s);
 i(<item:atmospheric:kousa_planks>, s);
 
-s = "This wood spawns in Amber Forests, in the Outer End.";
+s = "This wood spawns in Lantern Woods, in the Outer End.";
 i(<item:atmospheric:aspen_log>, s);
 i(<item:atmospheric:aspen_planks>, s);
 
@@ -238,13 +238,6 @@ i(<item:autumnity:maple_planks>, s);
 s = "This wood spawns in Poise Forests, in the Outer End.";
 i(<item:endergetic:poise_stem>, s);
 i(<item:endergetic:poise_planks>, s);
-
-s = "This spawns underground under Mountains and Mushroom Islands.";
-i(<item:quark:glowshroom>, s);
-i(<item:quark:glowcelium>, s);
-i(<item:quark:glowshroom_block>, s);
-i(<item:enhanced_mushrooms:glowshroom_stem>, s);
-i(<item:enhanced_mushrooms:glowshroom_planks>, s);
 
 s = "This wood spawns in Lavender Fields and Lavender Forests.";
 i(<item:abundance:jacaranda_log>, s);
@@ -900,6 +893,8 @@ i(<item:cavesandcliffs:flowering_azalea>, s);
 
 s = "Spawns in the Glowshroom Caves biome underground.";
 i(<item:darkerdepths:mossy_grimestone>, s);
+i(<item:enhanced_mushrooms:glowshroom_stem>, s);
+i(<item:enhanced_mushrooms:glowshroom_planks>, s);
 i(<item:darkerdepths:glowshroom>, s);
 i(<item:darkerdepths:grimestone>, s);
 i(<item:darkerdepths:glowspire>, s);
