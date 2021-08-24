@@ -72,6 +72,13 @@
 	"valhelsia_structures:dark_oak_post": "minecraft:air",
 	"valhelsia_structures:crimson_post": "minecraft:air",
 	"valhelsia_structures:warped_post": "minecraft:air",
-	"betterendforge:end_stone_lantern": "betterendforge:iron_bulb_lantern_magenta"
+	"betterendforge:end_stone_lantern": "betterendforge:iron_bulb_lantern_magenta",
+	"darkerdepths:petrified_log": "architects_palette:charcoal_block",
+	"darkerdepths:porous_petrified_log": "architects_palette:charcoal_block",
+	"darkerdepths:amber": "minecraft:air",
+	"darkerdepths:silver_ore": "minecraft:stone",
+	"darkerdepths:aridstone_silver_ore": "darkerdepths:aridstone",
+	"darkerdepths:limestone_silver_ore": "darkerdepths:limestone",
+	"darkerdepths:glowshroom_stem": "enhanced_mushrooms:glowshroom_stem"
   }
 }

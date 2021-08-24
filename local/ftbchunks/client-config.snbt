@@ -6,7 +6,7 @@
 	
 	# Chunk grid overlay in large map
 	# Default: false
-	chunk_grid: false
+	chunk_grid: true
 	
 	# Show claimed chunks on the map
 	# Default: true
@@ -14,7 +14,7 @@
 	
 	# Enables creation of death waypoints
 	# Default: true
-	death_waypoints: true
+	death_waypoints: false
 	
 	# Enables debug info
 	# Default: false
@@ -32,12 +32,12 @@
 	
 	# Show waypoints in world
 	# Default: true
-	in_world_waypoints: true
+	in_world_waypoints: false
 	
 	# Different ways to render map
 	# Default: "none"
 	# Valid values: "none", "night", "topography", "blocks", "biome_temperature", "light_sources"
-	map_mode: "none"
+	map_mode: "topography"
 	
 	# Noise added to map to make it look less plastic
 	# Default: 0.05
@@ -50,7 +50,7 @@
 	
 	# Reduces color palette to 256 colors
 	# Default: false
-	reduced_color_palette: false
+	reduced_color_palette: true
 	
 	# Advanced option. How often map render update will be queued
 	# Default: 60
@@ -101,15 +101,15 @@
 		
 		# Enable minimap
 		# Default: true
-		enabled: true
+		enabled: false
 		
 		# Show entities on minimap
 		# Default: true
-		entities: true
+		entities: false
 		
 		# Show entity heads on minimap
 		# Default: true
-		entity_heads: true
+		entity_heads: false
 		
 		# Entities in minimap will be larger
 		# Default: false

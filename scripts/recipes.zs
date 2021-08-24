@@ -98,6 +98,7 @@ furnace.removeRecipe(<item:cavesandcliffs:copper_ingot>);
 blastFurnace.removeRecipe(<item:cavesandcliffs:copper_ingot>);
 craftingTable.removeRecipe(<item:cavesandcliffs:copper_ingot>);
 craftingTable.removeByRegex("cavesandcliffs:.*candle");	
+craftingTable.removeByRegex("betterendforge:hydralux.*");	
 
 var cooking = <recipetype:farmersdelight:cooking>;
 cooking.removeByName("abnormals_delight:environmental/cooking/squid_ink_risotto");
@@ -210,6 +211,7 @@ craftingTable.removeRecipe(<item:architects_palette:runic_glowstone>);
 craftingTable.removeRecipe(<item:magicfeather:magicfeather>);
 craftingTable.removeRecipe(<item:mowziesmobs:thatch_block>);
 craftingTable.removeRecipe(<item:supplementaries:rope>);
+craftingTable.removeRecipe(<item:darkerdepths:rope>);
 craftingTable.removeRecipe(<item:environmental:apple_pie>);
 craftingTable.removeRecipe(<item:supplementaries:pedestal>);
 craftingTable.removeRecipe(<item:farmersdelight:wheat_dough>);

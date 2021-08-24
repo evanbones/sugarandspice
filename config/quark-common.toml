@@ -363,7 +363,7 @@
 	"Automatic Recipe Unlock" = true
 	"Poison Potato Usage" = true
 	"Lava Bucket As Trash" = true
-	"Improved Sleeping" = true
+	"Improved Sleeping" = false
 	"Infinity Bucket" = true
 	"Springy Slime" = true
 	Emotes = true
@@ -495,7 +495,7 @@
 	"Elder Prismarine Underground Biome" = true
 	"Blossom Trees" = false
 	"Sandstone Underground Biome" = false
-	"Glowshroom Underground Biome" = true
+	"Glowshroom Underground Biome" = false
 	"Permafrost Underground Biome" = false
 	"Underground Clay" = true
 	"Slime Underground Biome" = false
@@ -551,7 +551,7 @@
 			#Allowed values: [0,)
 			"Horizontal Size" = 42
 			#Allowed values: [0,)
-			Rarity = 150
+			Rarity = 300
 			#Allowed values: [0,)
 			"Horizontal Variation" = 22
 			#Allowed values: [0,255]

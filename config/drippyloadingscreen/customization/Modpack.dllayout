@@ -20,3 +20,19 @@ customization {
   barcolor = bc8e19
 }
 
+customization {
+  visible = false
+  action = editforgememoryinfo
+}
+
+customization {
+  path = config/fancymenu/files/logo.png
+  orientation = mid-centered
+  x = 0
+  width = 510
+  action = addtexture
+  actionid = d0ceb245-abe9-4e1b-9b74-f1a8e4f8f5ea1629776916436
+  y = 0
+  height = 120
+}
+

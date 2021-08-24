@@ -50,7 +50,7 @@
 		fodder = true
 		globe = true
 		sconce = true
-		candelabra = true
+		candelabra = false
 		timber_frame = false
 		safe = true
 		sconce_lever = true
