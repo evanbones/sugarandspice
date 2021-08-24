@@ -1,0 +1,22 @@
+type = hud
+
+customization-meta {
+  renderorder = foreground
+  backgroundcolor = 121212
+}
+
+customization {
+  visible = false
+  action = editlogo
+}
+
+customization {
+  visible = false
+  action = editforgestatustext
+}
+
+customization {
+  action = editprogressbar
+  barcolor = bc8e19
+}
+
