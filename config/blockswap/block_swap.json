@@ -2,7 +2,6 @@
   "retroGen": true,
   "swapper": {
 	"betterendforge:thallasium_ore": "minecraft:end_stone",
-	"betterendforge:terminite_ore": "minecraft:end_stone",
 	"betterendforge:amber_ore": "betterendforge:ender_ore",
 	"betterendforge:umbrella_tree_log": "betterendforge:umbrella_tree_bark",
 	"betterendforge:jellyshroom_log": "betterendforge:jellyshroom_bark",
@@ -77,7 +76,7 @@
 	"darkerdepths:porous_petrified_log": "architects_palette:charcoal_block",
 	"darkerdepths:amber": "minecraft:air",
 	"darkerdepths:silver_ore": "minecraft:stone",
-	"darkerdepths:aridstone_silver_ore": "darkerdepths:aridstone",
+	"darkerdepths:aridrock_silver_ore": "darkerdepths:aridrock",
 	"darkerdepths:limestone_silver_ore": "darkerdepths:limestone",
 	"darkerdepths:glowshroom_stem": "enhanced_mushrooms:glowshroom_stem"
   }
