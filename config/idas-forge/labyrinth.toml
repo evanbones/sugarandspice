@@ -1,0 +1,13 @@
+
+#-----------------------------------------------------------------------------------------
+# Average distance between spawn attempts for IDAS Labyrinths.
+# 1 for spawning in most chunks and 1001 for none.
+#There will be a Biomes You'll Go version of this soon, and eventually it should detect your installed mods and do it automatically
+#IF YOU WANT TO MAKE A MAP TO THE LABYRINTH MAKE SURE TO CHANGE idas:labyrinth to idas:boplabyrinth in the map trade configs
+#To enable the Biomes O' Plenty version, set the normal one to 1001 and set the BOP one to whatever rate you want it to spawn at (default 90)
+[Labyrinth]
+	#Range: 1 ~ 1001
+	labyrinthAverageChunkDistance = 90
+	#Range: 1 ~ 1001
+	boplabyrinthAverageChunkDistance = 1001
+

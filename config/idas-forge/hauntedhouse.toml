@@ -1,0 +1,12 @@
+
+#-----------------------------------------------------------------------------------------
+# Average distance between spawn attempts for IDAS Haunted Houses.
+# 1 for spawning in most chunks and 1001 for none.
+#There will be a Biomes You'll Go version of this soon, and eventually it should detect your installed mods and do it automatically
+#To enable the Biomes O' Plenty version, set the normal one to 1001 and set the BOP one to whatever rate you want it to spawn at (default 55)
+[Hauntedhouses]
+	#Range: 1 ~ 1001
+	hauntedhouseAverageChunkDistance = 55
+	#Range: 1 ~ 1001
+	bophauntedhouseAverageChunkDistance = 1001
+

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side": "alexsmobs:block/capsid",
+    "top": "alexsmobs:block/capsid_top",
+    "bottom": "alexsmobs:block/capsid_top"
+  }
+}

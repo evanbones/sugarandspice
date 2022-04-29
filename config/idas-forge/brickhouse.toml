@@ -1,0 +1,8 @@
+
+#-----------------------------------------------------------------------------------------
+# Average distance between spawn attempts for IDAS Brick Houses.
+# 1 for spawning in most chunks and 1001 for none.
+[Brickhouse]
+	#Range: 1 ~ 1001
+	brickhouseAverageChunkDistance = 55
+

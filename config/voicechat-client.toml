@@ -3,10 +3,10 @@
 microphone_activation_type = "VOICE"
 #The threshold for voice activation in dB
 #Range: -127.0 ~ 0.0
-voice_activation_threshold = -50.0
+voice_activation_threshold = -60.036363636363646
 #The voice chat volume
 #Range: 0.0 ~ 2.0
-voice_chat_volume = 2.0
+voice_chat_volume = 1.0
 #The voice chat microphone amplification
 #Range: 0.0 ~ 4.0
 microphone_amplification = 1.0
@@ -20,17 +20,13 @@ output_buffer_size = 5
 #Set this to 0 to disable
 #Range: 0 ~ 16
 audio_packet_threshold = 3
-#If full audio buffers should get cleared
-#This potentially reduces audio latency on laggy servers
-#This does currently not work on Linux
-clear_full_audio_buffer = false
 #The time it takes for the microphone to deactivate when using voice activation
 #A value of 1 means 20 milliseconds, 2=40 ms, 3=60 ms, ...
 #Range: 0 ~ 100
 voice_deactivation_delay = 25
 #The microphone used by the voice chat
 #Empty for default device
-microphone = ""
+microphone = "OpenAL Soft on Microphone (7- USB Audio Device)"
 #The speaker used by the voice chat
 #Empty for default device
 speaker = ""
@@ -38,8 +34,6 @@ speaker = ""
 muted = false
 #If the voice chat is disabled (sound and microphone off)
 disabled = false
-#If the voice chat should use semi 3D stereo sound
-stereo = true
 #If the voice chat icons should be hidden
 hide_icons = false
 #If the group HUD should be visible
@@ -49,13 +43,44 @@ show_own_group_icon = true
 #The scale of the group HUD
 #Range: 0.01 ~ 10.0
 group_hud_icon_scale = 2.0
-#The location of the HUD icons
-#Allowed Values: LEFT, RIGHT, CENTER
-hud_icon_location = "LEFT"
 #The orientation of the player icons in the group HUD
 #Allowed Values: VERTICAL, HORIZONTAL
 group_player_icon_orientation = "VERTICAL"
+#The X position of the player icons in the group HUD
+#Negative values mean anchoring to the right
+#Range: > -2147483648
+group_player_icon_pos_x = 4
+#The Y position of the player icons in the group HUD
+#Negative values mean anchoring to the bottom
+#Range: > -2147483648
+group_player_icon_pos_y = 4
+#The X position of the HUD icons
+#Negative values mean anchoring to the right
+#Range: > -2147483648
+hud_icon_pos_x = 16
+#The Y position of the HUD icons
+#Negative values mean anchoring to the bottom
+#Range: > -2147483648
+hud_icon_pos_y = -16
+#The scale of the HUD icons
+#Range: 0.01 ~ 10.0
+hud_icon_scale = 1.0
 #The location where recordings should be saved
 #Leave empty for default location
 recording_destination = ""
+#If noise cancellation should be enabled
+denoiser = false
+#If voice chat should work in singleplayer/LAN worlds
+run_local_server = true
+#Whether to use the Java implementation of microphone capturing instead of OpenAL
+java_microphone_implementation = false
+#If the microphone workaround hack should be used (MacOS only)
+macos_microphone_workaround = false
+#If fake players should have the disconnected icon above their head
+show_fake_players_disconnected = false
+#If the volume adjustment GUI should also show offline players
+offline_player_volume_adjustment = false
+#The 3D audio type
+#Allowed Values: NORMAL, REDUCED, OFF
+audio_type = "NORMAL"
 

@@ -1,0 +1,21 @@
+{
+  "type": "botania:terra_plate",
+  "mana": 500000,
+  "ingredients": [
+    {
+      "item": "botania:manasteel_ingot"
+    },
+	{
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "botania:mana_pearl"
+    },
+    {
+      "item": "botania:mana_diamond"
+    }
+  ],
+  "result": {
+    "item": "botania:terrasteel_ingot"
+  }
+}

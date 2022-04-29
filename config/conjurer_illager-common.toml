@@ -1,16 +1,35 @@
 
 [theater]
-	#Spacing between structures
-	#Range: > 1
-	spacing = 40
-	#Offsets the spacing of the structures randomly
-	#Range: > 0
-	offset = 10
-	#How should the code treate biomes? true = whitelist, false = blacklist. Biomes defined with ! do the opposite.
-	is_whitelist = true
-	#A biome filter to determine where the structure should generate. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
-	biomes = "dark_forest, dark_forest_hills"
-	#Chance of generating in an allowed chunk
-	#Range: 0.0 ~ 1.0
-	probability = 0.8
+
+	[theater.placement]
+		#
+		# The average distance between structures of this type, measured in chunks.
+		# Default: 40
+		#Range: > 1
+		spacing = 40
+		#
+		# A random offset applied to spacing. Values closer to 0 produce a grid effect while values closer to spacing are more random.
+		# Default: 35
+		#Range: > 0
+		offset = 35
+		#
+		# Percent chance of generating in an allowed chunk.
+		# Default: 50
+		#Range: 0 ~ 100
+		probability = 50
+
+	[theater.configured_structures]
+
+		[theater.configured_structures.configured]
+
+			[theater.configured_structures.configured.biomes]
+				#
+				# A filter for which biomes this structure should generate in. Entries are formatted as follows:
+				# - Biome: "minecraft:plains"
+				# - Biome Dictionary Entry: "##structure_gel:birch_forest"
+				# - Add ! to the start of an entry to exclude it: "!##structure_gel:frozen_ocean"
+				# - Biome Tag: "#minecraft:is_ocean". If using a biome tag, only one can be used and it must be by itself. This does not support "!"
+				# Example: ["##structure_gel:wooded", "!minecraft:flower_forest"] This will include all wooded biomes except for flower forests.
+				# Default: ["minecraft:dark_forest"]
+				biomes = ["minecraft:dark_forest"]
 

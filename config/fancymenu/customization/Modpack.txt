@@ -1,7 +1,7 @@
 type = menu
 
 customization-meta {
-  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  identifier = net.minecraft.client.gui.screens.TitleScreen
   randomgroup = 1
   renderorder = background
   randommode = false
@@ -14,25 +14,8 @@ customization {
 }
 
 customization {
-  identifier = %id=400298%
-  orientation = bottom-centered
-  x = -100
-  action = movebutton
-  y = -123
-}
-
-customization {
-  identifier = %id=400298%
-  width = 200
-  action = resizebutton
-  height = 45
-}
-
-customization {
-  identifier = %id=400298%
-  action = setbuttontexture
-  backgroundhovered = config/fancymenu/files/singleplayerhover.png
-  backgroundnormal = config/fancymenu/files/singleplayer.png
+  keepaspectratio = false
+  action = backgroundoptions
 }
 
 customization {
@@ -52,9 +35,16 @@ customization {
 
 customization {
   identifier = %id=400322%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = config/fancymenu/files/multiplayehover.png
-  backgroundnormal = config/fancymenu/files/multiplayer.png
+  backgroundhovered = config\fancymenu\files\multiplayehover.png
+  backgroundnormal = config\fancymenu\files\multiplayer.png
+}
+
+customization {
+  identifier = %id=604382%
+  action = hidebutton
 }
 
 customization {
@@ -74,9 +64,11 @@ customization {
 
 customization {
   identifier = %id=400382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = config/fancymenu/files/optionshover.png
-  backgroundnormal = config/fancymenu/files/options.png
+  backgroundhovered = config\fancymenu\files\optionshover.png
+  backgroundnormal = config\fancymenu\files\options.png
 }
 
 customization {
@@ -105,9 +97,11 @@ customization {
 
 customization {
   identifier = %id=502382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = config/fancymenu/files/quithover.png
-  backgroundnormal = config/fancymenu/files/quit.png
+  backgroundhovered = config\fancymenu\files\quithover.png
+  backgroundnormal = config\fancymenu\files\quit.png
 }
 
 customization {
@@ -117,6 +111,35 @@ customization {
   fadein = true
   fadeinspeed = 10.0
   action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=376382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = bottom-centered
+  x = -100
+  action = movebutton
+  y = -123
+}
+
+customization {
+  identifier = %id=400298%
+  width = 200
+  action = resizebutton
+  height = 45
+}
+
+customization {
+  identifier = %id=400298%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\files\singleplayerhover.png
+  backgroundnormal = config\fancymenu\files\singleplayer.png
 }
 
 customization {
@@ -136,9 +159,11 @@ customization {
 
 customization {
   identifier = %id=400346%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = config/fancymenu/files/modshover.png
-  backgroundnormal = config/fancymenu/files/mods.png
+  backgroundhovered = config\fancymenu\files\modshover.png
+  backgroundnormal = config\fancymenu\files\mods.png
 }
 
 customization {
@@ -148,21 +173,6 @@ customization {
   fadein = true
   fadeinspeed = 10.0
   action = hidebuttonfor
-}
-
-customization {
-  identifier = %id=502346%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=604382%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=376382%
-  action = hidebutton
 }
 
 customization {
@@ -183,16 +193,18 @@ customization {
 
 customization {
   orientation = bottom-centered
+  restartbackgroundanimations = true
   buttonaction = joinserver
-  backgroundhovered = config/fancymenu/files/bisecthover.png
+  backgroundhovered = config\fancymenu\files\bisecthover.png
   label = Official Server
+  loopbackgroundanimations = true
   hoverlabel = Sponsored by BisectHosting!
   x = -100
   width = 200
   actionid = 334d9da3-c1f1-45a9-905d-f0533749f31e1629750992252
   action = addbutton
   y = -173
-  backgroundnormal = config/fancymenu/files/bisect.png
+  backgroundnormal = config\fancymenu\files\bisect.png
   value = 155.94.181.136
   height = 26
 }
@@ -210,10 +222,12 @@ customization {
 
 customization {
   orientation = bottom-centered
+  restartbackgroundanimations = true
   delayappearanceseconds = 0.15
   buttonaction = openlink
-  backgroundhovered = config/fancymenu/files/discordhover.png
+  backgroundhovered = config\fancymenu\files\discordhover.png
   label = 
+  loopbackgroundanimations = true
   fadein = true
   fadeinspeed = 10.0
   x = -100
@@ -222,7 +236,7 @@ customization {
   action = addbutton
   y = -47
   delayappearance = true
-  backgroundnormal = config/fancymenu/files/discord.png
+  backgroundnormal = config\fancymenu\files\discord.png
   value = https://discord.com/invite/6twDUSQBc4
   delayappearanceeverytime = true
   height = 24
@@ -230,10 +244,12 @@ customization {
 
 customization {
   orientation = bottom-centered
+  restartbackgroundanimations = true
   delayappearanceseconds = 0.15
   buttonaction = openlink
-  backgroundhovered = config/fancymenu/files/githubhover.png
+  backgroundhovered = config\fancymenu\files\githubhover.png
   label = 
+  loopbackgroundanimations = true
   fadein = true
   fadeinspeed = 10.0
   x = 76
@@ -242,29 +258,8 @@ customization {
   action = addbutton
   y = -47
   delayappearance = true
-  backgroundnormal = config/fancymenu/files/github.png
+  backgroundnormal = config\fancymenu\files\github.png
   value = https://github.com/evanbones/Sugar-Spice
-  delayappearanceeverytime = true
-  height = 24
-}
-
-customization {
-  orientation = bottom-centered
-  delayappearanceseconds = 0.15
-  buttonaction = runscript
-  backgroundhovered = config/fancymenu/files/optifinehover.png
-  description = Install Optifine (Requires restart)
-  label = 
-  fadein = true
-  fadeinspeed = 10.0
-  x = -127
-  width = 24
-  actionid = b23dd979-2f13-4f9d-aad7-eb3c8d52ec6d1629750992311
-  action = addbutton
-  y = -171
-  delayappearance = true
-  backgroundnormal = config/fancymenu/files/optifine.png
-  value = optifine
   delayappearanceeverytime = true
   height = 24
 }
@@ -275,7 +270,7 @@ customization {
   x = 0
   width = %guiwidth%
   action = addtexture
-  actionid = 2aa0c401-5119-4b98-be9e-dd276d6f82e61629751038128
+  actionid = 85ad9b32-dd06-46ef-a728-dba1b343dad81649823889505
   y = 0
   height = %guiheight%
 }

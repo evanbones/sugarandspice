@@ -1,0 +1,16 @@
+{
+  //// Adds structure maps to any Villager's trades.
+  "villagerMapTrades": {
+    "minecraft:cartographer": [
+      {
+        "structure": "idas:labyrinth",
+        "mapIcon": "BANNER_YELLOW",
+        "tradeLevel": 2,
+        "emeraldsRequired": 20,
+        "tradesAllowed": 12,
+        "xpReward": 10
+      }
+    ]
+  },
+  "configVersion": 2
+}

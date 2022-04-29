@@ -1,0 +1,2 @@
+downloadfile:https://dl.dropboxusercontent.com/s/7mstyq9h7znkq14/OptiFine_1.16.5_HD_U_G8.jar?dl=0;./mods/Optifine.jar
+deletefile:./mods/Magnesium-1.0.jar
