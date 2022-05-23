@@ -1,0 +1,16 @@
+{
+	"name": "Faster Smelting",
+	"icon": "minecraft:furnace",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Rumor has it, there's a strange creature that likes eating $(item)Coal$() in the $(thing)Nether$(). If you tame one and let it rest over a $(item)Furnace$(), it'll make it go faster!"
+		},
+		{
+			"type": "quest",
+			"text": "Tame yourself a fiery beast, and bring it back home to smelt items faster.$(br2)Make sure you have some $(thing)Fire Resistance$()!"
+		}
+	]
+}

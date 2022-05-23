@@ -1,0 +1,16 @@
+{
+	"name": "Locating Slime Chunks",
+	"icon": "minecraft:slime_ball",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Rumor has it, there's a way to find the elusive Slime Chunks using the slimes themselves.$(br2)The catch is, you have to somehow capture them first..."
+		},
+		{
+			"type": "quest",
+			"text": "Find a way to capture slimes and use them to locate where they spawn."
+		}
+	]
+}

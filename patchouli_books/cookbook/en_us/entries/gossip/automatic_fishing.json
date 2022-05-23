@@ -1,0 +1,16 @@
+{
+	"name": "Automatic Fishing",
+	"icon": "minecraft:fishing_rod",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Rumor has it, it's possible to create some sort of vessel that can fish for you in a given route.$(br)Supposedly, you can even dock it!"
+		},
+		{
+			"type": "quest",
+			"text": "Craft a vessel capable of automatic fishing."
+		}
+	]
+}

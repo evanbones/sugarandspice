@@ -8,7 +8,7 @@
 	#Whether to disable certain aspects of the Lava Vision Potion. Enable if issues with shaders persist.
 	shadersCompat = false
 	#Whether bananas should drop from blocks tagged with #alexsmobs:drops_bananas
-	bananasDropFromLeaves = true
+	bananasDropFromLeaves = false
 	#1 out of this number chance for leaves to drop a banana when broken. Fortune is automatically factored in
 	#Range: > 0
 	bananaChance = 200
@@ -111,6 +111,8 @@
 	bunfungusTransformation = false
 	#True if some Alex's Mobs items should spawn in loot chests.
 	addLootToChests = true
+	#Whether dolphins should target flying fish mobs.
+	dolphinsAttackFlyingFish = true
 
 	[general.spawning]
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
@@ -415,7 +417,7 @@
 		frilledSharkSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		mimicOctopusSpawnWeight = 9
+		mimicOctopusSpawnWeight = 0
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		mimicOctopusSpawnRolls = 0
@@ -499,7 +501,7 @@
 		jerboaSpawnRolls = 0
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
-		terrapinSpawnWeight = 4
+		terrapinSpawnWeight = 0
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		terrapinSpawnRolls = 0
@@ -533,6 +535,30 @@
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		giantSquidSpawnRolls = 0
+		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn (NOTE: this mob spawns are restricted exclusively to one chunk, see below)
+		#Range: 0 ~ 1000
+		devilsHolePupfishSpawnWeight = 23
+		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning (NOTE: this mob spawns are restricted exclusively to one chunk, see below)
+		#Range: > 0
+		devilsHolePupfishSpawnRolls = 0
+		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
+		#Range: 0 ~ 1000
+		catfishSpawnWeight = 4
+		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
+		#Range: > 0
+		catfishSpawnRolls = 2
+		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
+		#Range: 0 ~ 1000
+		flyingFishSpawnWeight = 8
+		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
+		#Range: > 0
+		flyingFishSpawnRolls = 0
+		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
+		#Range: 0 ~ 1000
+		skelewagSpawnWeight = 25
+		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
+		#Range: > 0
+		skelewagSpawnRolls = 0
 
 		[general.spawning.uniqueSpawning]
 			#Delay (in ticks) between attempts to spawn beached cachalot whales. Default is a single day. Works like wandering traders.
@@ -546,6 +572,13 @@
 			#Percent chance increase for each failed attempt to spawn a beached cachalot whale. Higher value = more spawns.
 			#Range: 0 ~ 100
 			beachedCachalotWhaleSpawnChance = 0
+			#Whether to restrict all pupfish spawns to one chunk (similar to real life) or have them only obey their spawn config.
+			restrictPupfishSpawns = true
+			#The maximum distance a pupfish spawn chunk is from world spawn(0, 0) in blocks.
+			#Range: 2 ~ 1000000000
+			pupfishChunkSpawnDistance = 2000
+			#Whether to restrict all skelewag spawns to shipwreck structures.
+			restrictSkelewagSpawns = true
 
 			[general.spawning.uniqueSpawning.dangerZone]
 				#Its been so long...

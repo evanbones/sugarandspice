@@ -1,0 +1,16 @@
+{
+	"name": "Beasts of Burden",
+	"icon": "minecraft:carrot_on_a_stick",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Rumor has it, large animals inhabit $(thing)Savanna$() biomes. These are well known for their love of $(item)Acacia Blossoms$(), ability to carry a $(item)Chest$() worth of items, and decorative ability using $(item)Carpets$().$(br2)Having one at your side seems like a great way to help transport large hauls."
+		},
+		{
+			"type": "quest",
+			"text": "Discover and tame a beast of burden of your own."
+		}
+	]
+}

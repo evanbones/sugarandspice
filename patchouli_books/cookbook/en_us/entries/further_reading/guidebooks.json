@@ -1,0 +1,23 @@
+{
+	"name": "Guidebooks",
+	"icon": "minecraft:bookshelf",
+	"category": "patchouli:further_reading",
+	"read_by_default": true,
+	"sortnum": 0,
+    "priority": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Why not take a look at a guidebook for a mod that interests you?"
+		},
+		{
+			"type": "crafting",
+			"recipe": "alexsmobs:animal_dictionary",
+			"recipe2": "malum:encyclopedia_arcana"
+		},
+		{
+			"type": "crafting",
+			"recipe": "cloudstorage:guide_book"
+		}
+	]
+}

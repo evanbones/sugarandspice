@@ -1,0 +1,16 @@
+{
+	"name": "Beacon Bending",
+	"icon": "minecraft:beacon",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Rumor has it, there's a block that can bend $(item)Beacon$() beams around. As long as the last one goes up, you can make some fancy turns!"
+		},
+		{
+			"type": "quest",
+			"text": "Find a block that can move your $(item)Beacon$()'s beam around."
+		}
+	]
+}

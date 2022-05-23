@@ -1,0 +1,16 @@
+{
+	"name": "Automatic Breeding",
+	"icon": "minecraft:wheat",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Rumor has it, there's an item that animals can eat from without you having to bring in food all the time.$(br)This would be useful for automated animal farms."
+		},
+		{
+			"type": "quest",
+			"text": "Figure out how to get some animals breeding on their own."
+		}
+	]
+}

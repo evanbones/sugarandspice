@@ -1,0 +1,16 @@
+{
+	"name": "Animal Transport",
+	"icon": "minecraft:feather",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Rumour has it, there's a convenient way to move small animals around with ease.$(br)Maybe if I can trap them in something?"
+		},
+		{
+			"type": "quest",
+			"text": "Find something you can use to transport small animals."
+		}
+	]
+}

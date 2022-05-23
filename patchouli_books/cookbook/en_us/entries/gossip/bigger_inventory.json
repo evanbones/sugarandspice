@@ -1,0 +1,16 @@
+{
+	"name": "Bigger Inventory",
+	"icon": "minecraft:chest",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Rumor has it, there's something you can craft that will help you carry more items. Right now, there's just so many items and so little inventory space!"
+		},
+		{
+			"type": "quest",
+			"text": "Find a way to increase your inventory space."
+		}
+	]
+}

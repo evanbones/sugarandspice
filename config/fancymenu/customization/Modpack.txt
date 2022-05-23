@@ -19,22 +19,22 @@ customization {
 }
 
 customization {
-  identifier = %id=400322%
-  orientation = bottom-centered
-  x = -100
+  identifier = %id=400310%
+  orientation = mid-centered
+  x = -103
   action = movebutton
-  y = -149
+  y = 41
 }
 
 customization {
-  identifier = %id=400322%
+  identifier = %id=400310%
   width = 200
   action = resizebutton
-  height = 26
+  height = 21
 }
 
 customization {
-  identifier = %id=400322%
+  identifier = %id=400310%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
@@ -43,122 +43,28 @@ customization {
 }
 
 customization {
-  identifier = %id=604382%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=400382%
-  orientation = bottom-centered
-  x = -100
-  action = movebutton
-  y = -75
-}
-
-customization {
-  identifier = %id=400382%
-  width = 100
-  action = resizebutton
-  height = 24
-}
-
-customization {
-  identifier = %id=400382%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = config\fancymenu\files\optionshover.png
-  backgroundnormal = config\fancymenu\files\options.png
-}
-
-customization {
-  identifier = %id=400382%
-  seconds = 0.1
-  onlyfirsttime = false
-  fadein = true
-  fadeinspeed = 10.0
-  action = hidebuttonfor
-}
-
-customization {
-  identifier = %id=502382%
-  orientation = bottom-centered
-  x = -66
-  action = movebutton
-  y = -47
-}
-
-customization {
-  identifier = %id=502382%
-  width = 132
-  action = resizebutton
-  height = 24
-}
-
-customization {
-  identifier = %id=502382%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = config\fancymenu\files\quithover.png
-  backgroundnormal = config\fancymenu\files\quit.png
-}
-
-customization {
-  identifier = %id=502382%
-  seconds = 0.15
-  onlyfirsttime = false
-  fadein = true
-  fadeinspeed = 10.0
-  action = hidebuttonfor
-}
-
-customization {
-  identifier = %id=376382%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=400298%
-  orientation = bottom-centered
-  x = -100
-  action = movebutton
-  y = -123
-}
-
-customization {
-  identifier = %id=400298%
-  width = 200
-  action = resizebutton
-  height = 45
-}
-
-customization {
-  identifier = %id=400298%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = config\fancymenu\files\singleplayerhover.png
-  backgroundnormal = config\fancymenu\files\singleplayer.png
-}
-
-customization {
-  identifier = %id=400346%
-  orientation = bottom-centered
+  identifier = %id=400358%
+  orientation = mid-centered
   x = 0
   action = movebutton
-  y = -75
+  y = 107
 }
 
 customization {
-  identifier = %id=400346%
-  width = 100
+  identifier = %id=400358%
+  width = 95
   action = resizebutton
-  height = 24
+  height = 20
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=400358%
+  action = setbuttonlabel
+  value = Mods
+}
+
+customization {
+  identifier = %id=400358%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
@@ -167,12 +73,98 @@ customization {
 }
 
 customization {
-  identifier = %id=400346%
-  seconds = 0.1
-  onlyfirsttime = false
-  fadein = true
-  fadeinspeed = 10.0
-  action = hidebuttonfor
+  identifier = %id=802990%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=604394%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400286%
+  orientation = mid-centered
+  x = -103
+  action = movebutton
+  y = 60
+}
+
+customization {
+  identifier = %id=400286%
+  width = 200
+  action = resizebutton
+  height = 40
+}
+
+customization {
+  identifier = %id=400286%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\files\singleplayerhover.png
+  backgroundnormal = config\fancymenu\files\singleplayer.png
+}
+
+customization {
+  identifier = %id=400334%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400394%
+  orientation = mid-centered
+  x = -98
+  action = movebutton
+  y = 107
+}
+
+customization {
+  identifier = %id=400394%
+  action = setbuttonlabel
+  value = Options
+}
+
+customization {
+  identifier = %id=400394%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\files\optionshover.png
+  backgroundnormal = config\fancymenu\files\options.png
+}
+
+customization {
+  identifier = %id=502394%
+  orientation = mid-centered
+  x = -51
+  action = movebutton
+  y = 134
+}
+
+customization {
+  identifier = %id=502394%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\files\quithover.png
+  backgroundnormal = config\fancymenu\files\quit.png
+}
+
+customization {
+  identifier = %id=376394%
+  action = hidebutton
+}
+
+customization {
+  path = config/fancymenu/files/frame.png
+  orientation = top-left
+  x = -2
+  width = 644
+  action = addtexture
+  actionid = 6a45d1f4-4d03-4140-ae10-a014ff8f0e5c1651451556602
+  y = 1
+  height = 360
 }
 
 customization {
@@ -199,14 +191,14 @@ customization {
   label = Official Server
   loopbackgroundanimations = true
   hoverlabel = Sponsored by BisectHosting!
-  x = -100
+  x = -103
   width = 200
   actionid = 334d9da3-c1f1-45a9-905d-f0533749f31e1629750992252
   action = addbutton
-  y = -173
+  y = -160
   backgroundnormal = config\fancymenu\files\bisect.png
   value = 155.94.181.136
-  height = 26
+  height = 24
 }
 
 customization {
@@ -262,16 +254,5 @@ customization {
   value = https://github.com/evanbones/Sugar-Spice
   delayappearanceeverytime = true
   height = 24
-}
-
-customization {
-  path = config/fancymenu/files/frame.png
-  orientation = top-left
-  x = 0
-  width = %guiwidth%
-  action = addtexture
-  actionid = 85ad9b32-dd06-46ef-a728-dba1b343dad81649823889505
-  y = 0
-  height = %guiheight%
 }
 

@@ -36,9 +36,9 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:true
-resourcePacks:["vanilla","mod_resources","Snowyspirit Virtual Resourcepack","Supplementaries Virtual Resourcepack","quark:emote_resources","file/Emissive Mores.zip","resources/dashofsugar"]
+resourcePacks:["vanilla","mod_resources","Snowyspirit Virtual Resourcepack","quark:emote_resources","Immersive Weathering Virtual Resourcepack","Supplementaries Virtual Resourcepack","resources/dashofsugar"]
 incompatibleResourcePacks:["quark:emote_resources"]
-lastServer:
+lastServer:localhost:6666
 lang:en_us
 soundDevice:
 chatVisibility:0
@@ -82,7 +82,7 @@ soundCategory_block:1.0
 soundCategory_hostile:1.0
 soundCategory_neutral:1.0
 soundCategory_player:1.0
-soundCategory_ambient:1.0
+soundCategory_ambient:0.5023474
 soundCategory_voice:1.0
 modelPart_cape:true
 modelPart_jacket:true

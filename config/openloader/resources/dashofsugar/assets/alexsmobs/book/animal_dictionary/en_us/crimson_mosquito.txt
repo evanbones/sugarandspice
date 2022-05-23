@@ -1,0 +1,10 @@
+<NEWLINE>
+<NEWLINE>
+<NEWLINE>
+<NEWLINE>
+The Crimson Mosquito is a hideous, mutant flying insect found in the Crimson Forests of the Nether. This voracious beast will
+seek out almost any warm-blooded animal as a snack, including people. It first lunges at its prey, and latches on, sucking
+them dry. Once it has had its fill, it will begin to fly and use its prey's blood against it - spitting it back at the
+target.
+<NEWLINE>
+If an overworld, garden variety fly happens to find itself in the nether, it can transform into a Crimson Mosquito.

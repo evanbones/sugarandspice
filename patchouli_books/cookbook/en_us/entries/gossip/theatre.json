@@ -1,0 +1,16 @@
+{
+	"name": "Theatre",
+	"icon": "conjurer_illager:conjurer_hat",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Rumor has it, deep within a Dark Oak Forest lies an ancient Theatre, known for its magical performers.$(br2)This rare theatre is said to be home to a powerful magician, capable of strange magic. Supposedly, you should be prepared for a tricky fight!"
+		},
+		{
+			"type": "quest",
+			"text": "Find and slay the wizard located in the Dark Oak Forest."
+		}
+	]
+}

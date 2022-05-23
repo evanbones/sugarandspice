@@ -1,0 +1,9 @@
+{
+	"advancement.create.brass.desc": "Use Copper and Quartz to create some Brass.",
+	"enchantment.create.capacity.desc": "Increases the breathing capacity of the diving helmet.",
+	"enchantment.create.potato_recovery.desc": "Adds a chance for vegetables shot by the Potato Cannon to not be destroyed.",
+	"effect.biomemakeover.shocked.description": "Temporarily reduces maximum health by one heart per level of the effect.",
+	"effect.biomemakeover.nocturnal.description": "Prevents phantoms from spawning on you, even if you have insomnia.",
+	"effect.farmersrespite.caffeinated.description": "Grants a little bit of walking speed and block breaking speed.",
+	"effect.biomemakeover.antidote.description": "Reverts the effect of stunt powder on baby animals, allowing them to grow up."
+}

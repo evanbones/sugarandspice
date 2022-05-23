@@ -1,0 +1,16 @@
+{
+	"name": "Fiery Surfing",
+	"icon": "minecraft:lava_bucket",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Rumor has it, there's a surfboard that can be crafted using some sort of ancient scrap. Supposedly it can be used to traverse lava lakes.$(br2)Obtaining such a vessel may involve visiting the Nether."
+		},
+		{
+			"type": "quest",
+			"text": "Find a way to craft a surfboard for easier lava transit."
+		}
+	]
+}

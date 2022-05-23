@@ -1,0 +1,16 @@
+{
+	"name": "Arrows",
+	"icon": "minecraft:arrow",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Rumor has it, there's a new way to hold large amounts of arrows in your inventory.$(br2)Supposedly, this even works with various modded arrows."
+		},
+		{
+			"type": "quest",
+			"text": "Find a way to hold more arrows."
+		}
+	]
+}

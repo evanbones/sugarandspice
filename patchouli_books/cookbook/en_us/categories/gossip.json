@@ -1,0 +1,6 @@
+{
+	"name": "Rumours",
+	"description": "$(thing)Rumours$() describe content waiting to be uncovered. See if anything in here interests you, and go explore!$(br2)This section doesn't contain everything available in the pack, but it's a way to help guide you towards some of cool features you can discover.",
+	"icon": "minecraft:totem_of_undying",
+	"sortnum": 2
+}

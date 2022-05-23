@@ -1,0 +1,24 @@
+{
+	"name": "Discovering Content",
+	"icon": "minecraft:compass",
+	"category": "patchouli:intro",
+	"sortnum": 0,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Let's talk about how you can discover what new content $(thing)Sugar and Spice$() has to offer.$(br2)You might've already noticed the big panel of items on the right of your screen when you open your inventory. This is $(item)JEI$() ($(item)Just Enough Items$())"
+		},
+		{
+			"type": "text",
+			"text": "In here, you can see every relevant item in the game.$(br2)You can left click an item to see how it's crafted, or right click it to see what can be crafted out of it. Pressing the $(thing)R$() and $(thing)U$() keys respectively also has this behavior."
+		},
+		{
+			"type": "text",
+			"text": "Once you find something you like, you can bookmark it, by hovering over it in $(item)JEI$() and pressing the $(thing)A$() key. This puts it on the side panel, and you can look at it at any time.$(br2)If you want to take some notes on what you want to do next, or simply remember something, try pressing $(thing)N$() while ingame - this opens up a new $(item)Notes$() panel where you can write down anything you need. You can even pin notes to your screen!"
+		},
+		{
+			"type": "text",
+			"text": "If having access to every item at your fingertips in $(item)JEI$() isn't your thing, and you prefer exploring and discovering as you go - you can turn off JEI by pressing $(thing)Ctrl-O$() in your inventory. You can, and should, still see recipes and uses by pressing $(thing)R$() or $(thing)U$() respectively."
+		}
+	]
+}

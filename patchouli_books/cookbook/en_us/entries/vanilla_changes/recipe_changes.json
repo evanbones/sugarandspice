@@ -1,0 +1,28 @@
+{
+	"name": "Recipe Changes",
+	"icon": "minecraft:crafting_table",
+	"category": "patchouli:vanilla_changes",
+	"read_by_default": true,
+	"sortnum": 3,
+    "priority": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "A few vanilla recipes are changed or added, like a new recipe to craft Sculk Sensors and Bundles which are normally unobtainable."
+		},
+		{
+			"type": "crafting",
+			"recipe": "farmersdelight:lead_from_rope",
+			"recipe2": "crafttweaker:sculk_sensor"
+		},
+		{
+			"type": "crafting",
+			"recipe": "farmersdelight:painting_from_canvas",
+			"recipe2": "farmersdelight:scaffolding_from_canvas"
+		}
+		{
+			"type": "crafting",
+			"recipe": "quark:tools/crafting/bundle"
+		}
+	]
+}

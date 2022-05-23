@@ -18,7 +18,7 @@
 		fancy_renderers = true
 
 	[blocks.wall_lantern]
-		#Makes wall lantern use a simple block model instead of the animated tile entity renderer. This will make them render much faster but will also remove the animation
+		#Makes wall lantern use a simple block model instead of the animated tile entity renderer. This will make them render much faster but will also remove the animationNote that this option only affect lanterns close by as the one far away render as fast by default
 		fast_lanterns = false
 
 	[blocks.captured_mobs]
@@ -132,7 +132,7 @@
 		grow_speed = 0.4
 
 	[blocks.hanging_sign]
-		#Makes hanging signs use a simple block model instead of the animated tile entity renderer. This will make them render much faster but will also remove the animation
+		#Makes hanging signs use a simple block model instead of the animated tile entity renderer. This will make them render much faster but will also remove the animationNote that this option only affect lanterns close by as the one far away render as fast by default
 		fast_signs = false
 
 	[blocks.speaker_block]
